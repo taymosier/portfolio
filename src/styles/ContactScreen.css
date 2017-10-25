@@ -1,0 +1,72 @@
+.header {
+  text-align: center;
+  color: white;
+  align-content: center;
+  padding-top: 1vh;
+  /*margin: 0 auto auto auto;*/
+  font-family: 'Jura', sans-serif;
+  font-size: 4em;
+}
+
+.contactContent {
+  min-width: 100vw;
+  width: 100vw;
+  margin: auto;
+}
+
+.formContainer {
+  text-align: center;
+  height: 100%;
+  margin: 0 0 0 15vw;
+}
+
+.form {
+  align-content: center;
+  box-sizing: border-box;
+  padding: 1% 5% 1% 5%;
+  margin: auto 2% auto 0;
+  border: 5px solid white;
+  height: auto;
+}
+
+.form .row {
+  box-sizing: border-box;
+  padding: auto;
+  width: 100%;
+}
+
+.form .column{
+  height: 100%;
+}
+
+.form .formgroup {
+  float: left;
+  display: block;
+  height: 100%;
+  text-align: center;
+  max-width: 100%;
+  padding: 1%;
+}
+
+.formGroup {
+  display: flex;
+  align-self: center;
+}
+
+label {
+  font-family: "Courier";
+  padding: 1%;
+  color: white;
+}
+
+.form button {
+  font-family: "Courier New";
+  border: none;
+}
+
+.form button:hover {
+  transition: 280ms ease-in;
+  background: green;
+  color: white;
+  letter-spacing: 5px;
+}

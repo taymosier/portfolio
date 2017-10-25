@@ -1,0 +1,64 @@
+.home {
+  text-align: center;
+  padding: 2%;
+}
+
+.home p {
+  align-content: center;
+  min-height: 100vh;
+  background: transparent;
+  width: 88vw;
+  margin-left: 12vw;
+}
+
+.homeContent {
+  min-height: 100vh;
+  width: 100vw;
+  margin: auto;
+}
+
+.header {
+  text-align: center;
+  color: white;
+  align-content: center;
+  padding-top: 5vh;
+  margin: auto auto auto auto;
+  font-family: 'Jura', sans-serif;
+  font-size: 4em;
+}
+
+
+.contentRow {
+  margin: 15vh 0 0vh 2vw;
+  display: inline-block;
+}
+
+.rowItem {
+  font-size: 3em;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  border-radius: 2%;
+  border: 2px solid white;
+  margin-left: 5vw;
+  width: 35vw;
+  height: 20vh;
+  float: left;
+}
+
+.rowItem:hover {
+  cursor: pointer;
+  box-shadow: 10px 10px 5px #550000;
+  transition: .25s linear;
+  color: silver;
+  font-size: 3.05em;
+  border-color: #550000;
+}
+
+.rowItem button {
+  height: 100%;
+  width: 100%;
+  color: white;
+  outline: none;
+  border: none;
+  background: transparent;
+}
