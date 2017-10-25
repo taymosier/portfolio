@@ -1,0 +1,42 @@
+.menu {
+  text-align: center;
+}
+
+.menu ul {
+  margin: 0;
+  display: inline-block;
+  float: left;
+  list-style-type: none;
+  padding: 0;
+  position: sticky;
+  background-color: #AA3939;
+  height: 100vh;
+  width: 12vw;
+  padding: .5% 0 0 2%;
+}
+
+.menuitem {
+  border: none;
+  background: transparent;
+  color: white;
+  width: 100%;
+  margin: 10% 0 10% 0;
+  font-size: 1.25em;
+  font-family: 'Rokkitt', serif;
+  cursor: default;
+  text-align: left;
+  text-shadow:
+}
+
+.menuitem:focus {
+  outline: none;
+  /*outline-color: #83001C;*/
+  /*background: #83001C;*/
+}
+
+.menuitem:hover{
+  transition: .15s linear;
+  letter-spacing: 2px;
+  color: white;
+  font-size: 1.3em;
+}
