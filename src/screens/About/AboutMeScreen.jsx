@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import 'babel-polyfill';
-import styles from '../../styles/AboutScreen.css';
+import '../../styles/AboutScreen.css';
 import { AboutMeItem } from './AboutMeItem';
 import { AboutMeItemContent } from './AboutMeItemContent';
 
@@ -39,13 +39,13 @@ export class AboutMeScreen extends Component {
     // CREATE SECTION CONTENT COMPONENT
     // LOAD CONTENT BASED ON ABOUTMEITEM KEY
     return (
-      <div className={styles.aboutContent}>
+      <div className="aboutContent">
 
-        <div className={styles.header}>
-          <h1>About Me</h1>
+        <div className="header">
+          About Me
         </div>
 
-        <div className={styles.contentRow}>
+        <div className="AboutContentRow">
           {listSections}
         </div>
 

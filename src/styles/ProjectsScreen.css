@@ -1,17 +1,187 @@
-.header {
-  text-align: center;
-  color: white;
-  align-content: center;
-  padding-top: 5vh;
-  margin: auto auto auto auto;
-  font-family: 'Jura', sans-serif;
-  font-size: 4em;
+@media only screen and (max-width: 600px) {
+
+  .projectsContent {
+    height: 100vh;
+    margin: auto;
+  }
+
+  .projectsGrid {
+    width: 90vw;
+    margin-left: 5vw;
+  }
+
+  .projectsGridRow{
+    height: 20vh;
+    margin: 0 0 3vh 0;
+    text-align: center;
+    border: 1px solid white;
+  }
+
+  .projectsGridRowItem {
+    color: white;
+    width: 49%;
+    height: 100%;
+    border-left: 1px solid white;
+    float: left;
+  }
+
+  .projectsGridRowItem p {
+    padding-top: 17.5%;
+    font-size: 4.5vh;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .projectsGridRowItem:hover {
+    cursor: pointer;
+    transition: 280ms ease-in;
+    /*font-size: 1.65em;*/
+  }
+
+  h2 {
+    /*margin: auto auto auto auto;*/
+    text-align: center;
+    font-family: 'Jura', sans-serif;
+    font-size: 4vw;
+    color: white;
+  }
 }
 
-h2 {
-  /*margin: auto auto auto auto;*/
-  text-align: center;
-  font-family: 'Jura', sans-serif;
-  font-size: 4em;
-  color: white;
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .projectsContent {
+    height: 100vh;
+    margin: auto;
+  }
+
+  .projectsGrid {
+    width: 90vw;
+    padding-top: 5vh;
+    margin-left: 5vw;
+  }
+
+  .projectsGridRow{
+    height: 20vh;
+    margin: 0 0 3vh 0;
+    text-align: center;
+    border: 1px solid white;
+  }
+
+  .projectsGridRowItem {
+    color: white;
+    width: 49%;
+    height: 100%;
+    border-left: 1px solid white;
+    float: left;
+  }
+
+  .projectsGridRowItem p {
+    padding-top: 10%;
+    font-size: 6.5vh;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .projectsGridRowItem:hover {
+    cursor: pointer;
+    transition: 280ms ease-in;
+    /*font-size: 1.65em;*/
+  }
+
+  h2 {
+    /*margin: auto auto auto auto;*/
+    text-align: center;
+    font-family: 'Jura', sans-serif;
+    font-size: 4vw;
+    color: white;
+  }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+  .projectsContent {
+    height: 100vh;
+    margin: auto;
+  }
+
+  .projectsGrid {
+    width: 90vw;
+    padding-top: 5vh;
+    margin-left: 5vw;
+  }
+
+  .projectsGridRow{
+    height: 25vh;
+    margin: 0 0 3vh 0;
+    text-align: center;
+    border: 1px solid white;
+  }
+
+  .projectsGridRowItem {
+    color: white;
+    width: 49%;
+    height: 100%;
+    border-left: 1px solid white;
+    float: left;
+  }
+
+  .projectsGridRowItem p {
+    padding-top: 12.5%;
+    font-size: 7.5vh;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .projectsGridRowItem:hover {
+    cursor: pointer;
+    transition: 280ms ease-in;
+  }
+
+  h2 {
+    text-align: center;
+    font-family: 'Jura', sans-serif;
+    font-size: 4vw;
+    color: white;
+  }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1800px)  {
+  .projectsContent {
+    height: 100vh;
+    margin: auto;
+  }
+
+  .projectsGrid {
+    width: 90vw;
+    padding-top: 5vh;
+    margin: 2.5vh 0 0 5vw;
+  }
+
+  .projectsGridRow{
+    height: 25vh;
+    margin: 0 0 3vh 0;
+    text-align: center;
+    border: 1px solid white;
+  }
+
+  .projectsGridRowItem {
+    color: white;
+    width: 49%;
+    height: 100%;
+    border-left: 1px solid white;
+    float: left;
+  }
+
+  .projectsGridRowItem p {
+    padding-top: 12.5%;
+    font-size: 7.5vh;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .projectsGridRowItem:hover {
+    cursor: pointer;
+    transition: 280ms ease-in;
+  }
+
+  h2 {
+    text-align: center;
+    font-family: 'Jura', sans-serif;
+    font-size: 4vw;
+    color: white;
+  }
 }

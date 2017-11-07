@@ -25,7 +25,7 @@ export class ActiveScreen extends Component {
           return <SkillsScreen />;
         case 'PortfolioScreen':
           return <ProjectsScreen />;
-        case 'ContactMeScreen':
+        case 'ContactScreen':
           return <ContactMeScreen />;
         case 'TestingScreen':
           return <TestingScreen />;

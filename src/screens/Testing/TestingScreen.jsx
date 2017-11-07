@@ -1,12 +1,12 @@
 import React from 'react';
 import { FormTest } from './FormTest';
-import styles from '../../styles/TestingScreen.css';
+import '../../styles/TestingScreen.css';
 
 export class TestingScreen extends React.Component {
   render() {
     return (
-      <div className={styles.testingContent}>
-        <div className={styles.header}>
+      <div className="testingContent">
+        <div className="header">
         Testing
         </div>
         <div >

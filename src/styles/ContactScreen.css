@@ -1,72 +1,320 @@
-.header {
-  text-align: center;
-  color: white;
-  align-content: center;
-  padding-top: 1vh;
-  /*margin: 0 auto auto auto;*/
-  font-family: 'Jura', sans-serif;
-  font-size: 4em;
+@media only screen and (max-width: 600px) {
+
+  .contactContent {
+    height: 100vh;
+    background: linear-gradient(135deg,#6082B6 25%, #87CEEB 75%, #6082B6);
+  }
+
+  .formContainer {
+    width: 90vw;
+    margin-left: 5vw;
+    border: 1px solid white;
+    height: 65vh;
+  }
+
+  .form {
+    padding: 2vh 1vw 1vh 1vw;
+  }
+
+  .row {
+
+  }
+
+  .column {
+
+  }
+
+  .formgroup {
+
+  }
+
+  .formGroup {
+
+  }
+
+  label {
+    font-family: "Courier";
+    font-size: 2.8vh;
+    color: white;
+    width: 34.5%;
+    height: 4.25vh;
+    float: left;
+    margin: 1.75vh 5% 0 5.5%;
+  }
+
+  input {
+    margin: 1.25vh 0 0 0;
+    height: 4vh;
+    width: 48%;
+  }
+
+  select {
+    margin: 1.25vh 0 0 0;
+    height: 4vh;
+    width: 48%;
+  }
+
+  textarea {
+    font-family: "Courier New";
+    text-align: center;
+    margin: 1.5vh 0 0 5%;
+    width: 90%;
+    height: 20vh;
+  }
+
+  textarea:focus {
+    text-align: left;
+  }
+
+  .form button {
+    font-family: "Courier New";
+    color: 	#29AB87;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 4vh;
+    width: 50%;
+    height: 5vh;
+    margin: 2vh 0 0 25%;
+  }
+
 }
 
-.contactContent {
-  min-width: 100vw;
-  width: 100vw;
-  margin: auto;
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .contactContent {
+    height: 100vh;
+    background: linear-gradient(135deg,#6082B6 25%, #87CEEB 75%, #6082B6);
+  }
+
+  .formContainer {
+    border: 1px solid white;
+    height: 62.5vh;
+    width: 90vw;
+    margin-left: 5vw;
+  }
+
+  .form {
+    padding: 2vh 1vw 1vh 1vw;
+  }
+
+  .row {
+
+  }
+
+  .column {
+
+  }
+
+  .formgroup {
+
+  }
+
+  .formGroup {
+
+  }
+
+  label {
+    font-family: "Courier";
+    font-size: 3.25vh;
+    color: white;
+    width: 27.5%;
+    height: 4vh;
+    float: left;
+    margin: 1.95vh 5% 0 2.5%;
+  }
+
+  input {
+    margin: 1.25vh 0 0 0;
+    height: 4vh;
+    width: 60%;
+  }
+
+  select {
+    margin: 1.25vh 0 0 0;
+    height: 4vh;
+    width: 60%;
+  }
+
+  textarea {
+    font-family: "Courier New";
+    text-align: center;
+    margin: 1.5vh 0 0 5%;
+    width: 90%;
+    height: 15vh;
+  }
+
+  textarea:focus {
+    text-align: left;
+  }
+
+  .form button {
+    font-family: "Courier New";
+    color: 	#29AB87;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 6vh;
+    width: 50%;
+    height: 7.5vh;
+    margin: 2vh 0 0 25%;
+  }
+
 }
 
-.formContainer {
-  text-align: center;
-  height: 100%;
-  margin: 0 0 0 15vw;
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+  .contactContent {
+    height: 100vh;
+    background: linear-gradient(135deg,#6082B6 25%, #87CEEB 75%, #6082B6);
+  }
+
+  .formContainer {
+    border: 1px solid white;
+    height: 62.5vh;
+    width: 90vw;
+    margin-left: 5vw;
+  }
+
+  .form {
+    padding: 2vh 1vw 1vh 1vw;
+  }
+
+  .row {
+
+  }
+
+  .column {
+
+  }
+
+  .formgroup {
+
+  }
+
+  .formGroup {
+
+  }
+
+  label {
+    font-family: "Courier";
+    font-size: 3.25vh;
+    color: white;
+    width: 25%;
+    height: 4vh;
+    float: left;
+    margin: 1.95vh 5% 0 5%;
+  }
+
+  input {
+    margin: 1.25vh 0 0 0;
+    height: 4vh;
+    width: 60%;
+  }
+
+  select {
+    margin: 1.25vh 0 0 0;
+    height: 4vh;
+    width: 60%;
+  }
+
+  textarea {
+    font-family: "Courier New";
+    text-align: center;
+    margin: 1.5vh 0 0 5%;
+    width: 90%;
+    height: 15vh;
+  }
+
+  textarea:focus {
+    text-align: left;
+  }
+
+  .form button {
+    font-family: "Courier New";
+    color: 	#29AB87;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 6vh;
+    width: 50%;
+    height: 7.5vh;
+    margin: 2vh 0 0 25%;
+  }
+
 }
 
-.form {
-  align-content: center;
-  box-sizing: border-box;
-  padding: 1% 5% 1% 5%;
-  margin: auto 2% auto 0;
-  border: 5px solid white;
-  height: auto;
-}
+@media only screen and (min-width: 1201px) and (max-width: 1800px)  {
+  .contactContent {
+    height: 100vh;
+    background: linear-gradient(135deg,#6082B6 25%, #87CEEB 75%, #6082B6);
+  }
 
-.form .row {
-  box-sizing: border-box;
-  padding: auto;
-  width: 100%;
-}
+  .formContainer {
+    border: 1px solid white;
+    height: 63vh;
+    width: 90vw;
+    margin: 2vh 0 0 5vw;
+  }
 
-.form .column{
-  height: 100%;
-}
+  .form {
+    padding: 2vh 1vw 1vh 1vw;
+  }
 
-.form .formgroup {
-  float: left;
-  display: block;
-  height: 100%;
-  text-align: center;
-  max-width: 100%;
-  padding: 1%;
-}
+  .row {
 
-.formGroup {
-  display: flex;
-  align-self: center;
-}
+  }
 
-label {
-  font-family: "Courier";
-  padding: 1%;
-  color: white;
-}
+  .column {
 
-.form button {
-  font-family: "Courier New";
-  border: none;
-}
+  }
 
-.form button:hover {
-  transition: 280ms ease-in;
-  background: green;
-  color: white;
-  letter-spacing: 5px;
+  .formgroup {
+
+  }
+
+  .formGroup {
+
+  }
+
+  label {
+    font-family: "Courier";
+    font-size: 3.25vh;
+    color: white;
+    width: 25%;
+    height: 4vh;
+    float: left;
+    padding: 0 0 0 2vw;
+    margin: 1.95vh 5% 0 2.35vw;
+  }
+
+  input {
+    margin: 1.25vh 0 0 0;
+    height: 4vh;
+    width: 60%;
+  }
+
+  select {
+    margin: 1.25vh 0 0 0;
+    height: 4vh;
+    width: 60%;
+  }
+
+  textarea {
+    font-family: "Courier New";
+    text-align: center;
+    margin: 1.5vh 0 0 5%;
+    width: 90%;
+    height: 15vh;
+  }
+
+  textarea:focus {
+    text-align: left;
+  }
+
+  .form button {
+    font-family: "Courier New";
+    color: 	#29AB87;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 6vh;
+    width: 35%;
+    height: 7.5vh;
+    margin: 2vh 0 0 35%;
+  }
 }

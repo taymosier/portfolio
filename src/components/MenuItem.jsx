@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import 'babel-polyfill';
-import styles from '../styles/menu.css';
 
 import { getActiveScreenName, handleMenuItemClick } from './menuFunctions';
 
@@ -14,13 +13,13 @@ export class MenuItem extends Component {
 
   render() {
     return (
-      <button
-        className={styles.menuitem}
+      <li
+        className="menuitem"
         onClick={this.handleMenuItemClick}
         value={this.props.title}
       >
         {this.props.title}
-      </button>
+      </li>
     );
   }
 }

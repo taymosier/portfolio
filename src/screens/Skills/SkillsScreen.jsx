@@ -1,9 +1,7 @@
 import React from 'react';
 import 'babel-polyfill';
 import { Grid, Row, Col } from 'react-bootstrap';
-import '../../../node_modules/bootstrap/dist/css/bootstrap.css';
-import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import styles from '../../styles/SkillsScreen.css';
+import 'styles/SkillsScreen.css';
 
 const gridItems = [
   'Java',
@@ -23,14 +21,20 @@ const gridItems = [
   'Git',
 ];
 
-const firstRowItemIndices = [0, 5, 10];
+const firstRowItemIndices = [0, 3, 6, 9, 12];
 
 function insertSkillIntoColumn(item) {
-  return <Col className={styles.rowItem} key={item} xs={12} md={4}>{item}</Col>;
+  return (
+    <Col
+      className="skillsGridRowItem"
+      key={item}
+    >
+      <p>{item}</p>
+    </Col>);
 }
 
 function populateRowWithColumns(firstRowItemIndex) {
-  const lastRowItemIndex = firstRowItemIndex + 5;
+  const lastRowItemIndex = firstRowItemIndex + 3;
   return (
     gridItems.slice(firstRowItemIndex, lastRowItemIndex)).map((item) => {
     return insertSkillIntoColumn(item);
@@ -41,7 +45,7 @@ const Rows = firstRowItemIndices.map((firstRowItemIndex) => {
   return (
     <Row
       key={firstRowItemIndex}
-      className={styles.gridRow}
+      className="skillsGridRow"
     >
       {populateRowWithColumns(firstRowItemIndex)}
     </Row>
@@ -50,11 +54,11 @@ const Rows = firstRowItemIndices.map((firstRowItemIndex) => {
 
 export function SkillsScreen() {
   return (
-    <div className={styles.skillsContent}>
-      <div className={styles.header}>
+    <div className="skillsContent">
+      <div className="header">
         Skills
       </div>
-      <Grid className={styles.skillsGrid}>
+      <Grid className="skillsGrid">
         {Rows}
       </Grid>
     </div>

@@ -17,8 +17,8 @@ export class AboutMeItem extends Component {
 
   render() {
     return (
-      <div className={styles.rowItem}>
-        <h1>{this.props.title}</h1>
+      <div className="aboutContentRowItem">
+        {this.props.title}
         <p>{this.props.content}</p>
       </div>
     );

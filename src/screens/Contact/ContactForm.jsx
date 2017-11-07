@@ -2,7 +2,6 @@ import { Col, Form, FormGroup, FormControl, ControlLabel,
   Button } from 'react-bootstrap';
 import React, { Component } from 'react';
 import { SubmitConfirmation } from './SubmitConfirmation';
-import styles from '../../styles/ContactScreen.css';
 
 import {
   isFormComplete,
@@ -36,51 +35,49 @@ export default class ContactForm extends Component {
   }
 
   render() {
-    const contactForm = this.state.contactForm;
     return (
-      <div className={styles.formContainer}>
-        <Form horizontal className={styles.form} action="https://formspree.io/taymosier@gmail.com" method="post">
-
-          <FormGroup sm={12} md={12} lg={12} className={styles.formGroup}>
-            <Col componentClass={ControlLabel} sm={2} md={2} lg={2}>
+      <div className="formContainer">
+        <Form horizontal className="form" action="https://formspree.io/taymosier@gmail.com" method="post">
+          <FormGroup className="formGroup">
+            <Col componentClass={ControlLabel}>
               First Name
             </Col>
-            <Col sm={8} md={8} lg={8}>
+            <Col>
               <FormControl name="firstName" placeholder="Required" autoFocus />
             </Col>
           </FormGroup>
 
-          <FormGroup className={styles.formGroup}>
-            <Col componentClass={ControlLabel} sm={2} md={2} lg={2}>
+          <FormGroup className="formGroup">
+            <Col componentClass={ControlLabel}>
               Last Name
             </Col>
-            <Col sm={8} md={8} lg={8}>
+            <Col>
               <FormControl name="lastName" placeholder="Required" />
             </Col>
           </FormGroup>
 
-          <FormGroup className={styles.formGroup}>
-            <Col componentClass={ControlLabel} sm={2} md={2} lg={2}>
+          <FormGroup className="formGroup">
+            <Col componentClass={ControlLabel}>
                 Email Address
             </Col>
-            <Col sm={8} md={8} lg={8}>
+            <Col>
               <FormControl name="email" placeholder="Required" />
             </Col>
           </FormGroup>
-          <FormGroup className={styles.formGroup}>
-            <Col componentClass={ControlLabel} sm={2} md={2} lg={2}>
-                Telephone Number
+          <FormGroup className="formGroup">
+            <Col componentClass={ControlLabel}>
+               Phone Number
             </Col>
-            <Col sm={8} md={8} lg={8}>
+            <Col>
               <FormControl name="phone" placeholder="Optional" />
             </Col>
           </FormGroup>
 
-          <FormGroup className={styles.formGroup}>
-            <Col componentClass={ControlLabel} sm={2} md={2} lg={2}>
+          <FormGroup className="formGroup">
+            <Col componentClass={ControlLabel}>
                   Message Topic
             </Col>
-            <Col sm={8} md={8} lg={8}>
+            <Col>
               <FormControl componentClass="select" name="feedback">
                 <option value="fulltime">FTE Opportunity</option>
                 <option value="parttime">PTE Opportunity</option>
@@ -90,9 +87,9 @@ export default class ContactForm extends Component {
               </FormControl>
             </Col>
           </FormGroup>
-          <FormGroup smOffset={2} className={styles.formGroup}>
-            <Col sm={2} md={2} lg={2} />
-            <Col sm={8} md={8} lg={8}>
+          <FormGroup smOffset={2} className="formGroup">
+            <Col />
+            <Col >
               <FormControl
                 componentClass="textarea"
                 placeholder="Write your message here"

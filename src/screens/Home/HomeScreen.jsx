@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import 'babel-polyfill';
-import styles from '../../styles/HomeScreen.css';
+import 'styles/HomeScreen.css';
 import { HomeNavItem } from './HomeNavItem';
 import { passActiveTitle } from './homeFunctions';
 
@@ -13,7 +13,7 @@ export class HomeScreen extends Component {
 
   render() {
     const firstRow = ['About Me', 'Skills'];
-    const secondRow = ['Portfolio', 'Contact Me'];
+    const secondRow = ['Portfolio', 'Contact'];
     const listFirstRow = firstRow.map((item) => {
       return (<HomeNavItem
         title={item}
@@ -30,19 +30,19 @@ export class HomeScreen extends Component {
     });
     return (
       <div>
-        <div className={styles.homeContent}>
+        <div className="homeContent">
 
-          <div className={styles.header}>
-            <h1>Welcome.</h1>
+          <div className="header">
+            Welcome
           </div>
 
-          <div className={styles.contentRow}>
+          <div className="homeContentRow">
             {listFirstRow}
           </div>
 
           <br />
 
-          <div className={styles.contentRow}>
+          <div className="homeContentRow">
             {listSecondRow}
           </div>
 

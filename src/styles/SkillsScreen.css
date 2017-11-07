@@ -1,64 +1,158 @@
-.header {
-  text-align: center;
-  color: white;
-  align-content: center;
-  padding-top: 5vh;
-  margin: auto auto auto auto;
-  font-family: 'Jura', sans-serif;
-  font-size: 4em;
+@media only screen and (max-width: 600px) {
+
+  .skillsContent {
+    min-height: 100vh;
+    width: 100vw;
+    margin: auto;
+  }
+
+  .skillsGrid {
+    width: 90vw;
+    margin-left: 5vw;
+  }
+
+  .skillsGridRow{
+    height: 10vh;
+    margin: 0 0 3vh 0;
+    text-align: center;
+    border: 1px solid white;
+  }
+
+  .skillsGridRowItem {
+    color: white;
+    width: 33%;
+    height: 100%;
+    border-left: 1px solid white;
+    float: left;
+  }
+
+  .skillsGridRowItem p {
+    padding-top: 15%;
+    font-size: 4vh;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .skillsGridRowItem:hover {
+    cursor: pointer;
+    transition: 280ms ease-in;
+    /*font-size: 1.65em;*/
+  }
+
 }
 
-.skills {
-  text-align: center;
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .skillsContent {
+    min-height: 100vh;
+    width: 100vw;
+    margin: auto;
+  }
+
+  .skillsGrid {
+    width: 90vw;
+    margin-left: 5vw;
+  }
+
+  .skillsGridRow{
+    height: 10vh;
+    margin: 0 0 2vh 0;
+    text-align: center;
+    border: 1px solid white;
+  }
+
+  .skillsGridRowItem {
+    color: white;
+    width: 33%;
+    height: 100%;
+    border-left: 1px solid white;
+    float: left;
+  }
+
+  .skillsGridRowItem p {
+    padding-top: 10%;
+    font-size: 5vh;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .skillsGridRowItem:hover {
+    cursor: pointer;
+    transition: 280ms ease-in;
+  }
 }
 
-.skills p {
-  float: left;
-  margin: 0 1% 2% 1%;
-  background: transparent;
+@media only screen and (min-width: 901px) and (max-width: 1200px){
+  .skillsContent {
+    min-height: 100vh;
+    width: 100vw;
+    margin: auto;
+  }
+
+  .skillsGrid {
+    width: 90vw;
+    margin: 1vh 0 0 5vw;
+  }
+
+  .skillsGridRow{
+    height: 11vh;
+    margin: 0 0 1.5vh 0;
+    text-align: center;
+    border: 1px solid white;
+  }
+
+  .skillsGridRowItem {
+    color: white;
+    width: 33%;
+    height: 100%;
+    border-left: 1px solid white;
+    float: left;
+  }
+
+  .skillsGridRowItem p {
+    padding-top: 5%;
+    font-size: 6vh;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .skillsGridRowItem:hover {
+    cursor: pointer;
+    transition: 280ms ease-in;
+  }
 }
 
-.skillsContent {
-  min-height: 100vh;
-  width: 100vw;
-  margin: auto;
-}
+@media only screen and (min-width: 1201px) and (max-width: 1800px)  {
+  .skillsContent {
+    min-height: 100vh;
+    width: 100vw;
+    margin: auto;
+  }
 
-.skillsGrid {
-  display: flex;
-  height: 80vh;
-  width: 80vw;
-  flex-direction: column;
-  vertical-align: center;
-  margin: 0 0 0 15%;
-  padding: 0;
-  border-top: 2px solid white;
-  border-left: 2px solid white;
-}
+  .skillsGrid {
+    width: 90vw;
+    margin: 1.5vh 0 0 5vw;
+  }
 
-.gridRow{
-  /*border: 2px solid black;*/
-  height: 100%;
-  width: 100%;
-  flex: 1;
-  margin: 0;
-}
+  .skillsGridRow{
+    height: 11.5vh;
+    margin: .5vh 0 1.5vh 0;
+    text-align: center;
+    border: 1px solid white;
+  }
 
-.rowItem {
-  text-align: center;
-  vertical-align: middle;
-  padding-top: 5rem;
-  border-right: 2px solid white;
-  border-bottom: 2px solid white;
-  height: 100%;
-  font-family: 'Rokkitt';
-  color: white;
-  font-size: 1.5em;
-  flex: 1;
-}
+  .skillsGridRowItem {
+    color: white;
+    width: 33%;
+    height: 100%;
+    border-left: 1px solid white;
+    float: left;
+  }
 
-.rowItem:hover {
-  cursor: pointer;
-  transition: 280ms ease-in;
-  /*font-size: 1.65em;*/
+  .skillsGridRowItem p {
+    padding-top: 5%;
+    font-size: 6vh;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .skillsGridRowItem:hover {
+    cursor: pointer;
+    transition: 280ms ease-in;
+  }
 }

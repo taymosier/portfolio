@@ -1,7 +1,6 @@
 import 'babel-polyfill';
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
-import styles from '../../styles/HomeScreen.css';
 import { getLinkedComponentName, handleItemClick } from './homeFunctions';
 
 
@@ -18,7 +17,7 @@ export class HomeNavItem extends Component {
 
   render() {
     return (
-      <div className={styles.rowItem} value={this.state.title} >
+      <div className="homeContentRowItem" value={this.state.title} >
         <button onClick={this.handleItemClick}>{this.props.title}</button>
       </div>
     );
