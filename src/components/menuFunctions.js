@@ -69,12 +69,12 @@ function expandMenuAttributes(menu) {
 }
 function expandMenuListAttributes(menuList) {
   menuList.style.height = '100vh';
-  menuList.style.paddingTop = '10vh';
+  menuList.style.paddingTop = '15vh';
   menuList.style.visibility = 'visible';
 }
 function expandMenuItemAttributes(menuItems) {
-  var i;
-  for (i = 0; i < menuItems.length; i++){
+  let i;
+  for (i = 0; i < menuItems.length; i++) {
     menuItems[i].style.marginBottom = '10vh';
     menuItems[i].style.fontSize = '5vh';
   }
@@ -100,8 +100,8 @@ function collapseMenuListAttributes(menuList) {
 }
 
 function collapseMenuItemAttributes(menuItems) {
-  var i;
-  for (i = 0; i < menuItems.length; i++){
+  let i;
+  for (i = 0; i < menuItems.length; i++) {
     menuItems[i].style.marginBottom = '0';
   }
 }
