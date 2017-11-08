@@ -25,7 +25,7 @@
 
   .homeContentRowItem:hover {
     cursor: pointer;
-    box-shadow: 10px 10px 5px #550000;
+    box-shadow: 10px 10px 5px black;
     transition: .25s linear;
     color: silver;
     border-color: #550000;

@@ -39,7 +39,7 @@ export default class ContactForm extends Component {
       <div className="formContainer">
         <Form horizontal className="form" action="https://formspree.io/taymosier@gmail.com" method="post">
           <FormGroup className="formGroup">
-            <Col componentClass={ControlLabel}>
+            <Col componentClass={ControlLabel} autoFocus="off">
               First Name
             </Col>
             <Col>
