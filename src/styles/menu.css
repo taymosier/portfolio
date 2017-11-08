@@ -2,10 +2,18 @@
 
   #menu {
     bottom: 0px;
+<<<<<<< HEAD
     text-align: center;
     position: fixed;
     height: 7.5vh;
     width: 7.5vw;
+=======
+    left: 2vh;
+    text-align: center;
+    position: fixed;
+    height: 15vh;
+    width: 15vw;
+>>>>>>> 6bb42231dff5c8c79bbebc526e42d95c5f8a194a
     margin: 0 0 0 1vw;
     background-image: url('../static/menu-icon.svg');
     background-repeat: no-repeat;

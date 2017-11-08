@@ -98,7 +98,11 @@ hr {
   text-align: center;
   color: white;
   align-content: center;
+<<<<<<< HEAD
   padding: 5vh 0 2.5vh 0;
+=======
+  padding: 5vh 0 8.5vh 0;
+>>>>>>> 6bb42231dff5c8c79bbebc526e42d95c5f8a194a
   font-family: 'Jura', sans-serif;
   font-size: 9vw;
 }

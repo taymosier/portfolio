@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
@@ -2162,3 +2163,32 @@ To resolve this:
 ## Something Missing?
 
 If you have ideas for more “How To” recipes that should be on this page, [let us know](https://github.com/facebookincubator/create-react-app/issues) or [contribute some!](https://github.com/facebookincubator/create-react-app/edit/master/packages/react-scripts/template/README.md)
+=======
+# taymosier.github.io-portfolio
+Portfolio website
+
+Setup Instructions
+
+// npm install -g create-react-app
+// create-react-app <name>
+// cd ./<name>
+// package.json - homepage
+// package.json - predeploy/deploy scripts
+// add necessary dependencies or use standard create-react-app dependencies
+// yarn install
+
+// open git bash
+// cd /<location_of_project>
+// git init
+// git add . 
+// git commit -m "message"
+// git add remote <url of project.git>
+// npm run deploy
+or git push origin -u <master>
+
+//// ---(semi)manual build push----
+// npm run build
+// git add -f ./build {-f only necessary if ./build is included in .gitignore}
+// git commit -m "message"
+// git push origin gh-pages
+>>>>>>> 6bb42231dff5c8c79bbebc526e42d95c5f8a194a
