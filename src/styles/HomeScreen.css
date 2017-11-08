@@ -1,0 +1,184 @@
+@media only screen and (max-width: 600px) {
+
+  .homeContent {
+    min-height: 100vh;
+    width: 100vw;
+    margin: auto;
+  }
+
+  .homeContentRow {
+    margin: 0vh 0 0vh 12.5vw;
+    float: left;
+    color: #4682b4;
+    display: inline-block;
+  }
+
+  .homeContentRowItem {
+    text-align: center;
+    color: white;
+    border-radius: 2%;
+    border: 1px solid white;
+    margin: 0 0 2vh 5vw;
+    width: 60vw;
+    height: 10vh;
+  }
+
+  .homeContentRowItem:hover {
+    cursor: pointer;
+    box-shadow: 10px 10px 5px #550000;
+    transition: .25s linear;
+    color: silver;
+    border-color: #550000;
+  }
+
+  .homeContentRowItem button {
+    height: 100%;
+    width: 100%;
+    color: white;
+    outline: none;
+    border: none;
+    background: transparent;
+    font-size: 7vw;
+    font-family: 'Raleway', sans-serif;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+
+  .homeContent {
+    min-height: 100vh;
+    width: 100vw;
+    margin: auto;
+  }
+
+  .homeContentRow {
+    margin: 10vh 0 0vh 7.5vw;
+    display: inline-block;
+  }
+
+  .homeContentRowItem {
+    font-size: 3vw;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    border-radius: 2%;
+    border: 2px solid white;
+    margin-left: 5vw;
+    width: 35vw;
+    height: 20vh;
+    float: left;
+  }
+
+  .homeContentRowItem:hover {
+    cursor: pointer;
+    box-shadow: 10px 10px 5px #550000;
+    transition: .25s linear;
+    color: silver;
+    font-size: 3.05vw;
+    border-color: #550000;
+  }
+
+  .homeContentRowItem button {
+    height: 100%;
+    width: 100%;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 6vw;
+    font-family: 'Raleway', sans-serif;
+    background: transparent;
+  }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+
+  .homeContent {
+    min-height: 100vh;
+    width: 100vw;
+    margin: auto;
+  }
+
+  .homeContentRow {
+    margin: 10vh 0 0vh 7.5vw;
+    display: inline-block;
+  }
+
+  .homeContentRowItem {
+    font-size: 3vw;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    border-radius: 2%;
+    border: 2px solid white;
+    margin-left: 5vw;
+    width: 35vw;
+    height: 20vh;
+    float: left;
+  }
+
+  .homeContentRowItem:hover {
+    cursor: pointer;
+    box-shadow: 10px 10px 5px #550000;
+    transition: .25s linear;
+    color: silver;
+    font-size: 3.05vw;
+    border-color: #550000;
+  }
+
+  .homeContentRowItem button {
+    height: 100%;
+    width: 100%;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 6vw;
+    font-family: 'Raleway', sans-serif;
+    background: transparent;
+  }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1800px)  {
+
+  .homeContent {
+    min-height: 100vh;
+    width: 100vw;
+    margin: auto;
+  }
+
+  .homeContentRow {
+    margin: 7vh 0 0vh 1vw;
+    display: inline-block;
+  }
+
+  .homeContentRowItem {
+    font-size: 3vw;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    border-radius: 2%;
+    border: 2px solid white;
+    margin-left: 5vw;
+    width: 40vw;
+    height: 25vh;
+    float: left;
+  }
+
+  .homeContentRowItem:hover {
+    cursor: pointer;
+    box-shadow: 10px 10px 5px #550000;
+    transition: .25s linear;
+    color: silver;
+    font-size: 3.05vw;
+    border-color: #550000;
+  }
+
+  .homeContentRowItem button {
+    height: 100%;
+    width: 100%;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 6vw;
+    font-family: 'Raleway', sans-serif;
+    background: transparent;
+  }
+
+
+}

@@ -1,0 +1,16 @@
+{
+    "extends": "airbnb",
+    "rules": {
+      "no-console": "off",
+      "import/prefer-default-export": "off",
+      "func-names": "off",
+      "arrow-body-style": "off",
+      "jsx-a11y/no-autofocus": "off",
+      "jsx-a11y/label-has-for": "off",
+      "no-trailing-spaces": "off",
+      "no-plusplus": "off",
+      "no-unused-expressions": "off",
+      "no-param-reassign": "off",
+      "no-use-before-define": "off"
+    }
+}
