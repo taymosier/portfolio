@@ -65,11 +65,12 @@ function expandMenuAttributes(menu) {
   menu.className = 'expand';
   menu.style.margin = '0';
   menu.style.width = '100vw';
+  menu.style.left = '0';
   menu.style.height = '100vh';
 }
 function expandMenuListAttributes(menuList) {
   menuList.style.height = '100vh';
-  menuList.style.paddingTop = '15vh';
+  menuList.style.paddingTop = '17.5vh';
   menuList.style.visibility = 'visible';
 }
 function expandMenuItemAttributes(menuItems) {
@@ -90,6 +91,7 @@ function collapseMenuAttributes(menu) {
   menu.style.width = '15vw';
   menu.style.margin = '0 0 0 1vw';
   menu.style.height = '15vh';
+  menu.style.left = '2vw';
   menu.className = '';
 }
 

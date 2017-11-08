@@ -43,7 +43,7 @@ export default class ContactForm extends Component {
               First Name
             </Col>
             <Col>
-              <FormControl name="firstName" placeholder="Required" autoFocus />
+              <FormControl name="firstName" placeholder="Required" />
             </Col>
           </FormGroup>
 
