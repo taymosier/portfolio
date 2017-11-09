@@ -50,6 +50,10 @@
   }
 }
 
+/*TODO set media query for 600 px orientation landscape
+  --> font too small
+  --> padding top too high*/
+
 @media only screen and (min-width: 601px) and (max-width: 900px) {
   .projectsContent {
     height: 100vh;

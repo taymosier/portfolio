@@ -60,7 +60,7 @@
 
 @media only screen and (max-width: 600px) and (orientation: landscape){
   .aboutContentRowItem {
-    font-size: 4vw;
+    font-size: 3.75vw;
     color: white;
     font-family: 'Raleway', sans-serif;
     text-align: center;
