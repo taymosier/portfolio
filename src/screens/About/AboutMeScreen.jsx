@@ -45,8 +45,10 @@ export class AboutMeScreen extends Component {
           About Me
         </div>
 
-        <div className="AboutContentRow">
-          {listSections}
+        <div className="aboutContentContainer">
+          <div className="AboutContentRow">
+            {listSections}
+          </div>
         </div>
 
       </div>

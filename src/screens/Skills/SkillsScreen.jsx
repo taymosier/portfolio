@@ -58,9 +58,11 @@ export function SkillsScreen() {
       <div className="header">
         Skills
       </div>
-      <Grid className="skillsGrid">
-        {Rows}
-      </Grid>
+      <div className="skillsContentContainer">
+        <Grid className="skillsGrid">
+          {Rows}
+        </Grid>
+      </div>
     </div>
   );
 }

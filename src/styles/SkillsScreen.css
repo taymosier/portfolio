@@ -6,14 +6,18 @@
     margin: auto;
   }
 
+  .skillsContentContainer {
+    margin: 8vh 0 0 0;
+  }
+
   .skillsGrid {
     width: 90vw;
     margin-left: 5vw;
   }
 
   .skillsGridRow{
-    height: 10vh;
-    margin: 0 0 3vh 0;
+    height: 9.5vh;
+    margin: 0 0 1.5vh 0;
     text-align: center;
     border: 1px solid white;
   }
@@ -28,7 +32,7 @@
 
   .skillsGridRowItem p {
     padding-top: 15%;
-    font-size: 4vh;
+    font-size: 3vh;
     font-family: 'Raleway', sans-serif;
   }
 
@@ -38,6 +42,14 @@
     /*font-size: 1.65em;*/
   }
 
+}
+
+@media only screen and (max-width: 600px) and (orientation: landscape){
+  .skillsGridRowItem p {
+    padding-top: 5%;
+    font-size: 5vw;
+    font-family: 'Raleway', sans-serif;
+  }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 900px) {

@@ -5,6 +5,10 @@
     margin: auto;
   }
 
+  .projectsContentContainer {
+    margin: 8vh 0 0 0;
+  }
+
   .projectsGrid {
     width: 90vw;
     margin-left: 5vw;

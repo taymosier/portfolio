@@ -36,15 +36,18 @@ export class HomeScreen extends Component {
             Welcome
           </div>
 
-          <div className="homeContentRow">
-            {listFirstRow}
+          <div className="homeContentContainer">
+            <div className="homeContentRow">
+              {listFirstRow}
+            </div>
+
+            <br />
+
+            <div className="homeContentRow">
+              {listSecondRow}
+            </div>
           </div>
 
-          <br />
-
-          <div className="homeContentRow">
-            {listSecondRow}
-          </div>
 
         </div>
       </div>

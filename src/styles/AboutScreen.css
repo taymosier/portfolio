@@ -24,22 +24,26 @@
     margin: auto;
   }
 
+  .aboutContentContainer {
+    margin: 8vh 0 0 0 ;
+  }
+
   .aboutContentRow {
     padding: 10vh  0vw 0vw 5vw;
     margin: 0vh 0vw 0vh 2vw;
   }
 
   .aboutContentRowItem {
-    font-size: 3vw;
+    font-size: 6vw;
     color: white;
     font-family: 'Raleway', sans-serif;
     text-align: center;
     border-radius: 2%;
     border: 2px solid white;
-    margin: 5vh -2vw 5.5vh 10vw;
+    margin: 5vh -2vw 3.5vh 10vw;
     padding-top: 5vh;
     width: 35vw;
-    height: 20vh;
+    height: 15vh;
     float: left;
   }
 
@@ -49,9 +53,25 @@
     transition: .25s linear;
     color: silver;
     font-size: 3.05vw;
-    border-color: #550000;
+    border-color: black;
   }
 
+}
+
+@media only screen and (max-width: 600px) and (orientation: landscape){
+  .aboutContentRowItem {
+    font-size: 4vw;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    border-radius: 2%;
+    border: 2px solid white;
+    margin: 5vh -2vw 3.5vh 10vw;
+    padding-top: 5vh;
+    width: 35vw;
+    height: 15vh;
+    float: left;
+  }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 900px) {

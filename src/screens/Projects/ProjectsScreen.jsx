@@ -47,9 +47,11 @@ export function ProjectsScreen() {
       <div className="header">
         Projects
       </div>
-      <Grid className="projectsGrid">
-        {Rows}
-      </Grid>
+      <div className="projectsContentContainer">
+        <Grid className="projectsGrid">
+          {Rows}
+        </Grid>
+      </div>
     </div>
   );
 }

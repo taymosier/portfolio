@@ -6,6 +6,11 @@
     margin: auto;
   }
 
+  .homeContentContainer {
+    margin: 8vh 0 0 0;
+    height: auto;
+  }
+
   .homeContentRow {
     margin: 0vh 0 0vh 12.5vw;
     float: left;
@@ -28,7 +33,7 @@
     box-shadow: 10px 10px 5px black;
     transition: .25s linear;
     color: silver;
-    border-color: #550000;
+    border-color: black;
   }
 
   .homeContentRowItem button {
@@ -39,6 +44,30 @@
     border: none;
     background: transparent;
     font-size: 7vw;
+    font-family: 'Raleway', sans-serif;
+  }
+}
+
+@media only screen and (max-width: 600px) and (orientation: landscape){
+
+  .homeContentRowItem {
+    text-align: center;
+    color: white;
+    border-radius: 2%;
+    border: 1px solid white;
+    margin: 0 0 2vh 5vw;
+    width: 80vw;
+    height: 10vh;
+  }
+
+  .homeContentRowItem button {
+    height: 100%;
+    width: 100%;
+    color: white;
+    outline: none;
+    border: none;
+    background: transparent;
+    font-size: 3.5vw;
     font-family: 'Raleway', sans-serif;
   }
 }
@@ -120,7 +149,7 @@
     transition: .25s linear;
     color: silver;
     font-size: 3.05vw;
-    border-color: #550000;
+    border-color: black;
   }
 
   .homeContentRowItem button {
@@ -166,7 +195,7 @@
     transition: .25s linear;
     color: silver;
     font-size: 3.05vw;
-    border-color: #550000;
+    border-color: black;
   }
 
   .homeContentRowItem button {
