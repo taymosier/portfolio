@@ -1,0 +1,198 @@
+{
+  "html": {
+    "content": {
+      "icon" : "",
+      "header": "HTML5",
+      "text": "I have a very solid foundation knowledge of html and feel very comfortable using it."
+    }
+  },
+  "css": {
+    "content": {
+      "icon" : "",
+      "header": "CSS header",
+      "text": "I am very comfortable using CSS, and understand how to create keyframe animations, transitions, and what is needed to create responsively designed web apps."
+    }
+  },
+  "bootstrap": {
+    "content": {
+      "icon" : "",
+      "header": "Bootstrap header",
+      "text": "I use bootstrap in almost all my projects, usually with through the npm reactstrap package."
+    }
+  },
+  "linux": {
+    "content": {
+      "icon" : "",
+      "header": "Linux",
+      "text": "I have a basic understanding of UNIX systems, to the extent that I have Ubuntu installed on my laptop and create apps in Digital Ocean \"Droplets\", which are virtual linux kernel machines."
+    }
+  },
+  "mongodb": {
+    "content": {
+      "icon" : "",
+      "header": "MongoDB ",
+      "text": "I have used MongoDB in several projects, and prefer it to more traditional database systems like SQL."
+    }
+  },
+  "php": {
+    "content": {
+      "icon" : "",
+      "header": "PHP header",
+      "text": "I worked with PHP when completing a WordPress project for a client last year. "
+    }
+  },
+  "git": {
+    "content": {
+      "icon" : "",
+      "header": "Git Node.jsheader",
+      "text": "Git Text"
+    }
+  },
+  "node.js": {
+    "content": {
+      "icon" : "",
+      "header": "Node.js header",
+      "text": "I think "
+    }
+  },
+  "powershell": {
+    "content": {
+      "icon" : "",
+      "header": "Powershell header",
+      "text": "PoJSONershell Text"
+    }
+  },
+  "json": {
+    "content": {
+      "icon" : "",
+      "header": "JSON header",
+      "text": "JSNginXON Text"
+    }
+  },
+  "express.js": {
+    "content": {
+      "icon" : "",
+      "header": "Skill header",
+      "text": "Skill Text"
+    }
+  },
+  "nginx": {
+    "content": {
+      "icon" : "",
+      "header": "NBrand ManagementginX header",
+      "text": "Brand Management Text"
+    }
+  },
+  "brand management": {
+    "content": {
+      "icon" : "",
+      "header": "Brand Management header",
+      "text": "Brand Management Text"
+    }
+  },
+  "front end development": {
+    "content": {
+      "icon" : "",
+      "header": "Front End Development header",
+      "text": "Front End Development Text"
+    }
+  },
+  "back end development": {
+    "content": {
+      "icon" : "",
+      "header": "Back End Development header",
+      "text": "Back End Development Text"
+    }
+  },
+  "jQuery": {
+    "content": {
+      "icon" : "",
+      "header": "jQuery header",
+      "text": "jQuery Text"
+    }
+  },
+  "responsive design": {
+    "content": {
+      "icon" : "",
+      "header": "Responsive design header",
+      "text": "Responsive design Text"
+    }
+  },
+  "marketing": {
+    "content": {
+      "icon" : "",
+      "header": "Marketing header",
+      "text": "Marketing Text"
+    }
+  },
+  "java": {
+    "content": {
+      "icon" : "",
+      "header": "java header",
+      "text": "java Text"
+    }
+  },
+  "webpack": {
+    "content": {
+      "icon" : "",
+      "header": "Webpack header",
+      "text": "Webpack Text"
+    }
+  },
+  "wordpress": {
+    "content": {
+      "icon" : "",
+      "header": "wordpress header",
+      "text": "wordpress Text"
+    }
+  },
+  "object oriented programming": {
+    "content": {
+      "icon" : "",
+      "header": "object oriented programming header",
+      "text": "object oriented programming Text"
+    }
+  },
+  "react router": {
+    "content": {
+      "icon" : "",
+      "header": "react router header",
+      "text": "react router Text"
+    }
+  },
+  "d3": {
+    "content": {
+      "icon" : "",
+      "header": "d3 header",
+      "text": "d3 Text"
+    }
+  },
+  "relational databases": {
+    "content": {
+      "icon" : "",
+      "header": "relational databases header",
+      "text": "relational databases Text"
+    }
+  },
+  "python": {
+    "content": {
+      "icon" : "",
+      "header": "python header",
+      "text": "python Text"
+    }
+  },
+  "javascript": {
+    "content": {
+      "icon" : "",
+      "header": "javascript header",
+      "text": "javascript Text"
+    }
+  },
+  "react.js": {
+    "content": {
+      "icon" : "",
+      "header": "React.js header",
+      "text": "React.js Text"
+    }
+  }
+}

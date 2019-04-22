@@ -1,0 +1,166 @@
+{
+  "general java programming": {
+    "content": {
+      "header": "General Java Problems",
+      "text": "General Java problems solved while familiarizing myself with the language and OOP concepts."
+    },
+    "date": "2015-2018",
+    "tags": [""],
+    "links": [
+      {
+        "id": "Github Repo",
+        "url": "https://github.com/taymosier/Java-Practice"
+      }
+    ]
+  },
+  "general python programming": {
+    "content": {
+      "header": "General Python Problems",
+      "text": "General Python programming problems that were completed when I was first familiarizing myself with the language."
+    },
+    "date": "2016 - ",
+    "tags": ["python"],
+    "links": [
+      {
+        "id": "Github Repo",
+        "url": "https://github.com/taymosier/Python-Practice"
+      }
+    ]
+  },
+  "eBay Crawler": {
+    "content": {
+      "header": "eBay Item Scraper",
+      "text": "Python program for scraping present and past eBay item data using the eBay Selling API. Writes information to a csv file for further statistical analysis."
+    },
+    "date": "November 2017",
+    "tags": ["eBay", "Python"],
+    "links": [
+      {
+        "id": "Github Repo",
+        "url": "https://github.com/taymosier/ebay_crawler"
+      }
+    ]
+  },
+  "Pokedex": {
+    "content": {
+      "header": "React Pokedex App",
+      "text": "Practice React Pokedex application"
+    },
+    "date": "December 2017",
+    "tags": ["react", "bootstrap", "css", "html"],
+    "links": [
+      {
+        "id": "Github Repo",
+        "url": "https://github.com/taymosier/pokedex"
+      },
+      {
+        "id": "Live App",
+        "url": "https://taymosier.github.io/pokedex/"
+      }
+    ]
+  },
+  "Grade Calculator": {
+    "content": {
+      "header": "Grade Calculator",
+      "text": "Practice project to help better understand the concept of passing state and props in React applications."
+    },
+    "date": "March 2018",
+    "tags": ["react.js", "bootstrap", "css", "html", "javascript"],
+    "links": [
+      {
+        "id": "Github Repo",
+        "url": "https://github.com/taymosier/grade_calculator"
+      },
+      {
+        "id": "Live App",
+        "url": "https://taymosier.github.io/grade_calculator/"
+      }
+    ]
+  },
+  "Ibx Mockup Website": {
+    "content": {
+      "header": "IBX Mockup Web Application",
+      "text": "Practice SPA project focusing on redesign of existing website. Created using React.js and Bootstrap. Features include real time product search and Google Maps API implementation."
+    },
+    "date": "November 2017 - January 2018",
+    "tags": ["react", "javascript", "bootstrap", "html", "css", "google maps"],
+    "links": [
+      {
+        "id": "Github Repo",
+        "url": "https://github.com/taymosier/ibx"
+      }
+    ]
+  },
+  "GCC Inventory Management App": {
+    "content": {
+      "header": "Greenville Convention Center Inventory Management App",
+      "text": "Single page web application used to create and manipulate inventory management forms. Features include MongoDB database implementation, NginX reverse proxy server, Excel spreadsheet generation, and one-click email submission. Uses Node and Express to call Python scripts to simplify spreadsheet, email, and database manipulation. Hosted on Digial Ocean virtual linux machine."
+    },
+    "date": "September-December 2018",
+    "tags": ["react.js", "node.js", "express.js", "mongodb", "nginx", "python", "css", "bootstrap", "html", "javascript", "google"],
+    "links": [
+      {
+        "id": "Github Repo",
+        "url": "https://github.com/taymosier/psa"
+      },
+      {
+        "id": "Live App",
+        "url": "https://taylormosier.com"
+      }
+    ]
+  },
+  "grand luxxe vacation rentals": {
+    "content": {
+      "header": "Grande Luxxe Brochure Web App",
+      "text": "Vacation rental brochure single page web application. Created with React and Bootstrap. Responsively designed with features including Google Maps API implementation, contact form, and PayPal button.",
+      "icons": [
+        "html",
+        "css",
+        "react.js",
+        "node.js",
+        "bootstrap",
+        "express"
+      ]
+    },
+    "date": "February 2019 - ",
+    "tags": ["react.js", "javascript", "bootstrap", "html", "css", "Google Maps", "paypal"],
+    "links": [
+      {
+        "id": "Github Repo",
+        "url": "https://github.com/taymosier/grand"
+      },
+      {
+        "id": "Live App",
+        "url": "http://grandeluxxemexicojoyrentals.com/"
+      }
+    ]
+  },
+  "Poked3x Graph Analysis": {
+    "content": {
+      "header": "React PokeD3x App",
+      "text": "React application made so that I can become more familiar with manipulating data using D3.js"
+    },
+    "date": "April 2019 - ",
+    "tags": ["react.js", "bootstrap", "javascript", "html", "css", "D3"],
+    "links": [
+      {
+        "id": "Github Repo",
+        "url": "https://github.com/taymosier/pokeD3x"
+      }
+    ]
+  },
+  "Portfolio V2": {
+    "content": {
+      "header": "Portfolio Web App",
+      "text": "Redesigned portfolio project to better demonstrate my current abilities"
+    },
+    "date": "April 2019",
+    "tags": ["react.js", "bootstrap", "javascript", "html", "css"],
+    "links": [
+      {
+        "id": "Github Repo",
+        "url": "https://github.com/taymosier/portfolio_v2"
+      }
+    ]
+  }
+}
