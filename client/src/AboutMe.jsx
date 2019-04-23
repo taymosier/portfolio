@@ -15,6 +15,7 @@ export class AboutMe extends Component {
       activeSectionContent: sections[Object.keys(sections)[0]].body,
       activeChild: 0,
       activeSectionIndex: 0,
+      isOpen: false,
       sections: sections
     }
     this.updateActiveSection = this.updateActiveSection.bind(this);
@@ -25,7 +26,7 @@ export class AboutMe extends Component {
       activeSectionIndex: 0,
       activeSectionContent: this.state.sections[this.state.keys[0]].body,
       activeChildKeys: Object.keys(sections[this.state.keys[0]].body),
-      activeChild: this.props.activeChild,
+      activeChild: this.props.activeChild
     })
   }
 
@@ -52,36 +53,39 @@ export class AboutMe extends Component {
     }
 
     return(
-      <Row className={"about-me-view"}>
-        <div className={"about-me-filter"} />
-        <TabbedContentContainer
-          keys={this.state.keys}
-          activeSectionContent={this.state.activeSectionContent}
-          activeSectionIndex={this.state.activeSectionIndex}
-          activeChildKeys={this.state.activeChildKeys}
-          activeChild={this.state.activeChild}
-          updateActiveSection={this.updateActiveSection}
-          sections={this.state.sections}
-        />
-        <Col
-          xl={{ size: 5, offset: 0 }}
-          lg={{ size: 5, offset: 0 }}
-          md={{ size: 5, offset: 0 }}
-          sm={{ size: 5, offset: 0 }}
-          xs={{ size: 5, offset: 0 }}
-          className={"about-me-right-col"}
-        >
-          <Row className={"profile-image-container"}>
-            <ProfileImage />
-          </Row>
-          <Row className={"section-options-container"}>
-            <SectionSelector
-              sections={this.state.sections}
-              updateActiveSection={this.updateActiveSection}
-            />
-          </Row>
-        </Col>
-      </Row>
+
+            <Row className={"about-me-view"}>
+              <div className={"about-me-filter"} />
+              <TabbedContentContainer
+                keys={this.state.keys}
+                activeSectionContent={this.state.activeSectionContent}
+                activeSectionIndex={this.state.activeSectionIndex}
+                activeChildKeys={this.state.activeChildKeys}
+                activeChild={this.state.activeChild}
+                updateActiveSection={this.updateActiveSection}
+                sections={this.state.sections}
+              />
+              <Col
+                xl={{ size: 5, offset: 0 }}
+                lg={{ size: 5, offset: 0 }}
+                md={{ size: 5, offset: 0 }}
+                sm={{ size: 5, offset: 0 }}
+                xs={{ size: 5, offset: 0 }}
+                className={"about-me-right-col"}
+              >
+                <Row className={"profile-image-container"}>
+                  <ProfileImage />
+                </Row>
+                <Row className={"section-options-container"}>
+                  <SectionSelector
+                    sections={this.state.sections}
+                    updateActiveSection={this.updateActiveSection}
+                  />
+                </Row>
+              </Col>
+            </Row>
+
+
     )
   }
 }

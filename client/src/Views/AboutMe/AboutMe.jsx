@@ -3,7 +3,6 @@ import { Col, Row } from 'reactstrap';
 import { ProfileImage } from './ProfileImage';
 import { SectionSelector } from './Navigation/SectionSelector';
 import { TabbedContentContainer } from './Content/TabbedContentContainer';
-import { adjustFilter } from '../../helpers.js'
 import $ from 'jquery';
 
 

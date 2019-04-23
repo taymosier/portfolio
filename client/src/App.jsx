@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {Container } from 'reactstrap';
 import './index.css';
-
+import { TransitionGroup, CSSTransition } from 'react-transition-group';
 import { Portal } from './Portal';
 
 const helpers = require('./helpers.js');
@@ -25,10 +25,18 @@ class App extends Component {
       classes: "App",
       filter: "body-filter filter-on",
       pulse: "pulse",
+      isOpen: false,
       screenSize: helpers.determineScreenSize()
     }
     this.setActiveView = this.setActiveView.bind(this);
     this.checkSize = this.checkSize.bind(this);
+    this.toggleOpen = this.toggleOpen.bind(this);
+  }
+
+  toggleOpen(){
+    this.setState({
+      isOpen: !this.state.isOpen
+    })
   }
 
 
@@ -66,6 +74,9 @@ class App extends Component {
 
   componentDidMount(){
     window.onresize = this.checkSize;
+    setTimeout(()=>{
+      this.setState({isOpen: !this.state.isOpen})
+    }, 300)
   }
 
   componentDidUpdate(){
@@ -81,12 +92,17 @@ class App extends Component {
           taylor mosier
           </header>
         </div>
-
-        <Portal
-          screenSize={this.state.screenSize}
-          activeView={this.state.activeView}
-          setActiveView={this.setActiveView}
-        />
+        <TransitionGroup component={null}>
+          { this.state.isOpen && (
+            <CSSTransition classNames="main-transition" timeout={300}>
+              <Portal
+                screenSize={this.state.screenSize}
+                activeView={this.state.activeView}
+                setActiveView={this.setActiveView}
+              />
+            </CSSTransition>
+          )}
+        </TransitionGroup>
       </Container>
     );
   }

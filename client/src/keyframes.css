@@ -93,6 +93,7 @@
   }
 }
 
+
 #contactFormSubmitButton:hover, .contact-modal-button:hover {
   animation-name: textPulse;
   animation-duration: .4s;
