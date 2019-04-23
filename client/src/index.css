@@ -3,12 +3,12 @@
   - change skill button font size to 1.25vw
 */
 .about-me-filter {
-  opacity: .4;
+  opacity: .8;
   min-width: 73.375%;
   min-height: 72.33%;
   position: absolute;
   z-index: -400;
-  background: linear-gradient(135deg, darkslategray 5%, black 30% );
+  background: linear-gradient(25deg,#5b7bad 5%, #486693 90%);
   margin: -2px 0 0 -3.5px;
 }
 
@@ -104,24 +104,25 @@ body {
 
 
 .card .card-text {
-  font-size: 1.45vw;
-  text-align: left;
-  letter-spacing: .0125vw;
   color: white;
-  font-weight: 200;
   font-family: "Work Sans";
-  padding: 2vh 2vw;
+  font-size: 1.45vw;
+  font-weight: 200;
+  letter-spacing: .0125vw;
+  padding: .5vh 2vw 2vh 2vw;
+  text-align: left;
 }
 
 .card .card-title {
-  font-size: 2.75vw;
-  line-height: 2.75vw;
-  letter-spacing: .2vw;
-  font-family: "Work Sans";
-  font-weight: 200;
   color: white;
+  font-family: "Work Sans";
   font-feature-settings: "kern" off;
   font-kerning: none;
+  font-size: 2.75vw;
+  font-weight: 300;
+  letter-spacing: .2vw;
+  line-height: 2.75vw;
+  margin: 1.25vh 0 1.75vh 0;
 }
 
 .card-close-button {
@@ -135,14 +136,17 @@ body {
   font-weight: 300;
   font-family: "Segoe UI", sans-serif;
   border: 5px outset #6582a3;
-  background: transparent;
   padding: 0;
   z-index: 100;
+  border-radius: 2.5%;
+  border: 7.5px outset;
+  border-image: linear-gradient(10deg, #6f7e99 0%, #6185a0 50%, #6582a3 100%);
+  border-image-slice: .45;
+  background: linear-gradient(35deg,#516c96 5%, #425c84 90%);
 }
 
 .card-close-button:hover {
-  border: 7.5px inset #6582a3;
-  background: transparent;
+  border: 7.5px inset;
 }
 
 #contactForm {
@@ -265,7 +269,7 @@ body {
   min-height: 15vh;
   min-width: 80%;
   margin: 3vh 5vw 0 0;
-  background: transparent;
+  background: linear-gradient(35deg,#516c96 5%, #4d6d9e 90%);
   color: ghostwhite;
   border: 15px outset white;
   line-height: 3vw;
@@ -275,7 +279,7 @@ body {
 }
 
 .contact-modal-button:hover {
-  background: #6b8ba8;
+  background: linear-gradient(35deg,#516c96 5%, #425c84 90%);
   border: 20px inset white;
   box-shadow: none;
 
@@ -291,14 +295,14 @@ body {
   position: absolute;
   min-height: 70vh;
   min-width: 84.68%;
-  opacity: .4;
+  opacity: .8;
   margin: 0 0 0 8.415%;
-  background: linear-gradient(135deg, darkslategray 5%, black 30% );
+  background: linear-gradient(25deg,#5b7bad 5%, #486693 90%);
 }
 
 .contact-view .container {
   border: 17.5px white;
-  border-style: ridge;
+  border-style: outset;
   padding: 0;
   z-index: 100;
   box-shadow: 0px 2.5px 7.5px 2px  #6b8ba8;
@@ -383,8 +387,12 @@ body {
 }
 
 .grid-button{
-  background: transparent;
-  border: 7.5px outset #6582a3;
+
+  border-radius: 2.5%;
+  border: 10px outset;
+  border-image: linear-gradient(10deg, #6f7e99 0%, #6185a0 50%, #6582a3 100%);
+  border-image-slice: .45;
+  background: linear-gradient(35deg,#516c96 5%, #425c84 90%);
   height: 8vh;
   font-size: 1.6vw;
   font-weight: 200;
@@ -408,18 +416,16 @@ body {
 }
 
 .grid-button:hover {
-  background: transparent;
   text-shadow: 0px 0px 2.5px ghostwhite;
   border: 5px inset ghostwhite;
 }
 
 .grid-filter{
+  background: linear-gradient(25deg,#5b7bad 5%, #486693 90%);
   min-width: 100%;
   min-height: 100%;
   position: absolute;
-  background: linear-gradient(135deg, darkslategray 5%, black 30% );
-  /* background: linear-gradient(-120deg, #7a8aa8 0%, #6b8ba8 50%, #4f657f 100%); */
-  opacity: .45;
+  opacity: 0.75;
   z-index: -100;
   margin: -2.5vh -2.5vw;
 }
@@ -501,8 +507,22 @@ body {
   position: absolute;
   width: 70%;
   height: 80%;
-  background: transparent;
-  border: 10px inset #6582a3;
+  border: 17.5px inset #6582a3;
+  background: linear-gradient(35deg,#516c96 5%, #425c84 90%);
+}
+
+.project-card .card-body {
+  overflow-y: scroll;
+}
+
+.project-card .card-body .card-text {
+  text-align: center;
+}
+
+.project-description {
+  border-top: 1px solid white;
+  padding: 2.5vh 5% 0 5%;
+  text-align: center;
 }
 
 .projects-grid {
@@ -516,6 +536,20 @@ body {
 .projects-row {
   margin: 0;
 }
+
+.project-date {
+  color: white;
+  font-size: 1.1vw;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+.project-tags {
+  max-width: fit-content;
+  padding: 0 0 .5vh 0;
+  margin: 0 auto 1vh auto;
+}
+
 
 .root {
   min-height: 100vh;
@@ -572,6 +606,7 @@ body {
 }
 
 .section-option button {
+  background: linear-gradient(35deg,#516c96 5%, #425c84 90%);
   padding: 0;
   font-size: 1.3vw;
   letter-spacing: 2.25px;
@@ -581,7 +616,7 @@ body {
 }
 
 .section-option button:hover {
-  background-color: transparent;
+  background: linear-gradient(35deg,#516c96 5%, #425c84 90%);
   border: 7.5px inset ghostwhite;
 }
 
@@ -596,12 +631,13 @@ body {
   border: none;
   text-align: right;
   display: inline-block;
+  margin: 0 0 7.5px 0;
 }
 
 .section-tabs > .nav-item {
   margin: 0 0 0px 15px;
   background: transparent;
-  border: 5px inset #6582a3;
+  border: 5px outset #6582a3;
   color: white;
   display: inline-block;
   float: none;
@@ -617,7 +653,7 @@ body {
 }
 
 .section-tabs > .nav-item:hover {
-  border: 5px outset #6582a3;
+  border: 5px inset #6582a3;
 }
 
 .section-tabs > .nav-item:hover > a {
@@ -636,6 +672,32 @@ body {
   border-bottom-style: ridge;
 }
 
+.skill-button-filter {
+  position: absolute;
+}
+
+.skill-card {
+  border: 17.5px inset #6582a3;
+  background: linear-gradient(35deg,#516c96 5%, #425c84 90%);
+}
+
+.skill-card .card-text {
+  border-top: 1px solid white;
+  padding: 2.5vh 5% 0 5%;
+  text-align: center;
+}
+
+.skill-card .card-title {
+  color: white;
+  font-family: "Work Sans";
+  font-kerning: none;
+  font-size: 2.75vw;
+  font-weight: 300;
+  letter-spacing: .2vw;
+  line-height: 2.75vw;
+  margin: 1.25vh 0 1.75vh 0;
+}
+
 .skill-grid {
   border: 17.5px outset white;
   padding: 2.5vh 2.5vw;
@@ -652,6 +714,7 @@ body {
   max-height: fit-content;
   padding: 2.5px 5px;
   letter-spacing: 1px;
+  background: linear-gradient(35deg,#516c96 5%, #425c84 90%);
   text-shadow: -1.5px .75px 2.5px black;
 }
 
@@ -679,5 +742,6 @@ body {
 }
 
 .skillset-view-container {
-  padding: 2.5vh 0 7.5vh 0;
+  padding: 0;
+  margin: 0;
 }

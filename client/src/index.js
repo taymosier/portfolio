@@ -6,6 +6,8 @@ import * as serviceWorker from './serviceWorker';
 import './index.css';
 import './keyframes.css';
 import './mobile.css';
+import './large.css';
+
 
 
 ReactDOM.render(<App />, document.getElementById('root'));

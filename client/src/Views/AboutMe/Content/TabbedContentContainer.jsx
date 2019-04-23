@@ -17,7 +17,8 @@ export class TabbedContentContainer extends Component {
       activeSectionIndex: this.props.activeSectionIndex,
       activeChildKeys: this.props.activeChildKeys,
       activeChild: this.props.activeChild,
-      sections: this.props.sections
+      sections: this.props.sections,
+      screenSize: this.props.screenSize !== undefined ? this.props.screenSize : null
     })
   }
 
@@ -31,6 +32,9 @@ export class TabbedContentContainer extends Component {
     if(this.state.activeChildKeys !== this.props.activeChildKeys){
       this.setState({activeChildKeys: this.props.activeChildKeys})
     }
+    if(this.props.screenSize !== undefined && this.state.screenSize !== this.props.screenSize){
+      this.setState({screenSize: this.props.screenSize})
+    }
   }
 
   updateActiveChildTab(selectedTabIndex){
@@ -43,7 +47,7 @@ export class TabbedContentContainer extends Component {
     return(
       <Col
         xl={{ size: 6, offset: 0 }}
-        lg={{ size: 6, offset: 0 }}
+        lg={{ size: 8, offset: 0 }}
         md={{ size: 6, offset: 0 }}
         sm={{ size: 6, offset: 0 }}
         xs={{ size: 6, offset: 0 }}

@@ -18,6 +18,14 @@ export class SectionOption extends Component {
     })
   }
 
+  componentDidUpdate(){
+    if(this.props.style !== undefined && this.state.style !== this.props.style){
+      this.setState({
+        style: this.props.style
+      })
+    }
+  }
+
   render(){
     return(
       <Row className={"section-option"}>

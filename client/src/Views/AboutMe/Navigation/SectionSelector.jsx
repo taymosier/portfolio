@@ -13,15 +13,32 @@ export class SectionSelector extends Component {
   componentDidMount(){
     this.setState({
       sections: this.props.sections,
-      keys: Object.keys(this.props.sections)
+      keys: Object.keys(this.props.sections),
+      screenSize: this.props.screenSize !== undefined ? this.props.screenSize : null
     });
+  }
+
+  componentDidUpdate(){
+    if(this.props.screenSize !== undefined && this.state.screenSize !== this.props.screenSize){
+      this.setState({screenSize: this.props.screenSize})
+    }
+  }
+
+  getButtonSize(){
+    let buttonHeight;
+    if(this.state.screenSize !== undefined && this.state.screenSize === "large"){
+      buttonHeight = `${(45/this.state.keys.length)-1}vh`;
+    } else {
+      buttonHeight = `${(35/this.state.keys.length)-1}vh`;
+    }
+    return buttonHeight
   }
 
   render(){
     let optionButtons = [];
     let index = 0;
     if(this.state.keys){
-      let buttonHeight = `${(35/this.state.keys.length)-1}vh`;
+      let buttonHeight = this.getButtonSize();
       for(let item in this.state.keys){
         optionButtons.push(
           <SectionOption

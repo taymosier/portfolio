@@ -33,7 +33,7 @@
       },
       "NCSU": {
         "header": "North Carolina State University",
-        "body": "I AM COLLEGE CONTENT"
+        "body": "I graduated from NC State in May 2016, with a degree in Brand Management and Marketing. My curriculum focused on entrepreneurship and new product development, with an emphasis on brand identity and image development. I believe that the principles I learned give me a well-rounded skillset of both soft and technical skills."
       }
     }
   },
@@ -53,13 +53,9 @@
   "Interests": {
     "header": "INTERESTES HEADER",
     "body": {
-      "Books": {
-        "header": "Books I Have Read/Studied",
-        "body": "Programming Concepts: Design Patterns - Clean Code - Code - Automate The Boring Stuff With Python - Pro MERN Stack | Design/UX/UI: Things That Make Us Smart - The Design of Everyday Things | Development/Planning: Software Requirements"
-      },
-      "Airplanes": {
-        "header": "INTERSTS HEADER",
-        "body": "INTEREST CONTENT"
+      "Things I Find Funny": {
+        "header": "Things I Find Funny",
+        "body": "Faulty Towers. Mel Brooks movies. Leslie Nielsen. Kung Pow: Enter The Fist. Rodney Dangerfield. Bill Hicks. Scrubs. Futurama. The IT Crowd. The Office. Dilbert. Calvin and Hobbes. Arrested Development. "
       }
     }
   }

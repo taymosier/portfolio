@@ -36,24 +36,41 @@ export class Portal extends Component {
     if(this.props.activeView){
       switch(`${this.props.activeView}`){
         case "DefaultView":
-          return <DefaultView setActiveView={this.state.setActiveView}/>;
+          return <DefaultView
+                   setActiveView={this.state.setActiveView}
+                   screenSize={this.state.screenSize !== undefined ? this.state.screenSize : null}
+                 />;
         case "AboutMeView":
           if(this.props.screenSize === "medium" || this.props.screenSize === "small" || this.props.screenSize === "xsmall"){
-            return <MobileAboutMe />
+            return <MobileAboutMe
+                     screenSize={this.state.screenSize !== undefined ? this.state.screenSize : null}
+                   />
           }
-          return <AboutMe />;
+          return <AboutMe
+                    screenSize={this.state.screenSize !== undefined ? this.state.screenSize : null}
+                 />;
         case "SkillView":
           if(this.props.screenSize === "medium" || this.props.screenSize === "small" || this.props.screenSize === "xsmall"){
-            return <MobileSkillView />
+            return <MobileSkillView
+                      screenSize={this.state.screenSize !== undefined ? this.state.screenSize : null}
+                   />
           }
-          return <SkillView />
+          return <SkillView
+                    screenSize={this.state.screenSize !== undefined ? this.state.screenSize : null}
+                 />
         case "PortfolioView":
           if(this.props.screenSize === "medium" || this.props.screenSize === "small" || this.props.screenSize === "xsmall"){
-            return <MobilePortfolio />
+            return <MobilePortfolio
+                      screenSize={this.state.screenSize !== undefined ? this.state.screenSize : null}
+                   />
           }
-          return <Portfolio />
+          return <Portfolio
+                    screenSize={this.state.screenSize !== undefined ? this.state.screenSize : null}
+                 />
         case "ContactView":
-          return <ContactView />
+          return <ContactView
+                    screenSize={this.state.screenSize !== undefined ? this.state.screenSize : null}
+                 />
         default:
           return <div>Something broke</div>
       }

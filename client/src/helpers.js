@@ -22,6 +22,17 @@ function getScreenSize(width){
   }
 }
 
+export function adjustFilter(){
+  $(document).ready(function(){
+    console.log("adjusting")
+    let filterHeight = `${$(".about-me-view").offsetHeight}px`;
+    $(".about-me-filter").css(
+      "height",`${filterHeight}`
+    )
+    console.log("adjusted")
+  })
+}
+
 export function capitalizeEveryWord(text){
   if(text === undefined){
     return "";
