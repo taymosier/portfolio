@@ -51,9 +51,9 @@ export class MobileProjectModal extends Component {
         <ModalHeader className="project-modal-header">{this.state.title}</ModalHeader>
           <ModalBody >
             <p className="project-date">{this.state.date}</p>
-            <div>{this.state.tags}</div>
-            <p>{this.state.text}</p>
-            <div>{this.state.links}</div>
+            <div className="project-tags">{this.state.tags}</div>
+            <p className="project-text">{this.state.text}</p>
+            <div className="project-links">{this.state.links}</div>
           </ModalBody>
       </Modal>
     )

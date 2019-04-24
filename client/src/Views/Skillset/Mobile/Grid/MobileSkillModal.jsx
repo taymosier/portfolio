@@ -47,10 +47,10 @@ export class MobileSkillModal extends Component {
           size="lg"
           onClick={this.state.closeModal}
         />
-        <ModalHeader className="project-modal-header">{this.state.card.title}</ModalHeader>
+        <ModalHeader className="skill-modal-header">{this.state.card.title}</ModalHeader>
           <ModalBody >
-            <div>{this.state.card.icon}</div>
-            <div>{this.state.card.text}</div>
+            <div className="skill-icon">{this.state.card.icon}</div>
+            <div className="skill-text">{this.state.card.text}</div>
           </ModalBody>
       </Modal>
     )

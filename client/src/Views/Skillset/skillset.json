@@ -184,15 +184,15 @@
   "javaScript": {
     "content": {
       "icon" : "",
-      "header": "javascript header",
-      "text": "javascript Text"
+      "header": "JavaScript",
+      "text": "I love javascript. As someone who focuses on the MERN development stack, I use JavaScript extensively on both the front and back end of my apps. I have a very solid understanding of vanilla JavaScript and constantly try to deepen my understanding of the language and its potential. "
     }
   },
   "react.js": {
     "content": {
       "icon" : "",
-      "header": "React.js header",
-      "text": "React.js Text"
+      "header": "React.js",
+      "text": "I started working with React in early 2017, when I purchased \"Pro MERN Stack\" by Vasan SUbramanian. After completing the project in his book, I started applying what I learned to small projects so that I could become more familiar and comfortable with React. Since then I have created React apps ranging from single page GPA calculators to full stack web-facing apps. I am constantly learning new techniques and polishing the ones that I know, and am always eager to challenge myself with new and exciting projects."
     }
   }
 }
