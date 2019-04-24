@@ -589,10 +589,44 @@ body {
   letter-spacing: 1px;
 }
 
+.project-link-button {
+  background: linear-gradient(35deg,#516c96 5%, #425c84 90%);
+  border: 5px outset;
+  border-image: linear-gradient(10deg, #6f7e99 0%, #6185a0 50%, #6582a3 100%);
+  border-image-slice: 1;
+  font-weight: 200;
+  margin: 2vh 5%;
+  min-width: 30%;
+  transition: 2s ease-in-out;
+  letter-spacing: 3.15px;
+}
+
+.project-link-button > a {
+  color: white;
+}
+
+
+
+.project-tag-container {
+  display: flex;
+  height: fit-content;
+  list-style: none;
+  margin: 0;
+  min-height: fit-content;
+  padding: 0;
+  text-align: center;
+  flex-wrap: wrap-reverse;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
 .project-tags {
+  display: inline-block;
+  float: left;
+  line-height: 1.75vw;
+  padding: 5px 10px 5px 10px;
+  margin: 0 auto 0 auto;
   max-width: fit-content;
-  padding: 0 0 .5vh 0;
-  margin: 0 auto 1vh auto;
 }
 
 

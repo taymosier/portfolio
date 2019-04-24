@@ -10,7 +10,7 @@ const helpers = require('./helpers.js');
 // Prepend class names of about me main right column with "about"
 // add skill logos to button/objects
 // Home: mobile styling
-// About Me: add content / style mobile
+// About Me: add content / style mobile | Make mobile modal close button work
 // *** Skills: add content to skill objects
 // Portfolio: style modal elements / create generateLinkButtons function / add content
 // Contact: replace github and linkedin text with icons

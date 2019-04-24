@@ -481,6 +481,25 @@
     text-shadow: -2.5px -1px 5px black;
   }
 
+  .mobile-grid-button {
+    background: linear-gradient(35deg,#516c96 5%, #425c84 90%);
+    border-radius: 2.5%;
+    border: 10px outset;
+    border-image: linear-gradient(10deg, #6f7e99 0%, #6185a0 50%, #6582a3 100%);
+    border-image-slice: .45;
+    box-shadow: -2px 3px 5px 0px black;
+    height: 8vh;
+    font-size: 3.25vw;
+    font-weight: 200;
+    font-family: "Work Sans", sans-serif;
+    line-height: 3.25vw;
+    padding: 0 5px;
+    letter-spacing: 1.5px;
+    text-shadow: 3px 1px 3px black;
+    vertical-align: top;
+    z-index: 100;
+  }
+
   .profile-image{
     min-width: 80%;
     max-width: 80%;
@@ -525,12 +544,13 @@
     border: 17.5px outset white;
     padding: 2.5vh 2.5vw;
     height: 70vh;
-    min-height: 80vh;
-    max-height: 80vh;
+    margin-top: 5vh;
+    min-height: 70vh;
+    overflow-y: scroll;
   }
 
   .projects-row {
-    margin: 0;
+    margin: 1.5vh 0;
   }
 
   .project-date { /* medium */
@@ -543,7 +563,13 @@
   }
 
   .project-modal .modal-body { /* medium */
-    padding: 0 5%;
+    padding: 0 7.5%;
+    overflow-y: scroll;
+  }
+
+  .project-modal .modal-body .project-text {
+    font-size: 2.25vw;
+    margin: 2vh 0;
   }
 
   .project-modal .modal-content{ /* medium */
@@ -560,11 +586,12 @@
   div.project-modal-header.modal-header { /* medium */
     display: block;
     text-align: center;
-    padding: .5vh 7.5vw;
+    padding: .5vh 7.5vw 2vh 7.5vw;
   }
 
   div.project-modal-header.modal-header > .modal-title { /* medium */
-    font-size: 4vw;
+    font-size: 3.25vw;
+    line-height: 3.75vw;
   }
 
   .project-tags { /* medium */
@@ -725,19 +752,22 @@
   .skill-grid {
     border: 17.5px outset white;
     padding: 2.5vh 2.5vw;
+    overflow-y: scroll;
   }
 
   .skill-grid-row {
     padding: 0 1%;
+    margin-top: 1vh;
   }
 
   .skill-grid-row .grid-button{
-    font-size: 1.4vw;
+    box-shadow: -2px 2px 5px 0px black;
+    font-size: 3.25vw;
     line-height: 1.5vw;
     min-height: 9vh;
     max-height: fit-content;
     padding: 2.5px 5px;
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
     background: linear-gradient(35deg,#516c96 5%, #425c84 90%);
     text-shadow: -1.5px .75px 2.5px black;
   }
@@ -761,8 +791,45 @@
     transition: 1s ease-in-out;
   }
 
+  .skill-modal {
+    min-width: 75vh;
+  }
+
+  .skill-modal .skill-modal-header {
+    display: block;
+    letter-spacing: 1.25px;
+    padding: 0 0 2.5vh 0;
+    text-align: center;
+  }
+
+  .skill-modal .skill-modal-header .modal-title {
+    font-size: 3.5vw;
+  }
+
+  .skill-modal .modal-body {
+    padding: 5vh 4vw;
+  }
+
+  .skill-modal .modal-content {
+    margin: 10vh 0 0 0;
+    min-height: 80vh;
+  }
+
+  .skill-modal .modal-content .modal-body {
+    font-size: 2.25vw;
+  }
+
+  .skill-modal .skills-modal-close-button {
+    padding: 0 0 0 80%;
+    font-size: 5vw;
+  }
+
   .skill-grid-button.hidden {
     opacity: 0;
+  }
+
+  .skills-modal-close-button {
+
   }
 
   .skillset-view-container {

@@ -59,7 +59,7 @@ export class MobileSkillGrid extends Component {
         className={"skill-grid"}
         xl={{ size: 10, offset: 1 }}
         lg={{ size: 10, offset: 1 }}
-        md={{ size: 12, offset: 0 }}
+        md={{ size: 10, offset: 1 }}
         sm={{ size: 12, offset: 0 }}
         xs={{ size: 12, offset: 0 }}
       >
