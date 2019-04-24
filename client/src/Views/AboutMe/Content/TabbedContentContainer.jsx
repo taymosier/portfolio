@@ -27,6 +27,7 @@ export class TabbedContentContainer extends Component {
       this.setState({
         activeSectionContent: this.props.activeSectionContent,
         activeSectionIndex: this.props.activeSectionIndex,
+        activeChild: 0
       })
     }
     if(this.state.activeChildKeys !== this.props.activeChildKeys){

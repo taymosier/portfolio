@@ -715,7 +715,7 @@ body {
 
 .section-tabs > .nav-item {
   margin: 0 0 0px 15px;
-  background: transparent;
+  background: linear-gradient(35deg,#516c96 5%, #425c84 90%);
   border: 5px outset #6582a3;
   color: white;
   display: inline-block;

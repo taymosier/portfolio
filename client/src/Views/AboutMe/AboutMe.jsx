@@ -62,7 +62,7 @@ export class AboutMe extends Component {
 
   updateActiveSection(sectionIndex){
     this.setState({
-      activeChild: this.props.activeChild,
+      activeChild: 0,
       activeSectionIndex: sectionIndex,
       activeChildKeys: Object.keys(sections[this.state.keys[sectionIndex]].body),
       activeSectionContent: this.state.sections[this.state.keys[sectionIndex]].body,

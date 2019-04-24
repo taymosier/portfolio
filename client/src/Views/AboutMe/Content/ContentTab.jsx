@@ -11,6 +11,8 @@ export class ContentTab extends Component {
 
   componentDidMount(){
     this.setState({
+      activeTab: this.props.activeChild,
+      isActive: this.props.activeChild === this.props.index,
       index: this.props.index,
       text: this.props.text,
     })
@@ -23,12 +25,19 @@ export class ContentTab extends Component {
         text: this.props.text
       })
     }
+    if(this.props.activeChild !== undefined && this.state.activeTab !== this.props.activeChild){
+      this.setState({
+        activeTab: this.props.activeChild,
+        isActive: this.props.activeChild === this.state.index
+      })
+    }
   }
 
   render(){
     return(
       <NavItem>
         <NavLink
+          style={this.state.isActive ? {"background": "linear-gradient(35deg,#475f84 5%, #364c6d 90%)"} : null}
           className={"content-tab"} //classnames({ active: this.state.activeTab === '1' })
           onClick={() => {this.state.updateActiveChildTab(this.state.index)}}
         >
