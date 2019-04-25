@@ -8,6 +8,8 @@ import './keyframes.css';
 import './mobile.css';
 import './large.css';
 import './medium.css';
+import './small.css';
+import './smaller.css';
 
 
 

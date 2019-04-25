@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Navbar, Nav, NavItem } from 'reactstrap';
+import { Button, Navbar, Nav, NavItem } from 'reactstrap';
 
 export class AboutMeModalNav extends Component {
   constructor(props){
@@ -32,7 +32,6 @@ export class AboutMeModalNav extends Component {
     console.log(`Current Item : ${currentItem} | Active Item : ${activeItem}\n`)
     if(currentItem === activeItem){
       return {
-        "background": `gray`,
         "minWidth": `${100/this.props.items.length}%`,
         "maxWidth": `${100/this.props.items.length}%`,
         "width": `${100/this.props.items.length}%`
@@ -73,7 +72,17 @@ export class AboutMeModalNav extends Component {
     return(
       <Navbar className={"about-me-section-nav"}>
         <Nav>
-          {this.state.buttons}
+          {this.state.items !== undefined
+            ? this.state.items.map((item) =>{
+                let style = this.getNavItemStyle(this.state.items[item], this.props.activeSubsection);
+                return (
+                        <NavItem key={item} style={style}>
+                          <Button onClick={() => {this.state.updateActiveSubsection(item)}} > {item} </Button>
+                        </NavItem>
+                );
+              })
+            : null
+          }
         </Nav>
       </Navbar>
     )

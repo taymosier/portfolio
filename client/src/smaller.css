@@ -1,8 +1,8 @@
-@media (min-width: 768px) and (max-width: 991px) {
-  .about-me-filter {
+@media (min-width: 420px) and (max-width: 575px) {
+  .about-me-filter { /* smaller */
     opacity: .8;
-    min-width: 73.375%;
-    min-height: 72.33%;
+    min-width: 82%;
+    min-height: 72%;
     position: absolute;
     z-index: -400;
     background: linear-gradient(25deg,#5b7bad 5%, #486693 90%);
@@ -19,6 +19,68 @@
     border: 15px inset #6582a3;
   }
 
+  .about-me-modal {
+    margin: 0;
+  }
+
+  .about-me-modal-close-button{
+    font-size: 12vw;
+    line-height: 2vw;
+    margin: 1vh 0 0 80%;
+  }
+
+  .about-me-modal .modal-content{ /* small */
+    margin: 5vh 5vw 0 5vw;
+    min-height: 90vh;
+    max-width: 90vw;
+    padding: 2vh 0 0 0;
+    border: 17.5px outset;
+    border-image: linear-gradient(10deg, #6f7e99 0%, #6185a0 50%, #6582a3 100%);
+    border-image-slice: 1;
+  }
+
+  .about-me-modal .modal-header > .modal-title{ /* small */
+    font-size: 7.5vw;
+    letter-spacing: 1.25px;
+    max-width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .about-me-modal .modal-content .modal-body { /* small */
+    padding: 5% 10% 7.5% 10%;
+    font-size: 4.5vw;
+    word-wrap: wrap;
+    flex-wrap: wrap;
+    letter-spacing: 1px;
+    text-shadow: -1px 0px 3px gray;
+  }
+
+  .about-me-section-nav > ul { /* small */
+    background: transparent;
+    min-width: 100%;
+  }
+
+  .about-me-section-nav > ul > li { /* small */
+    background: transparent;
+    padding: 0 1%;
+    text-align: center;
+  }
+
+  .about-me-section-nav > ul > li > button { /* small */
+    border: 2.5px outset;
+    border-image: linear-gradient(10deg, #6f7e99 0%, #6185a0 50%, #6582a3 100%);
+    border-image-slice: 1;
+    background: linear-gradient(35deg,#516c96 5%, #425c84 90%);
+    font-size: 4.15vw;
+    letter-spacing: 3px;
+    line-height: 3vw;
+    min-width: 100%;
+    min-height: 7vh;
+    padding: 0 2.5px;
+    text-shadow: -2px 0px 3px black;
+  }
+
   .about-me-right-col {
     padding: 10px;
     margin: 0 0 0 2.25vw;
@@ -26,11 +88,12 @@
     border-left: 1.5px solid black;
   }
 
-  .about-me-view {
+  .about-me-view { /* smaller */
     background: transparent;
     border: 17.5px outset ghostwhite;
-    max-width: 75%;
-    margin: 0 0 0 12.5%;
+    max-width: 85%;
+    margin: 7.5vh 0 0 7.5%;
+    min-height: 75vh;
   }
 
   .App {
@@ -41,7 +104,7 @@
   }
 
   .App header {
-    font-size: 6vw;
+    font-size: 12.5vw;
     letter-spacing: 15px;
     line-height: 1;
     font-family: "Work Sans";
@@ -55,7 +118,7 @@
     font-family: "Londrina Shadow";
     min-height: 12.5vh;
     height: 15vh;
-    padding: 5vh 0 0 0;
+    padding: 2.5vh 0 0 0;
     margin: 0 0 1% 0;
   }
 
@@ -260,19 +323,19 @@
     z-index: 200;
   }
 
-  .contact-modal-button {
-    font-size: 3vw;
+  .contact-modal-button { /* smaller */
+    font-size: 5vw;
     font-weight: 200;
-    min-height: 15vh;
+    min-height: 10vh;
     min-width: 80%;
-    margin: 3vh 5vw 0 0;
+    margin: 2vh 0 0 0;
     background: linear-gradient(35deg,#516c96 5%, #4d6d9e 90%);
     color: ghostwhite;
     border: 15px outset white;
     line-height: 3vw;
     text-shadow: -4px 1px 6px black;
     letter-spacing: 2px;
-    box-shadow: 0px 0px 10px 3px cadetblue;
+    box-shadow: 0px 0px 7.5px 2.5px silver;
   }
 
   .contact-modal-button:hover {
@@ -286,12 +349,13 @@
     background: transparent;
     min-height: 70vh;
     max-height: 70vh;
+    margin: 10vh 0 0 0 ;
   }
 
   .contact-view .contact-filter {
     position: absolute;
     min-height: 70vh;
-    min-width: 84.68%;
+    min-width: 83%;
     opacity: .8;
     margin: 0 0 0 8.415%;
     background: linear-gradient(25deg,#5b7bad 5%, #486693 90%);
@@ -312,9 +376,9 @@
     background: transparent;
   }
 
-  .contact-view .container .content .left {
+  .contact-view .container .content .left { /* smaller */
     padding: .25vh 2.5% 2vh 2.5%;
-    margin-top: 2.5vh;
+    margin-top: 0;
     max-height: 40vh;
     border-left: 5px white;
     border-left-style: ridge;
@@ -322,16 +386,16 @@
     border-right-style: ridge;
   }
 
-  .contact-view .container .content .left p  {
+  .contact-view .container .content .left p  { /* smaller */
     border-bottom-width: 10px;
     border-bottom-style: double;
     border-color: #909ba8;
     border-image-slice: 1;
     color: white;
     font-weight: 200;
-    font-size: 1.95vw;
+    font-size: 3vw;
     letter-spacing: 2px;
-    margin: 2.35vh 0 0 0;
+    margin: 1vh 0 0 0;
     padding: 1% 0 2% 0;
     text-shadow: -2px 1px 4px black;
     word-wrap: break-word;
@@ -342,12 +406,12 @@
     max-height: 45vh;
   }
 
-  .contact-view .container .header {
+  .contact-view .container .header { /* smaller */
     background: transparent;
     margin: 3vh auto 0 auto;
     max-width: fit-content;
     text-align: center;
-    min-height: 12.5vh;
+    min-height: 7.5vh;
     min-width: 100%;
   }
 
@@ -369,18 +433,18 @@
   }
 
   .contact-view .container .blob {
-    padding: 1vh 5vw 0 0;
+    padding: 0;
     text-align: center;
     font-weight: 200;
-    font-size: 2.5vw;
+    font-size: 3.25vw;
     line-height: 2.75vw;
     color: white;
     text-shadow: -3px 1px 5px black;
     letter-spacing: 1.25px;
   }
 
-  .default-view-container {
-    margin-top: 5vh;
+  .default-view-container { /* smaller */
+    margin-top: 7.5vh;
   }
 
   .grid-button{
@@ -473,29 +537,28 @@
     opacity: .9;
   }
 
-  .main-row-col button p { /* medium */
+  .main-row-col button p { /* smaller */
     font-family: "Work Sans", serif;
-    font-size: 5vw;
+    font-size: 8.5vw;
     font-weight: 100;
-    letter-spacing: 2.5px;
     margin: 0;
+    letter-spacing: 2.5px;
     text-shadow: -2.5px -1px 5px black;
   }
 
-  .mobile-grid-button {
+  .mobile-grid-button { /* smaller */
     background: linear-gradient(35deg,#516c96 5%, #425c84 90%);
-    border-radius: 2.5%;
     border: 10px outset;
     border-image: linear-gradient(10deg, #6f7e99 0%, #6185a0 50%, #6582a3 100%);
-    border-image-slice: .45;
-    box-shadow: -2px 3px 5px 0px black;
-    height: 8vh;
-    font-size: 3.25vw;
+    border-image-slice: 1;
+    box-shadow: 0px 1px 7.5px -1px silver;
+    font-size: 4.25vw;
     font-weight: 200;
     font-family: "Work Sans", sans-serif;
+    height: 8vh;
+    letter-spacing: 1.5px;
     line-height: 3.25vw;
     padding: 0 5px;
-    letter-spacing: 1.5px;
     text-shadow: 3px 1px 3px black;
     vertical-align: top;
     z-index: 100;
@@ -554,7 +617,7 @@
     margin: 1.5vh 0;
   }
 
-  .project-date { /* medium */
+  .project-date {
     color: black;
     font-size: 2.2vw;
     font-weight: 100;
@@ -563,7 +626,7 @@
     margin: 2.5vh 0 0 0;
   }
 
-  .project-modal .modal-body { /* medium */
+  .project-modal .modal-body {
     padding: 0 7.5%;
     overflow-y: scroll;
   }
@@ -573,29 +636,29 @@
     margin: 2vh 0;
   }
 
-  .project-modal .modal-content{ /* medium */
+  .project-modal .modal-content{
     min-height: 90vh;
   }
 
-  .project-modal .modal-content .project-modal-close-button { /* medium */
+  .project-modal .modal-content .project-modal-close-button {
     padding: 0 0 0 82.5%;
     font-size: 7.5vw;
     line-height: 7.5vw;
     z-index: 300;
   }
 
-  div.project-modal-header.modal-header { /* medium */
+  div.project-modal-header.modal-header {
     display: block;
     text-align: center;
     padding: .5vh 7.5vw 2vh 7.5vw;
   }
 
-  div.project-modal-header.modal-header > .modal-title { /* medium */
+  div.project-modal-header.modal-header > .modal-title {
     font-size: 3.25vw;
     line-height: 3.75vw;
   }
 
-  .project-tags { /* medium */
+  .project-tags {
     max-width: fit-content;
     padding: 0 0 .5vh 0;
     margin: 0 auto 1vh auto;
@@ -656,13 +719,14 @@
     margin: 0 auto;
   }
 
-  .section-option button {
+  .section-option button { /* small */
     background: linear-gradient(35deg,#516c96 5%, #425c84 90%);
     border: 5px outset #6582a3;
     box-shadow: 2px 2px 3px 0.25px black;
-    font-size: 1.3vw;
-    letter-spacing: 2.25px;
+    font-size: 4.5vw;
+    letter-spacing: 5px;
     margin: 2vh 1vw;
+    min-width: 95%;
     padding: 0;
     transition: .3s linear;
   }
@@ -673,10 +737,11 @@
   }
 
 
-  .section-options-container {
+  .section-options-container { /* small */
     margin: 0;
-    min-height: 35vh;
-    padding: 4vh 0 0 0;
+    min-height: 70vh;
+    padding: 1vh 0 0 0;
+    min-width: 100%;
   }
 
   .section-tabs{
@@ -752,7 +817,7 @@
 
   .skill-grid {
     border: 17.5px outset white;
-    padding: 2.5vh 2.5vw;
+    padding: 1.5vh 2.5vw;
     overflow-y: scroll;
   }
 
@@ -761,14 +826,17 @@
     margin-top: 1vh;
   }
 
-  .skill-grid-row .grid-button{
-    box-shadow: -2px 2px 5px 0px black;
-    font-size: 3.25vw;
+  .skill-grid-row .grid-button{ /* smaller */
+    border: 10px outset;
+    border-image: linear-gradient(10deg, #6f7e99 0%, #6185a0 50%, #6582a3 100%);
+    border-image-slice: 1;
+    box-shadow: 0px 1px 7.5px -1px silver;
+    font-size: 6.5vw;
     line-height: 1.5vw;
     min-height: 9vh;
     max-height: fit-content;
     padding: 2.5px 5px;
-    letter-spacing: 1.5px;
+    letter-spacing: 2.5px;
     background: linear-gradient(35deg,#516c96 5%, #425c84 90%);
     text-shadow: -1.5px .75px 2.5px black;
   }
@@ -816,8 +884,8 @@
     min-height: 80vh;
   }
 
-  .skill-modal .modal-content .modal-body {
-    font-size: 2.25vw;
+  .skill-modal .modal-content .modal-body { /* small */
+    font-size: 2.7vw;
   }
 
   .skill-modal .skills-modal-close-button {
@@ -833,8 +901,10 @@
 
   }
 
-  .skillset-view-container {
+  .skillset-view-container { /* smaller */
     padding: 0;
-    margin: 0;
+    margin: 10vh 0 0 0;
+    max-height: 70vh;
+
   }
 }

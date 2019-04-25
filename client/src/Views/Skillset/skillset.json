@@ -62,7 +62,7 @@
       "text": "I do not use Java as much as I used to, but I have a very solid understanding of its syntax and how to use it effectively. In 2015 I started practicing with it exclusively in order to gain a better knowledge of core programming principles, such as OOP. I focused on the language for roughly a year and a half before shifting my focus to JavaScript and web development."
     }
   },
-  "webpack": {
+  "REST APIs": {
     "content": {
       "icon" : "",
       "header": "Webpack",
@@ -178,7 +178,7 @@
     "content": {
       "icon" : "",
       "header": "Back End Development header",
-      "text": "I am knowledgeable enough in back end development to create a full stack application from scratch. The most technically advanced back end work I have completed to this date is present in my GCC Inventory Management app, which is listed in the Portfolio section of this website."
+      "text": "I am competent enough in back end development to create a full stack application from scratch. The most technically advanced back end work I have completed to this date is present in my GCC Inventory Management app, which is listed in the Portfolio section of this website."
     }
   },
   "front end": {

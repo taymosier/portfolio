@@ -41,7 +41,7 @@ export class Portal extends Component {
                    screenSize={this.state.screenSize !== undefined ? this.state.screenSize : null}
                  />;
         case "AboutMeView":
-          if(this.props.screenSize === "medium" || this.props.screenSize === "small" || this.props.screenSize === "xsmall"){
+          if(this.props.screenSize === "small" || this.props.screenSize === "xsmall"){
             return <MobileAboutMe
                      screenSize={this.state.screenSize !== undefined ? this.state.screenSize : null}
                    />
@@ -50,7 +50,7 @@ export class Portal extends Component {
                     screenSize={this.state.screenSize !== undefined ? this.state.screenSize : null}
                  />;
         case "SkillView":
-          if(this.props.screenSize === "medium" || this.props.screenSize === "small" || this.props.screenSize === "xsmall"){
+          if(this.props.screenSize === "small" || this.props.screenSize === "xsmall"){
             return <MobileSkillView
                       screenSize={this.state.screenSize !== undefined ? this.state.screenSize : null}
                    />
@@ -59,7 +59,7 @@ export class Portal extends Component {
                     screenSize={this.state.screenSize !== undefined ? this.state.screenSize : null}
                  />
         case "PortfolioView":
-          if(this.props.screenSize === "medium" || this.props.screenSize === "small" || this.props.screenSize === "xsmall"){
+          if(this.props.screenSize === "small" || this.props.screenSize === "xsmall"){
             return <MobilePortfolio
                       screenSize={this.state.screenSize !== undefined ? this.state.screenSize : null}
                    />

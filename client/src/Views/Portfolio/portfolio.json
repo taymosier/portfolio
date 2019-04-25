@@ -1,5 +1,5 @@
 {
-  "general java programming": {
+  "General Java Programming": {
     "content": {
       "header": "General Java Problems",
       "text": "General Java problems solved while familiarizing myself with the language and OOP concepts."
@@ -13,7 +13,7 @@
       }
     ]
   },
-  "general python programming": {
+  "General Python Programming": {
     "content": {
       "header": "General Python Problems",
       "text": "General Python programming problems that were completed when I was first familiarizing myself with the language."
@@ -77,7 +77,7 @@
       }
     ]
   },
-  "Ibx Mockup Website": {
+  "IBX Paint Mockup Website": {
     "content": {
       "header": "IBX Mockup Web Application",
       "text": "Practice SPA project focusing on redesign of existing website. Created using React.js and Bootstrap. Features include real time product search and Google Maps API implementation."
@@ -109,7 +109,7 @@
       }
     ]
   },
-  "grand luxxe vacation rentals": {
+  "Grand Luxxe Vacation Rentals": {
     "content": {
       "header": "Grande Luxxe Brochure Web App",
       "text": "Vacation rental brochure single page web application. Created with React and Bootstrap. Responsively designed with features including Google Maps API implementation, contact form, and PayPal button.",
@@ -135,10 +135,10 @@
       }
     ]
   },
-  "Poked3x Graph Analysis": {
+  "D3.js Graph Generator": {
     "content": {
       "header": "React PokeD3x App",
-      "text": "React application made so that I can become more familiar with manipulating data using D3.js"
+      "text": "React application made so that I can become more familiar with manipulating data using D3.js."
     },
     "date": "April 2019 - ",
     "tags": ["react.js", "bootstrap", "javascript", "html", "css", "D3"],

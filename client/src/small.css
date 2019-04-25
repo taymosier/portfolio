@@ -1,7 +1,7 @@
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 576px) and (max-width: 767px) {
   .about-me-filter {
     opacity: .8;
-    min-width: 73.375%;
+    min-width: 73%;
     min-height: 72.33%;
     position: absolute;
     z-index: -400;
@@ -17,6 +17,52 @@
     margin: 2.5vh 2%;
     z-index: 500;
     border: 15px inset #6582a3;
+  }
+
+  .about-me-modal .modal-content{ /* small */
+    min-height: 90vh;
+  }
+
+  .about-me-modal .modal-header > .modal-title{ /* small */
+    font-size: 5vw;
+    letter-spacing: 1.25px;
+    max-width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .about-me-modal .modal-content .modal-body { /* small */
+    padding: 2.5% 10% 7.5% 10%;
+    font-size: 3vw;
+    word-wrap: wrap;
+    flex-wrap: wrap;
+    letter-spacing: 1px;
+    text-shadow: -1px 0px 3px gray;
+  }
+
+  .about-me-section-nav > ul { /* small */
+    background: transparent;
+    min-width: 100%;
+  }
+
+  .about-me-section-nav > ul > li { /* small */
+    background: transparent;
+    padding: 0 1%;
+    text-align: center;
+  }
+
+  .about-me-section-nav > ul > li > button { /* small */
+    border: 2.5px outset;
+    border-image: linear-gradient(10deg, #6f7e99 0%, #6185a0 50%, #6582a3 100%);
+    border-image-slice: 1;
+    background: linear-gradient(35deg,#516c96 5%, #425c84 90%);
+    font-size: 3.25vw;
+    letter-spacing: 2px;
+    line-height: 3vw;
+    min-width: 100%;
+    min-height: 10vh;
+    padding: 0 2.5px;
+    text-shadow: -2px 0px 3px black;
   }
 
   .about-me-right-col {
@@ -473,12 +519,12 @@
     opacity: .9;
   }
 
-  .main-row-col button p { /* medium */
+  .main-row-col button p { /* small */
     font-family: "Work Sans", serif;
-    font-size: 5vw;
+    font-size: 5.5vw;
     font-weight: 100;
-    letter-spacing: 2.5px;
     margin: 0;
+    letter-spacing: 2.5px;
     text-shadow: -2.5px -1px 5px black;
   }
 
@@ -554,7 +600,7 @@
     margin: 1.5vh 0;
   }
 
-  .project-date { /* medium */
+  .project-date {
     color: black;
     font-size: 2.2vw;
     font-weight: 100;
@@ -563,7 +609,7 @@
     margin: 2.5vh 0 0 0;
   }
 
-  .project-modal .modal-body { /* medium */
+  .project-modal .modal-body {
     padding: 0 7.5%;
     overflow-y: scroll;
   }
@@ -573,29 +619,29 @@
     margin: 2vh 0;
   }
 
-  .project-modal .modal-content{ /* medium */
+  .project-modal .modal-content{
     min-height: 90vh;
   }
 
-  .project-modal .modal-content .project-modal-close-button { /* medium */
+  .project-modal .modal-content .project-modal-close-button {
     padding: 0 0 0 82.5%;
     font-size: 7.5vw;
     line-height: 7.5vw;
     z-index: 300;
   }
 
-  div.project-modal-header.modal-header { /* medium */
+  div.project-modal-header.modal-header {
     display: block;
     text-align: center;
     padding: .5vh 7.5vw 2vh 7.5vw;
   }
 
-  div.project-modal-header.modal-header > .modal-title { /* medium */
+  div.project-modal-header.modal-header > .modal-title {
     font-size: 3.25vw;
     line-height: 3.75vw;
   }
 
-  .project-tags { /* medium */
+  .project-tags {
     max-width: fit-content;
     padding: 0 0 .5vh 0;
     margin: 0 auto 1vh auto;
@@ -656,13 +702,14 @@
     margin: 0 auto;
   }
 
-  .section-option button {
+  .section-option button { /* small */
     background: linear-gradient(35deg,#516c96 5%, #425c84 90%);
     border: 5px outset #6582a3;
     box-shadow: 2px 2px 3px 0.25px black;
-    font-size: 1.3vw;
-    letter-spacing: 2.25px;
+    font-size: 3.75vw;
+    letter-spacing: 5px;
     margin: 2vh 1vw;
+    min-width: 95%;
     padding: 0;
     transition: .3s linear;
   }
@@ -673,10 +720,11 @@
   }
 
 
-  .section-options-container {
+  .section-options-container { /* small */
     margin: 0;
-    min-height: 35vh;
+    min-height: 70vh;
     padding: 4vh 0 0 0;
+    min-width: 100%;
   }
 
   .section-tabs{
@@ -816,8 +864,8 @@
     min-height: 80vh;
   }
 
-  .skill-modal .modal-content .modal-body {
-    font-size: 2.25vw;
+  .skill-modal .modal-content .modal-body { /* small */
+    font-size: 2.7vw;
   }
 
   .skill-modal .skills-modal-close-button {
