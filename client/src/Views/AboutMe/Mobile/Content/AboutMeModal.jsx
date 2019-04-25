@@ -63,6 +63,7 @@ export class AboutMeModal extends Component {
           className="about-me-modal-close-button"
           close aria-label="Cancel"
           size="lg"
+          onClick={this.props.closeModal}
         />
         <ModalHeader className={"about-me-modal header"}>
         {this.state.title ? this.state.title : null }

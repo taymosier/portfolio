@@ -34,7 +34,7 @@ export class MobileProjectModal extends Component {
         title: this.props.card.title,
         text: this.props.card.text,
         date: this.props.card.date,
-        links: this.props.card.links[0].id
+        links: this.props.card.links
       })
     }
   }
@@ -53,7 +53,14 @@ export class MobileProjectModal extends Component {
             <p className="project-date">{this.state.date}</p>
             <div className="project-tags">{this.state.tags}</div>
             <p className="project-text">{this.state.text}</p>
-            <div className="project-links">{this.state.links}</div>
+            { this.state.links !== undefined
+              ? this.state.links.map((item) =>{
+                  return <button className="project-link-button">
+                          <a href={`${item.url}`}>{item.id}</a>
+                         </button>
+                  })
+              : null
+            }
           </ModalBody>
       </Modal>
     )

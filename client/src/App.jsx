@@ -7,16 +7,14 @@ import { Portal } from './Portal';
 const helpers = require('./helpers.js');
 
 //TODO
-// Prepend class names of about me main right column with "about"
 // add skill logos to button/objects
-// Home: mobile styling
-// About Me: add content / style mobile | Make mobile modal close button work
-// *** Skills: add content to skill objects
-// Portfolio: style modal elements / create generateLinkButtons function / add content
+// About Me: update content where needed | Make mobile modal close button work
+// *** Skills: finish adding content
+// Portfolio: style modal elements smaller screens / add content
 // Contact: replace github and linkedin text with icons
 
 class App extends Component {
-  // MAKE SURE YOU PASS PROPS IF YOU LOAD FROM SERVER.....dumbass...
+  // MAKE SURE YOU PASS PROPS IF YOU LOAD FROM SERVER.....
   constructor(){
     super()
     this.state = {
