@@ -1,58 +1,16 @@
 {
-  "html": {
+  "brand management": {
     "content": {
       "icon" : "",
-      "header": "HTML5",
-      "text": "I have a very solid foundation knowledge of html and feel very comfortable using it."
+      "header": "Brand Management ",
+      "text": "I graduated from NC State with a degree in Brand Management and Marketing. This was an academic course focused on new product development and entrepreneurship, and many of the principles taught in my visual marketing and design course directly translate to front end design."
     }
   },
-  "css": {
+  "marketing": {
     "content": {
       "icon" : "",
-      "header": "CSS header",
-      "text": "I am very comfortable using CSS, and understand how to create keyframe animations, transitions, and what is needed to create responsively designed web apps."
-    }
-  },
-  "bootstrap": {
-    "content": {
-      "icon" : "",
-      "header": "Bootstrap header",
-      "text": "I use bootstrap in almost all my projects, usually with through the npm reactstrap package."
-    }
-  },
-  "linux": {
-    "content": {
-      "icon" : "",
-      "header": "Linux",
-      "text": "I have a basic understanding of UNIX systems, to the extent that I have Ubuntu installed on my laptop and create apps in Digital Ocean \"Droplets\", which are virtual linux kernel machines."
-    }
-  },
-  "mongodb": {
-    "content": {
-      "icon" : "",
-      "header": "MongoDB ",
-      "text": "I have used MongoDB in several projects, and prefer it to more traditional database systems like SQL."
-    }
-  },
-  "php": {
-    "content": {
-      "icon" : "",
-      "header": "PHP header",
-      "text": "I worked with PHP when completing a WordPress project for a client last year. "
-    }
-  },
-  "git": {
-    "content": {
-      "icon" : "",
-      "header": "Github / Git Bash",
-      "text": "I use Git for all my major projects. I understand how the Git repository structure works and am very comfortable working with Git from the command line."
-    }
-  },
-  "node.js": {
-    "content": {
-      "icon" : "",
-      "header": "Node.js",
-      "text": "I am still working to understand the ins and outs of Node but I have a working knowledge and have used it in several projects. The most extensive use I have made of it involves handling server calls and calling Python child processes to handle database manipulation as well as spreadsheet and email generation in my GCC Inventory Management App, which you can find listed in the portfolio of my website."
+      "header": "Marketing header",
+      "text": "A core part of my college curriculum was how to successfully market a product, and inclusively covered what is involved in developing a marketing plan. I learned everything ranging from the psychology of typography, shapes, and colors to more macro elements of marketing such as demographic analysis and how to properly conduct market research. My upper level marketing courses focused on new product development, and how to localize marketing for international consumers."
     }
   },
   "powershell": {
@@ -62,18 +20,32 @@
       "text": "I have a solid working knowledge of Powershell. While I haven't tried to get too fancy with it, I do use it as my primary CLI."
     }
   },
-  "json": {
+  "linux": {
     "content": {
       "icon" : "",
-      "header": "JSON header",
-      "text": "After my last several projects, I can finally say I am very comfortable with using JSON and its structure. I really appreciate how much it simplifies passing state and props in my React Components and feel like I \"leveled up\" as a programmer once it clicked."
+      "header": "Linux",
+      "text": "I have a basic understanding of UNIX systems, to the extent that I have Ubuntu installed on my laptop and create apps in Digital Ocean \"Droplets\", which are virtual linux kernel machines."
     }
   },
-  "express.js": {
+  "php": {
     "content": {
       "icon" : "",
-      "header": "Skill header",
-      "text": "I have a solid working knowledge of Express; I understand the concept of middleware and have implemented Express servers in several of my applications. My most extensive use of Express is in my GCC Inventory Management App, which required me to configure both Express and a NginX reverse proxy server to work together."
+      "header": "PHP",
+      "text": "I worked with PHP when completing a WordPress project for a client last year. "
+    }
+  },
+  "wordpress": {
+    "content": {
+      "icon" : "",
+      "header": "WordPress",
+      "text": "I created a WordPress website for a client in 2016. While I had no prior experience with PHP, I was able to pick up the basics fairly quickly and used it effectively, creating a customized child theme for my client's website. This project is listed in the portfolio section of my site as \"TradeTryon.\""
+    }
+  },
+  "git": {
+    "content": {
+      "icon" : "",
+      "header": "Github / Git Bash",
+      "text": "I use Git for all my major projects. I understand how the Git repository structure works and am very comfortable working with Git from the command line."
     }
   },
   "nginx": {
@@ -83,102 +55,116 @@
       "text": "I have only worked with NginX on one project, but I was able to successfully implement a NginX reverse proxy server on a Digital Ocean Droplet (a virtual Linux kernel) to work with the GCC Inventory Management app I had created."
     }
   },
-  "brand management": {
-    "content": {
-      "icon" : "",
-      "header": "Brand Management ",
-      "text": "I graduated from NC State with a degree in Brand Management and Marketing. This was an academic course focused on new product development and entrepreneurship, and many of the principles taught in my visual marketing and design course directly translate to front end design."
-    }
-  },
-  "front end development": {
-    "content": {
-      "icon" : "",
-      "header": "Front End Development header",
-      "text": "I have a very solid undestanding of both HTML and CSS, and would consider my knowledge intermediate. I know how to create responsively designed web applications, have a working knowledge of SVGs, understand and use transitions and keyframes, and look for opportunities to try more advanced CSS animations."
-    }
-  },
-  "back end development": {
-    "content": {
-      "icon" : "",
-      "header": "Back End Development header",
-      "text": "I am knowledgeable enough in back end development to create a full stack application from scratch. The most technically advanced back end work I have completed to this date is present in my GCC Inventory Management app, which is listed in the Portfolio section of this website."
-    }
-  },
-  "jQuery": {
-    "content": {
-      "icon" : "",
-      "header": "jQuery header",
-      "text": "Given that I work mainly with React when designing the front end of my web applications, jQuery tends to be unnecessary in many of my apps. However, I have used it in early past projects and used it extensively in a WordPress website I created for a client last year."
-    }
-  },
-  "responsive design": {
-    "content": {
-      "icon" : "",
-      "header": "Responsive design header",
-      "text": "Responsive design Text"
-    }
-  },
-  "marketing": {
-    "content": {
-      "icon" : "",
-      "header": "Marketing header",
-      "text": "Marketing Text"
-    }
-  },
   "java": {
     "content": {
       "icon" : "",
       "header": "java header",
-      "text": "java Text"
+      "text": "I do not use Java as much as I used to, but I have a very solid understanding of its syntax and how to use it effectively. In 2015 I started practicing with it exclusively in order to gain a better knowledge of core programming principles, such as OOP. I focused on the language for roughly a year and a half before shifting my focus to JavaScript and web development."
     }
   },
   "webpack": {
     "content": {
       "icon" : "",
-      "header": "Webpack header",
-      "text": "Webpack Text"
-    }
-  },
-  "wordpress": {
-    "content": {
-      "icon" : "",
-      "header": "wordpress header",
-      "text": "wordpress Text"
-    }
-  },
-  "object oriented programming": {
-    "content": {
-      "icon" : "",
-      "header": "object oriented programming header",
-      "text": "object oriented programming Text"
-    }
-  },
-  "react router": {
-    "content": {
-      "icon" : "",
-      "header": "react router header",
-      "text": "react router Text"
+      "header": "Webpack",
+      "text": "Webpack"
     }
   },
   "d3": {
     "content": {
       "icon" : "",
-      "header": "d3 header",
-      "text": "d3 Text"
+      "header": "D3.js",
+      "text": "I am currently working on a project focused on furthering my understanding of using D3.js to visually represent data. I see a lot of potential in mastering this library and look forward to using it in future projects."
     }
   },
-  "relational databases": {
+  "RDBMS": {
     "content": {
       "icon" : "",
       "header": "relational databases header",
       "text": "relational databases Text"
     }
   },
-  "python": {
+  "OOP": {
     "content": {
       "icon" : "",
-      "header": "python header",
-      "text": "python Text"
+      "header": "Object Oriented Programming",
+      "text": "I learned the fundamentals of object oriented programming by writing Java programs, and have a repository with a sample of the logic problems I used to practice. My understanding of OOP has been further strengthened through working with React and Python, and I really like how well using JSON fits into writing code with an OOP mindset."
+    }
+  },
+  "jSON": {
+    "content": {
+      "icon" : "",
+      "header": "JSON header",
+      "text": "After my last several projects, I can finally say I am very comfortable with using JSON and its structure. I really appreciate how much it simplifies passing state and props in my React Components and feel like I \"leveled up\" as a programmer once it clicked."
+    }
+  },
+  "responsive design": {
+    "content": {
+      "icon" : "",
+      "header": "Responsive Design",
+      "text": "I understand the concepts and tools used to create responsively designed web apps. As is evidenced in the last several apps I have created, I know how to use media queries, proportional units (vw, vh), and bootstrap to create apps that look good on any screen."
+    }
+  },
+  "jQuery": {
+    "content": {
+      "icon" : "",
+      "header": "jQuery header",
+      "text": "I rarely use jQuery since I started working with React. However, I have used it in early past projects and used it extensively in a WordPress website I created for a client last year."
+    }
+  },
+  "bootstrap": {
+    "content": {
+      "icon" : "",
+      "header": "Bootstrap header",
+      "text": "I use bootstrap in almost all my projects, usually with through the npm reactstrap package."
+    }
+  },
+  "cSS": {
+    "content": {
+      "icon" : "",
+      "header": "CSS header",
+      "text": "Having used CSS since 2011, I am very comfortable with it. I typically use vanilla css exclusily in my projects. I understand how to create keyframe animations, transitions, and what is needed to create responsively designed web apps. I understand the difference between inline, internal, and external styling, and why and when to use one in lieu of the others."
+    }
+  },
+  "hTML": {
+    "content": {
+      "icon" : "",
+      "header": "HTML5",
+      "text": "I built my first website way back in 2011 during an introductory programming course at NC State. I continued to dabble with web development throughout college, and consider my understanding of basic HTML to be thorough."
+    }
+  },
+  "Python": {
+    "content": {
+      "icon" : "",
+      "header": "Python",
+      "text": "I have a generally solid understanding of Python. If Javascript is my main weapon, Python would be sidearm. I use it to simplify elements of my projects when the JavaScript alternative is too verbose, particularly in regards to database manipulation and email/spreadsheet generation. I have used it to create web scrapers as well as an eBays scraper. I have made side projects where I used it to trigger text message alerts to my phone. I have used it to parse and write spreadsheets, as well as rearrange and manipulate the same data."
+    }
+  },
+  "mongodb": {
+    "content": {
+      "icon" : "",
+      "header": "MongoDB",
+      "text": "I have used MongoDB in several projects, and prefer it to more traditional database systems like SQL. I have implemented the use of Mongo databases in both Javascript and Python programs. Concerning web applications, I usually simplify server calls to the database by spawning a Node child process which executes a Python script. This Python script then manipulates the database based on the arguments passed to the child process."
+    }
+  },
+  "node.js": {
+    "content": {
+      "icon" : "",
+      "header": "Node.js",
+      "text": "Most of my projects require Node, and I am familiar with using many of its basic modules, such as path and os. I believe my most technically advanced use of Node in my GCC Inventory Management App. In this app, I used Node to handle my Express server calls, which involved spawning Python child processes to handle database manipulation as well as spreadsheet and email generation. You can find the link to the project listed in the portfolio of my website."
+    }
+  },
+  "express.js": {
+    "content": {
+      "icon" : "",
+      "header": "Skill header",
+      "text": "I have a solid working knowledge of setting up basic servers using Express. I understand the concept of middleware and have implemented Express servers in several of my applications. My most extensive use of Express is in my GCC Inventory Management App, which required me to configure both Express and a NginX reverse proxy server to work together."
+    }
+  },
+  "react.js": {
+    "content": {
+      "icon" : "",
+      "header": "React.js",
+      "text": "I started working with React in early 2017, when I purchased \"Pro MERN Stack\" by Vasan Subramanian. After completing the project in his book, I started applying what I learned to small projects so that I could become more familiar and comfortable with React. Since then I have created React apps ranging from single page GPA calculators to full stack web-facing apps. I am constantly learning new techniques and polishing the ones that I know, and am always eager to challenge myself with new and exciting projects."
     }
   },
   "javaScript": {
@@ -188,11 +174,18 @@
       "text": "I love JavaScript. As someone who focuses on the MERN development stack, I use JavaScript extensively on both the front and back end of my apps. I have a very solid understanding of vanilla JavaScript and constantly try to deepen my understanding of the language and its potential. "
     }
   },
-  "react.js": {
+  "back end": {
     "content": {
       "icon" : "",
-      "header": "React.js",
-      "text": "I started working with React in early 2017, when I purchased \"Pro MERN Stack\" by Vasan Subramanian. After completing the project in his book, I started applying what I learned to small projects so that I could become more familiar and comfortable with React. Since then I have created React apps ranging from single page GPA calculators to full stack web-facing apps. I am constantly learning new techniques and polishing the ones that I know, and am always eager to challenge myself with new and exciting projects."
+      "header": "Back End Development header",
+      "text": "I am knowledgeable enough in back end development to create a full stack application from scratch. The most technically advanced back end work I have completed to this date is present in my GCC Inventory Management app, which is listed in the Portfolio section of this website."
+    }
+  },
+  "front end": {
+    "content": {
+      "icon" : "",
+      "header": "Front End Development header",
+      "text": "I have a very solid undestanding of both HTML and CSS, and would consider my knowledge intermediate. I know how to create responsively designed web applications, have a working knowledge of SVGs, understand and use transitions and keyframes, and look for opportunities to try more advanced CSS animations."
     }
   }
 }

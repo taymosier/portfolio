@@ -167,7 +167,7 @@
   animation-timing-function: ease-in-out;
 }
 
-.card-close-button, .project-link-button:hover {
+.card-close-button, .project-link-button:hover, .grid-button:hover {
   animation-name: textPulse;
   animation-duration: .9s;
   animation-iteration-count: infinite;
