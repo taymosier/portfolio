@@ -947,6 +947,7 @@
   }
 
   .skills-modal-close-button {
+    cursor: grab;
     font-size: 15vw;
     line-height: 10.25vw;
     min-width: fit-content;
@@ -954,6 +955,7 @@
     margin: 1vh 0 0 80%;
     padding: 0;
     position: absolute;
+    z-index: 10000;
   }
 
   #skillModal {

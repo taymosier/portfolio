@@ -83,13 +83,6 @@
       "text": "relational databases Text"
     }
   },
-  "OOP": {
-    "content": {
-      "icon" : "",
-      "header": "Object Oriented Programming",
-      "text": "I learned the fundamentals of object oriented programming by writing Java programs, and have a repository with a sample of the logic problems I used to practice. My understanding of OOP has been further strengthened through working with React and Python, and I really like how well using JSON fits into writing code with an OOP mindset."
-    }
-  },
   "jSON": {
     "content": {
       "icon" : "",
@@ -97,11 +90,11 @@
       "text": "After my last several projects, I can finally say I am very comfortable with using JSON and its structure. I really appreciate how much it simplifies passing state and props in my React Components and feel like I \"leveled up\" as a programmer once it clicked."
     }
   },
-  "responsive design": {
+  "OOP": {
     "content": {
       "icon" : "",
-      "header": "Responsive Design",
-      "text": "I understand the concepts and tools used to create responsively designed web apps. As is evidenced in the last several apps I have created, I know how to use media queries, proportional units (vw, vh), and bootstrap to create apps that look good on any screen."
+      "header": "Object Oriented Programming",
+      "text": "I learned the fundamentals of object oriented programming by writing Java programs, and have a repository with a sample of the logic problems I used to practice. My understanding of OOP has been further strengthened through working with React and Python, and I really like how well using JSON fits into writing code with an OOP mindset."
     }
   },
   "jQuery": {
@@ -114,14 +107,14 @@
   "bootstrap": {
     "content": {
       "icon" : "",
-      "header": "Bootstrap header",
+      "header": "Bootstrap",
       "text": "I use bootstrap in almost all my projects, usually with through the npm reactstrap package."
     }
   },
   "cSS": {
     "content": {
       "icon" : "",
-      "header": "CSS header",
+      "header": "CSS",
       "text": "Having used CSS since 2011, I am very comfortable with it. I typically use vanilla css exclusily in my projects. I understand how to create keyframe animations, transitions, and what is needed to create responsively designed web apps. I understand the difference between inline, internal, and external styling, and why and when to use one in lieu of the others."
     }
   },
@@ -130,6 +123,13 @@
       "icon" : "",
       "header": "HTML5",
       "text": "I built my first website way back in 2011 during an introductory programming course at NC State. I continued to dabble with web development throughout college, and consider my understanding of basic HTML to be thorough."
+    }
+  },
+  "responsive design": {
+    "content": {
+      "icon" : "",
+      "header": "Responsive Design",
+      "text": "I understand the concepts and tools used to create responsively designed web apps. As is evidenced in the last several apps I have created, I know how to use media queries, proportional units (vw, vh), and bootstrap to create apps that look good on any screen."
     }
   },
   "Python": {
@@ -184,7 +184,7 @@
   "front end": {
     "content": {
       "icon" : "",
-      "header": "Front End Development header",
+      "header": "Front End Development",
       "text": "I have a very solid undestanding of both HTML and CSS, and would consider my knowledge intermediate. I know how to create responsively designed web applications, have a working knowledge of SVGs, understand and use transitions and keyframes, and look for opportunities to try more advanced CSS animations."
     }
   }
