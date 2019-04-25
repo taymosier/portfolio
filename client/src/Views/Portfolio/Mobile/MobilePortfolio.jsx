@@ -66,6 +66,7 @@ export class MobilePortfolio extends Component {
             />
           : null
         }
+        <header className="portfolio-header">Portfolio</header>
         <MobileProjectsGrid
           className={"projects-grid"}
           items={this.state.projectKeys}

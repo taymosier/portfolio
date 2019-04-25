@@ -28,7 +28,7 @@
 
   .about-me-filter { /* mobile */
     opacity: .3;
-    min-width: 97%;
+    min-width: 100%;
     min-height: 83vh;
     position: absolute;
     z-index: -400;
@@ -136,10 +136,12 @@
 
   .about-me-view { /* mobile */
     background: transparent;
-    border: 7.5px outset ghostwhite;
+    border-top: 5px outset ghostwhite;
+    border-left: none;
+    border-right: none;
     max-height: 85vh;
     max-width: 100%;
-    margin: 15vh 0 0 0;
+    margin: 17.5vh 0 0 0 !important;
     overflow-y: scroll;
   }
 
@@ -149,6 +151,10 @@
     min-width: 100%;
     min-height: 100%;
     overflow: hidden;
+  }
+
+  .App > .row {
+    margin: 0;
   }
 
   .App header { /* mobile */
@@ -166,12 +172,37 @@
 
   .App .header-container { /* mobile */
     cursor: pointer;
-    min-height: 12.5vh;
-    height: 12.5vh;
-    padding: 5vh 0 0 0;
+    min-height: 8.5vh;
+    height: 8.5vh;
+    padding: 2.5vh 0 0 0;
     position: absolute;
     margin: 0 0 1% 0;
     top: 0;
+  }
+
+  .App header.portfolio-header, .App header.about-header {
+    border-top: 1px solid white;
+    font-size: 6vw;
+    letter-spacing: 4px;
+    padding: .5vh 0 0 0;
+    position: absolute;
+    min-width: 90%;
+    margin: 9vh 5% 0 5%;
+    max-width: 90%;
+    width: 90%;
+  }
+
+  .App header.about-header{
+    margin: -9.25vh 5% 0 5%;
+  }
+
+  .App header.skills-header {
+    border-top: 1px solid white;
+    font-size: 6vw;
+    margin: 1vh 5vw;
+    max-width: 90vw;
+    min-width: 90vw;
+    padding: .25vh 0;
   }
 
   .audioContainer {
@@ -403,7 +434,7 @@
     background: transparent;
     min-height: 77.5vh;
     max-height: 70vh;
-    margin: 12.5vh 0 0 0;
+    margin: 12.5vh 0 0 0 !important;
     overflow-y: scroll;
   }
 
@@ -535,7 +566,7 @@
 
   .grid-filter{ /* mobile */
     min-width: 100%;
-    min-height: 100%;
+    min-height: 300vh;
     position: absolute;
     background: linear-gradient(135deg, darkslategray 5%, black 30% );
     opacity: .3;
@@ -602,6 +633,8 @@
     text-shadow: -2.5px -1px 5px black;
   }
 
+
+
   .profile-image{
     min-width: 80%;
     max-width: 80%;
@@ -628,12 +661,14 @@
   }
 
   .projects-grid { /* mobile */
-    border: 17.5px outset white;
+    border-top: 5px outset white;
+    border-left: none;
+    border-right: none;
     padding: 0;
     height: 87.5vh;
     min-height: 87.5vh;
     max-height: 87.5vh;
-    margin-top: 13vh;
+    margin-top: 18vh;
     overflow-y: scroll;
   }
 
@@ -655,17 +690,17 @@
   .projects-row button{ /* mobile */
     background: linear-gradient(35deg,#516c96 5%, #425c84 90%);
     border-radius: 2.5%;
-    border: 10px outset;
+    border: 5px outset;
     border-image: linear-gradient(10deg, #6f7e99 0%, #6185a0 50%, #6582a3 100%);
     border-image-slice: 1;
     box-shadow: 0px 0px 10px -1px lightsteelblue;
     color: aliceblue;
     text-shadow: 0px 0px 4px khaki;
-    font-family: "Work Sans" ;
-    font-size: 7.5vw;
+    font-family: "Work Sans";
+    font-size: 7vw;
     font-weight: 200;
     letter-spacing: 2.5px;
-    line-height: 8vw;
+    line-height: 7.25vw;
   }
 
   #projectModal{
@@ -775,11 +810,11 @@
 
   .section-option button { /* mobile */
     background: linear-gradient(35deg,#516c96 5%, #425c84 90%);
-    border: 10px outset;
+    border: 5px outset;
     border-image: linear-gradient(10deg, #6f7e99 0%, #6185a0 50%, #6582a3 100%);
     border-image-slice: 1;
     border-radius: 2.5%;
-    box-shadow: 0px 0px 10px -1px lightsteelblue;
+    box-shadow: 0px 0px 7.5px -1px lightsteelblue;
     color: aliceblue;
     padding: 0;
     min-height: 10vh;
@@ -858,9 +893,9 @@
     border-right: none;
     border-left: none;
     border-bottom: none;
-    padding: 0;
+    padding: 0 0 5vh 0;
     overflow-y: scroll;
-    max-height: 85vh;
+    max-height: 90vh;
     z-index: 500;
   }
 
@@ -872,18 +907,18 @@
 
   .skill-grid-row .grid-button{ /* mobile */
     background: linear-gradient(35deg,#516c96 5%, #425c84 90%);
-    border: 10px outset;
+    border: 5px outset;
     border-image: linear-gradient(10deg, #6f7e99 0%, #6185a0 50%, #6582a3 100%);
     border-image-slice: 1;
     border-radius: 2.5%;
     box-shadow: 0px 0px 10px -1px lightsteelblue;
     color: aliceblue;
-    font-size: 7.5vw;
+    font-size: 7vw;
     letter-spacing: 1px;
-    line-height: 7.5vw;
-    min-height: 12.5vh;
+    line-height: 7.25vw;
+    min-height: 8.5vh;
     max-height: fit-content;
-    padding: 2.5px 5px;
+    padding: 1.25px 5px;
     text-shadow: 0px 0px 4px khaki;
     z-index: 500;
   }
@@ -911,24 +946,49 @@
     opacity: 0;
   }
 
+  .skills-modal-close-button {
+    font-size: 15vw;
+    line-height: 10.25vw;
+    min-width: fit-content;
+    max-width: fit-content;
+    margin: 1vh 0 0 80%;
+    padding: 0;
+    position: absolute;
+  }
+
   #skillModal {
     margin: 10vh 0 0 0;
   }
 
-  #skillModal > .modal-content > .skill-modal-header .modal-title {
-    font-size: 10vw;
-    line-height: 10vw;
-    min-width: fit-content;
-    margin: 0 auto;
+  #skillModal > .modal-content {
+    min-height: 85vh;
   }
 
-  .skill-text {
-    font-size: 6vw;
-    padding: 0 2.5vw;
+  #skillModal > .modal-content > .skill-modal-header { /* mobile */
+    position: absolute;
+    min-width: fit-content;
+    min-height: fit-content;
+  }
+
+  #skillModal > .modal-content > .skill-modal-header .modal-title { /* mobile */
+    font-size: 8vw;
+    line-height: 8.25vw;
+    position: absolute;
+    padding: .5vh 0 0 1.5vw ;
+    min-width: 80vw;
+    margin: 0 auto;
+    text-align: left
+  }
+
+  .skill-text { /* mobile */
+    border-top: 1px solid black;
+    font-size: 5vw;
+    padding: 7.5vh 2.5vw;
+    margin: 12.5vh 0 0 0;
   }
 
   .skillset-view-container {
-    margin: 15vh 0 0 0;
+    margin: 7.5vh 0 0 0 !important;
     padding: 0;
     overflow-y: scroll;
   }

@@ -62,6 +62,7 @@ export class MobileSkillView extends Component {
   render(){
     return(
       <Row className={"skillset-view-container"}>
+      <header className="skills-header">Skills</header>
         {this.state.card !== undefined && this.state.card !== null
           ? <MobileSkillModal
               visible={this.state.card !== null && this.state.card !== undefined}

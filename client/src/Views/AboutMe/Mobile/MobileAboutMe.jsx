@@ -34,6 +34,7 @@ export class MobileAboutMe extends Component {
 
     return(
       <Row className={"about-me-view"}>
+        <header className="about-header">About Me</header>
         <div className={"about-me-filter"} />
         {this.state.activeSection !== null && this.state.activeSection !== undefined
           ? <AboutMeModal
