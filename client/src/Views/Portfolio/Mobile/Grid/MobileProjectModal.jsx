@@ -51,7 +51,6 @@ export class MobileProjectModal extends Component {
         <ModalHeader className="project-modal-header">{this.state.title}</ModalHeader>
           <ModalBody >
             <p className="project-date">{this.state.date}</p>
-            <div className="project-tags">{this.state.tags}</div>
             <p className="project-text">{this.state.text}</p>
             { this.state.links !== undefined
               ? this.state.links.map((item) =>{

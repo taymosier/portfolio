@@ -2,14 +2,14 @@
   "brand management": {
     "content": {
       "icon" : "",
-      "header": "Brand Management ",
+      "header": "Brand Management",
       "text": "I graduated from NC State with a degree in Brand Management and Marketing. This was an academic course focused on new product development and entrepreneurship, and many of the principles taught in my visual marketing and design course directly translate to front end design."
     }
   },
   "marketing": {
     "content": {
       "icon" : "",
-      "header": "Marketing header",
+      "header": "Marketing",
       "text": "A core part of my college curriculum was how to successfully market a product, and inclusively covered what is involved in developing a marketing plan. I learned everything ranging from the psychology of typography, shapes, and colors to more macro elements of marketing such as demographic analysis and how to properly conduct market research. My upper level marketing courses focused on new product development, and how to localize marketing for international consumers."
     }
   },
@@ -27,7 +27,7 @@
       "text": "I have a basic understanding of UNIX systems, to the extent that I have Ubuntu installed on my laptop and create apps in Digital Ocean \"Droplets\", which are virtual linux kernel machines."
     }
   },
-  "php": {
+  "pHP": {
     "content": {
       "icon" : "",
       "header": "PHP",

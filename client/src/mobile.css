@@ -111,9 +111,10 @@
     font-weight: 400;
     font-family: "Work Sans";
     letter-spacing: 1px;
-    margin: 0 ;
+    margin: 0 2px;
     min-height: 100%;
-    padding: 5px 0;
+    /* min-width, max-width, and height set in AboutMeModalNav component in the getNavItemStyle function*/
+    padding: 2.5px 0;
     text-align: center;
     text-shadow: 1px 0px 3px grey;
   }
@@ -124,14 +125,15 @@
   .about-me-section-nav ul > li > button { /* mobile */
     background: linear-gradient(25deg,#5b7bad 5%, #486693 90%);
     border-radius: 4.5%;
-    font-size: 6.5vw;
+    font-size: 4.75vw;
     font-weight: 200;
     letter-spacing: 2px;
-    line-height: 6.75vw;
-    margin: 1% 2.5% ;
-    min-width: 80%;
-    min-height: 100%;
-    padding: 2vh 0;
+    line-height: 5vw;
+    margin: 1% 0;
+    min-width: 100%;
+    min-height: 7vh;
+    max-height: 10vh;
+    padding: .5vh 0;
   }
 
   .about-me-view { /* mobile */
@@ -530,7 +532,7 @@
   }
 
   .default-view-container {
-    margin-top: 25vh;
+    margin-top: 15vh;
   }
 
   .grid-button{
@@ -588,24 +590,26 @@
     border-radius: .75%;
   }
 
-  .main-row-col-filter{
+  .main-row-col-filter{ /* mobile */
     border: 1px solid white;
     border-radius: .75%;
     margin-bottom: 2.5vh;
     height: 100%;
     opacity: .6;
+    min-height: 17.5vh;
     height: 10.75vh;
     z-index: -1000;
     background: linear-gradient(-120deg, #7a8aa8 0%, #6b8ba8 50%, #4f657f 100%);
     transition: .5s ease-in-out;
   }
 
-  .main-row-col button {
+  .main-row-col button { /* mobile */
     background: transparent;
     border-radius: 0;
     border: 7.5px outset;
     border-image: linear-gradient(10deg, #6f7e99 0%, #6185a0 50%, #6582a3 100%);
     border-image-slice: 1;
+    min-height: 17.5vh;
     height: 10.75vh;
     min-width: 100%;
     padding: 0;
@@ -624,13 +628,15 @@
   }
 
   .main-row-col button p {
-    font-size: 8vw;
-    padding: 15px;
-    line-height: 8vw;
-    letter-spacing: 2.5px;
     font-family: "Work Sans", serif;
+    font-size: 10vw;
     font-weight: 200;
+    padding: 15px;
+    line-height: 10vw;
+    letter-spacing: 3.5px;
+    margin: 0;
     text-shadow: -2.5px -1px 5px black;
+    word-wrap: break-word;
   }
 
 
@@ -697,9 +703,9 @@
     color: aliceblue;
     text-shadow: 0px 0px 4px khaki;
     font-family: "Work Sans";
-    font-size: 7vw;
+    font-size: 6.5vw;
     font-weight: 200;
-    letter-spacing: 2.5px;
+    letter-spacing: 2px;
     line-height: 7.25vw;
   }
 
@@ -708,48 +714,67 @@
     min-height: 70vh;
   }
 
-  .project-modal-close-button {
-    text-align: right;
-    max-width: fit-content;
-    margin: 0vh 7.5vw 0 auto;
-    padding: 2vh 0 !important;
-    font-size: 10vw;
+  .project-modal-close-button { /* mobile */
+    color: red;
+    font-size: 12.5vw;
     line-height: 10vw;
+    max-width: fit-content;
+    margin: 0 0 0 85%;
+    padding: 2vh 0 !important;
+    position: absolute;
+    text-align: right;
+    z-index: 1000;
   }
 
-  #projectModal > .modal-content .modal-header {
+  #projectModal > .modal-content .modal-header {  /* mobile */
     padding: 0;
     min-width: 100%;
     max-width: 100%;
-    width: 100%;
+    min-height: 15vh;
+    max-height: 15vh;
     margin: .25vh auto .75vh auto;
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid black;
   }
 
-  #projectModal > .modal-content .modal-header .modal-title {
-    text-align: center;
-    font-size: 8vw;
-    line-height: 8.25vw;
+  #projectModal > .modal-content .modal-header .modal-title {  /* mobile */
+    text-align: left;
+    font-size: 7vw;
+    line-height: 7.5vw;
+    max-height: fit-content;
+    min-height: fit-content;
     min-width: 100%;
-    padding: 0 5% 2vh 5%;
+    padding: 2.5% 20% 2.5% 2.5%;
   }
 
   #projectModal > .modal-content .modal-body { /* mobile */
     min-height: 74.5vh;
     font-size: 5vw;
-    padding: 1vh 5vw;
+    margin: 15vh 0 0 0 ;
+    padding: 0vh 5vw;
   }
 
   .project-date { /* mobile */
     color: black;
-    font-size: 6.5vw;
-    font-weight: 300;
+    font-size: 5.5vw;
+    font-weight: 200;
     letter-spacing: 1px;
+    text-align: left;
+    margin: 0 0 0 -2vw;
+    padding: 1.25vh 0 0 0 ;
 }
 
   .project-tags{ /* mobile */
     min-height: fit-content;
     min-width: 100%;
     padding: 2.5% 0 5%;
+  }
+
+  .project-text {
+    border-bottom: 1px solid black;
+    margin: 2.5vh -5vw 5vh -5vw;
+    padding: 1vh 0 7.5vh;
   }
 
   #root {
@@ -895,6 +920,7 @@
     border-bottom: none;
     padding: 0 0 5vh 0;
     overflow-y: scroll;
+    /* min-height is set in MobileSkillGrid component */
     max-height: 90vh;
     z-index: 500;
   }
@@ -947,12 +973,13 @@
   }
 
   .skills-modal-close-button {
+    color: red;
     cursor: grab;
     font-size: 15vw;
     line-height: 10.25vw;
     min-width: fit-content;
     max-width: fit-content;
-    margin: 1vh 0 0 80%;
+    margin: 1.5vh 0 0 85%;
     padding: 0;
     position: absolute;
     z-index: 10000;
@@ -976,7 +1003,7 @@
     font-size: 8vw;
     line-height: 8.25vw;
     position: absolute;
-    padding: .5vh 0 0 1.5vw ;
+    padding: .5vh 5vw 0 1.5vw ;
     min-width: 80vw;
     margin: 0 auto;
     text-align: left
@@ -986,10 +1013,10 @@
     border-top: 1px solid black;
     font-size: 5vw;
     padding: 7.5vh 2.5vw;
-    margin: 12.5vh 0 0 0;
+    margin: 10vh 0 0 0;
   }
 
-  .skillset-view-container {
+  .skillset-view-container { /* mobile */
     margin: 7.5vh 0 0 0 !important;
     padding: 0;
     overflow-y: scroll;

@@ -112,7 +112,7 @@
   "Grand Luxxe Vacation Rentals": {
     "content": {
       "header": "Grande Luxxe Brochure Web App",
-      "text": "Vacation rental brochure single page web application. Created with React and Bootstrap. Responsively designed with features including Google Maps API implementation, contact form, and PayPal button.",
+      "text": "Vacation rental brochure-style SPA. Created with React and Bootstrap. Responsively designed with features including Google Maps API implementation, contact form, and PayPal button.",
       "icons": [
         "html",
         "css",
@@ -122,7 +122,7 @@
         "express"
       ]
     },
-    "date": "February 2019 - ",
+    "date": "Current",
     "tags": ["react.js", "javascript", "bootstrap", "html", "css", "Google Maps", "paypal"],
     "links": [
       {

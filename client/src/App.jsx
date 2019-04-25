@@ -9,6 +9,7 @@ const helpers = require('./helpers.js');
 //TODO
 // add skill logos to button/objects
 // About Me: update content where needed | Make mobile modal close button work | fix styling for about me nav item buttons
+// Standardize modal close buttons
 // *** Skills: finish adding content | fix skills-modal-close-button styling | reduce font-size for skill-modal body text & decrease horizontal padding | skills-modal-close-button has no onClick listener
 // Portfolio: style modal elements smaller screens / add content
 // Contact: replace github and linkedin text with icons

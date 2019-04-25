@@ -64,7 +64,7 @@ export class MobileSkillGrid extends Component {
         xs={{ size: 12, offset: 0 }}
       >
         {this.state.rows !== undefined
-          ? <div className={"grid-filter"} style={{"minHeight": `${this.state.rows.length*15}vh`}}></div>
+          ? <div className={"grid-filter"} style={{"minHeight": `${this.state.rows.length*11}vh`}}></div>
           : null
         }
         {this.state.rows !== undefined

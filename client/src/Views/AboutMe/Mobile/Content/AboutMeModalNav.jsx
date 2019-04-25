@@ -32,15 +32,15 @@ export class AboutMeModalNav extends Component {
     console.log(`Current Item : ${currentItem} | Active Item : ${activeItem}\n`)
     if(currentItem === activeItem){
       return {
-        "minWidth": `${100/this.props.items.length}%`,
-        "maxWidth": `${100/this.props.items.length}%`,
-        "width": `${100/this.props.items.length}%`
+        "minWidth": `${95/this.props.items.length}%`,
+        "maxWidth": `${95/this.props.items.length}%`,
+        "width": `${95/this.props.items.length}%`
       }
     } else {
       return {
-        "minWidth": `${100/this.props.items.length}%`,
-        "maxWidth": `${100/this.props.items.length}%`,
-        "width": `${100/this.props.items.length}%`
+        "minWidth": `${95/this.props.items.length}%`,
+        "maxWidth": `${95/this.props.items.length}%`,
+        "width": `${95/this.props.items.length}%`
       }
     }
   }
