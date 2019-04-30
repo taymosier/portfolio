@@ -65,8 +65,8 @@
   "REST APIs": {
     "content": {
       "icon" : "",
-      "header": "Webpack",
-      "text": "Webpack"
+      "header": "",
+      "text": ""
     }
   },
   "d3": {
@@ -79,14 +79,14 @@
   "RDBMS": {
     "content": {
       "icon" : "",
-      "header": "relational databases header",
+      "header": "Relational Databases",
       "text": "relational databases Text"
     }
   },
   "jSON": {
     "content": {
       "icon" : "",
-      "header": "JSON header",
+      "header": "JSON",
       "text": "After my last several projects, I can finally say I am very comfortable with using JSON and its structure. I really appreciate how much it simplifies passing state and props in my React Components and feel like I \"leveled up\" as a programmer once it clicked."
     }
   },
@@ -100,7 +100,7 @@
   "jQuery": {
     "content": {
       "icon" : "",
-      "header": "jQuery header",
+      "header": "jQuery",
       "text": "I rarely use jQuery since I started working with React. However, I have used it in early past projects and used it extensively in a WordPress website I created for a client last year."
     }
   },
@@ -122,7 +122,7 @@
     "content": {
       "icon" : "",
       "header": "HTML5",
-      "text": "I built my first website way back in 2011 during an introductory programming course at NC State. I continued to dabble with web development throughout college, and consider my understanding of basic HTML to be thorough."
+      "text": "I built my first website way back in 2011 during an introductory programming course at NC State. I continued to teach myself web development independently following that course, and consider my understanding of HTML to be thorough."
     }
   },
   "responsive design": {

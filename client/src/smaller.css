@@ -110,7 +110,7 @@
     font-family: "Work Sans";
     font-weight: 200;
     color: ghostwhite;
-    text-shadow:  -5px 2px 5px black;
+    text-shadow:  -4px 1px 4px black;
   }
 
   .App .header-container {
@@ -210,9 +210,9 @@
   }
 
   #contactForm {
-    max-width: 50vw;
+    max-width: 90vw;
     margin: 5vh auto;
-    border: 35px white;
+    border: 15px white;
     border-style: ridge;
   }
 
@@ -221,8 +221,8 @@
   }
 
   #contactForm .modal-content .contact-form-close-button {
-    font-size: 3vw;
-    margin: 0px 0 0 92.5%;
+    font-size: 7.5vw;
+    margin: 0px 0 0 90%;
     position: absolute;
     text-align: right;
     z-index: 500;
@@ -242,8 +242,8 @@
 
   #contactForm .modal-content .contact-form-header .modal-title{
     text-align: right;
-    font-size: 2.25vw;
-    line-height: 2.25vw;
+    font-size: 5vw;
+    line-height: 5.25vw;
     margin: 0 auto;
     color: white;
     font-weight: 400;
@@ -259,18 +259,24 @@
     background: transparent;
     border: 5px inset white;
     color: white;
-    font-size: 1.2vw;
+    min-height: 7.5vh;
+    font-size: 3vw;
     letter-spacing: .9px;
     text-align: center;
     text-shadow: 0px 1px 2.5px black;
   }
 
   #contactForm .modal-content .modal-body form .contact-form-col .form-group .form-control:focus {
-    background: darkgray;
+    background: slategray;
+    box-shadow: none;
   }
 
+    #contactForm .modal-content .modal-body form .contact-form-col .form-group textarea.form-control  {
+      min-height: 25vh;
+    }
+
   #contactForm .modal-content .modal-body form .contact-form-col .form-group {
-    margin: 0;
+    margin: 2vh 0 0 0;
   }
 
   #contactForm .modal-content .modal-body form .contact-form-col .form-group input {
@@ -303,35 +309,36 @@
   }
 
   #contactFormSubmitButton {
+    background: linear-gradient(35deg,#516c96 5%, #425c84 90%);
     min-height: 50px;
-    min-width: 20vw;
-    font-size: 1.8vw;
+    min-width: 60vw;
+    font-size: 5vw;
     font-weight: 100;
     letter-spacing: 5px;
     margin: 1.5vh 0 1.75vh 0;
     text-shadow: 0px 1px 2.5px black;
-    border: 12.5px outset #7a8aa8;
-    background: transparent;
+    border: 5px outset #7a8aa8;
   }
 
   .contact-form-filter {
     background: linear-gradient(30deg, #7a8aa8 0%, #6b8ba8 50%, #6582a3 100%);
     position: absolute;
     min-width: 100%;
-    min-height: 100%;
+    min-height: 101%;
     opacity: .9;
-    z-index: 200;
+    z-index: -200;
+    margin: -1px 0 0 0;
   }
 
   .contact-modal-button { /* smaller */
-    font-size: 5vw;
+    font-size: 7.5vw;
     font-weight: 200;
     min-height: 10vh;
     min-width: 80%;
     margin: 2vh 0 0 0;
     background: linear-gradient(35deg,#516c96 5%, #4d6d9e 90%);
     color: ghostwhite;
-    border: 15px outset white;
+    border: 5px outset white;
     line-height: 3vw;
     text-shadow: -4px 1px 6px black;
     letter-spacing: 2px;
@@ -340,7 +347,7 @@
 
   .contact-modal-button:hover {
     background: linear-gradient(35deg,#516c96 5%, #425c84 90%);
-    border: 20px inset white;
+    border: 5px inset white;
     box-shadow: none;
 
   }
@@ -564,6 +571,18 @@
     z-index: 100;
   }
 
+  .portfolio-header {
+    border-top: 1px solid ghostwhite;
+    border-bottom: 1px solid ghostwhite;
+    text-align: center;
+    letter-spacing: 7.5px !important;
+    padding: 1.5% 0;
+    min-width: 100vw;
+    max-width: 100vw;
+    width: 100vw;
+    margin: 5vh auto 0 auto;
+  }
+
   .profile-image{
     min-width: 80%;
     max-width: 80%;
@@ -608,7 +627,7 @@
     border: 17.5px outset white;
     padding: 2.5vh 2.5vw;
     height: 70vh;
-    margin-top: 5vh;
+    margin-top: 2.5vh;
     min-height: 70vh;
     overflow-y: scroll;
   }

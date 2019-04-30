@@ -193,9 +193,9 @@
   }
 
   #contactForm {
-    max-width: 50vw;
+    max-width: 80vw;
     margin: 5vh auto;
-    border: 35px white;
+    border: 20px white;
     border-style: ridge;
   }
 
@@ -204,8 +204,8 @@
   }
 
   #contactForm .modal-content .contact-form-close-button {
-    font-size: 3vw;
-    margin: 0px 0 0 92.5%;
+    font-size: 5vw;
+    margin: 5px 0 0 90%;
     position: absolute;
     text-align: right;
     z-index: 500;
@@ -225,8 +225,8 @@
 
   #contactForm .modal-content .contact-form-header .modal-title{
     text-align: right;
-    font-size: 2.25vw;
-    line-height: 2.25vw;
+    font-size:3.5vw;
+    line-height: 3.75vw;
     margin: 0 auto;
     color: white;
     font-weight: 400;
@@ -242,18 +242,19 @@
     background: transparent;
     border: 5px inset white;
     color: white;
-    font-size: 1.2vw;
-    letter-spacing: .9px;
+    font-size: 2.5vw;
+    letter-spacing: 1.1px;
     text-align: center;
     text-shadow: 0px 1px 2.5px black;
   }
 
   #contactForm .modal-content .modal-body form .contact-form-col .form-group .form-control:focus {
-    background: darkgray;
+    background: slategray;
+    box-shadow: none;
   }
 
   #contactForm .modal-content .modal-body form .contact-form-col .form-group {
-    margin: 0;
+    margin: 2% 0;
   }
 
   #contactForm .modal-content .modal-body form .contact-form-col .form-group input {
@@ -287,23 +288,24 @@
 
   #contactFormSubmitButton {
     min-height: 50px;
-    min-width: 20vw;
-    font-size: 1.8vw;
+    min-width: 50vw;
+    font-size: 3.25vw;
     font-weight: 100;
     letter-spacing: 5px;
     margin: 1.5vh 0 1.75vh 0;
     text-shadow: 0px 1px 2.5px black;
-    border: 12.5px outset #7a8aa8;
-    background: transparent;
+    border: 5px outset #7a8aa8;
+    background: linear-gradient(35deg,#516c96 5%, #425c84 90%);
   }
 
   .contact-form-filter {
     background: linear-gradient(30deg, #7a8aa8 0%, #6b8ba8 50%, #6582a3 100%);
     position: absolute;
-    min-width: 100%;
-    min-height: 100%;
+    min-width: 76vw;
+    min-height: 101%;
     opacity: .9;
-    z-index: 200;
+    z-index: -200;
+    margin: -1px 0 0 0;
   }
 
   .contact-modal-button {
@@ -314,7 +316,7 @@
     margin: 3vh 5vw 0 0;
     background: linear-gradient(35deg,#516c96 5%, #4d6d9e 90%);
     color: ghostwhite;
-    border: 15px outset white;
+    border: 5px outset white;
     line-height: 3vw;
     text-shadow: -4px 1px 6px black;
     letter-spacing: 2px;
@@ -323,7 +325,7 @@
 
   .contact-modal-button:hover {
     background: linear-gradient(35deg,#516c96 5%, #425c84 90%);
-    border: 20px inset white;
+    border: 5px inset white;
     box-shadow: none;
 
   }

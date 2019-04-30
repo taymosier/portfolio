@@ -51,7 +51,7 @@ export class ContactModal extends Component {
                 xl={{ size: 10, offset: 1 }}
                 lg={{ size: 10, offset: 1 }}
                 md={{ size: 12, offset: 0 }}
-                sm={{ size: 12, offset: 0 }} 
+                sm={{ size: 12, offset: 0 }}
                 xs={{ size: 12, offset: 0 }}
               >
                 <ContactFormGroup
@@ -115,8 +115,8 @@ export class ContactModal extends Component {
                   }
                 />
               </Col>
+              <button type="submit" >Submit</button>
             </Form>
-            <Button type="submit" value="Send" id="contactFormSubmitButton">Submit</Button>
           </ModalBody>
         </Modal>
     );
