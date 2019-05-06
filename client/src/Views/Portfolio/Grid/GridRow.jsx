@@ -9,6 +9,7 @@ export class GridRow extends Component{
     this.state = {
       toggleActiveKey: this.props.toggleActiveKey
     };
+    this.getHorizontalMargin = this.getHorizontalMargin.bind(this);
   }
 
   componentDidMount(){
@@ -49,16 +50,24 @@ export class GridRow extends Component{
   }
 
   calculateStyleValues(projectKeys){  //Calculates the attribute values for the style object that will be passed to
-    let buttonWidth = `${(90/projectKeys.length)}`; //the GridButton components being generated
+    let buttonWidth = `${(92/projectKeys.length)}`; //the GridButton components being generated
+    let horizontalMargin = this.getHorizontalMargin(buttonWidth, projectKeys);
     return {
             "minWidth": `${buttonWidth}%`,
             "maxWidth": `${buttonWidth}%`,
             "width": `${buttonWidth}%`,
-            "margin": `2.5vh ${(100-(buttonWidth*projectKeys.length))/(projectKeys.length*2)}%`,
-            "minHeight": `${((8*(3/projectKeys.length))/(3.75-projectKeys.length))}vh`, //calculated using a base of 8vh, multiply by 3/(#items) in row, then divide by 3.75-(#items in row)
-            "maxHeight": `${((8*(3/projectKeys.length))/(3.75-projectKeys.length))}vh`,
+            "margin": `2.5vh auto 1vh`,
+            "minHeight": `${((8*(3/projectKeys.length))/(3.85-projectKeys.length))}vh`, //calculated using a base of 8vh, multiply by 3/(#items) in row, then divide by 3.75-(#items in row)
+            "maxHeight": `${((8*(3/projectKeys.length))/(3.85-projectKeys.length))}vh`,
             "visibility": this.props.activeKey !== null && this.props.activeKey !== undefined ? "hidden" : "visible"
           }
+  }
+
+  getHorizontalMargin(buttonWidth, projectKeys){
+    let a, b;
+    a = 95-buttonWidth*projectKeys.length;
+    b = projectKeys.length*2;
+    return a/b;
   }
 
   render(){

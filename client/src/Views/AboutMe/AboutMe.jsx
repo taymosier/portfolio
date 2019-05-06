@@ -89,13 +89,13 @@ export class AboutMe extends Component {
         />
         <Col
           xl={{ size: 5, offset: 0 }}
-          lg={{ size: 3, offset: 0 }}
+          lg={{ size: 5, offset: 0 }}
           md={{ size: 5, offset: 0 }}
           sm={{ size: 5, offset: 0 }}
           xs={{ size: 5, offset: 0 }}
           className={"about-me-right-col"}
         >
-          {this.state.screenSize !== undefined && this.state.screenSize === "xlarge"
+          {this.state.screenSize !== undefined && this.state.screenSize === "xlarge" || this.state.screenSize === "large"
             ? <Row className={"profile-image-container"}>
                 <ProfileImage />
               </Row>

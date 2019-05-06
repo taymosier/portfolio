@@ -72,7 +72,7 @@ export class ProjectsGrid extends Component{
     if(this.state.rows){
       return(
         <Col
-          xl={{ size: 10, offset: 1 }}
+          xl={{ size: 8, offset: 2 }}
           lg={{ size: 10, offset: 1 }}
           md={{ size: 10, offset: 1 }}
           sm={{ size: 10, offset: 1 }}

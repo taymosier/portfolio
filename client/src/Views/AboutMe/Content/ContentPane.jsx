@@ -7,11 +7,13 @@ export class ContentPane extends Component {
     this.state={
       index: this.props.index,
       columnSize: 12,
+      hasScrollbar: true,
       content: {
         "header": "",
         "body": ""
       },
     };
+    this.checkForScrollbar = this.checkForScrollbar.bind(this);
   }
 
   componentDidMount(){
@@ -35,13 +37,24 @@ export class ContentPane extends Component {
     }
   }
 
+  checkForScrollbar(){
+    let visibleContentHeight = document.getElementsByClassName('section-content-text')[0].offsetHeight;
+    let contentScrollHeight = document.getElementsByClassName('section-content-text')[0].scrollHeight;
+    if(visibleContentHeight <= contentScrollHeight && this.state.hasScrollbar === false && contentScrollHeight !== undefined){
+      this.setState({hasScrollbar: true})
+    }
+    if(visibleContentHeight >= contentScrollHeight && this.state.hasScrollbar === true){
+      this.setState({hasScrollbar: false})
+    }
+  }
+
   render(){
     return(
-      <TabPane tabId={this.state.index} className={"section-content"}>
+      <TabPane tabId={this.state.index} className={`section-content `}>
         <Row>
           <Col sm={this.state.columnSize}>
-            <h4>{this.state.content.header}</h4>
-            <p >{this.state.content.body}</p>
+            <h4 className="section-content-subheader" >{this.state.content.header}</h4>
+            <p className={`section-content-text ${this.state.hasScrollbar ? "show-scrollbar" : "hide-scrollbar"}`}>{this.state.content.body}</p>
           </Col>
         </Row>
       </TabPane>

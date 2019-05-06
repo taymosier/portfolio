@@ -16,7 +16,7 @@ export class ContactContent extends Component{
   render(){
     return(
       <Col
-        xl={{ size: 10, offset: 1 }}
+        xl={{ size: 8, offset: 2 }}
         lg={{ size: 10, offset: 1 }}
         md={{ size: 10, offset: 1 }}
         sm={{ size: 10, offset: 1 }}

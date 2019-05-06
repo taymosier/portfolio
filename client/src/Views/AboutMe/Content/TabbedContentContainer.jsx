@@ -48,7 +48,7 @@ export class TabbedContentContainer extends Component {
     return(
       <Col
         xl={{ size: 6, offset: 0 }}
-        lg={{ size: 8, offset: 0 }}
+        lg={{ size: 6, offset: 0 }}
         md={{ size: 6, offset: 0 }}
         sm={{ size: 6, offset: 0 }}
         xs={{ size: 6, offset: 0 }}

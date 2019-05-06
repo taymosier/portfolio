@@ -115,7 +115,7 @@ export class ContactModal extends Component {
                   }
                 />
               </Col>
-              <button type="submit" >Submit</button>
+              <Button type="submit" id="contactFormSubmitButton">Submit</Button>
             </Form>
           </ModalBody>
         </Modal>

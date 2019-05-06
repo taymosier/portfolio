@@ -1,5 +1,5 @@
 {
-  "General Java Programming": {
+  "Java Programming": {
     "content": {
       "header": "General Java Problems",
       "text": "General Java problems solved while familiarizing myself with the language and OOP concepts."
@@ -13,7 +13,7 @@
       }
     ]
   },
-  "General Python Programming": {
+  "Python Programming": {
     "content": {
       "header": "General Python Problems",
       "text": "General Python programming problems that were completed when I was first familiarizing myself with the language."

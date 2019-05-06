@@ -8,7 +8,6 @@
     }
   },
   "Goals": {
-    "header": "goals header",
     "body": {
       "Currently": {
         "header": "Current Goals",
@@ -20,12 +19,11 @@
       },
       "Work/Life": {
         "header": "Balance",
-        "body": "I have honest expectations of what my work/life balance will be in an entry-level developer position, and look forward to an opportunity to learn through immersion. Once I have “earned my stripes,” I hope to have a normal forty-hour workweek. The option to work remotely would be nice, however I am not requiring that in the positions I consider. "
+        "body": "I have honest expectations of what my work/life balance will be in a junior developer position."
       }
     }
   },
   "Education": {
-    "header": "EDUCATION HEADER",
     "body": {
       "Web/Software Development": {
         "header": "2013-",
@@ -38,20 +36,18 @@
     }
   },
   "Employment": {
-    "header": "Employment History",
     "body": {
       "Dauntless Discovery": {
-        "header": "Dauntless Discovery - Data Analyst - Morrisville, NC",
+        "header": "Data Analyst",
         "body": "I took on a data analyst position at a law firm subsidiary company, where I investigated information systems compromised by bad actors. My main responsibilities involved identifying what types of personal information were contained in the compromised data and who was affected. This required critical interpretation of information in the context of business, financial, legal, medical, technological, and educational information systems. I left on amicable terms with the company due to a lack of consistent work and my freelance work requiring an increasing amount of my time."
       },
       "Greenville Convention Center": {
-        "header": "Head Bartender",
+        "header": "Bartender",
         "body": "I began working as a bartender shortly following my graduation from NCSU in May 2016. Over the course of two and a half years, I took on more and more responsibilities to the point where I often had my manager's keys more often than he did. I left on excellent terms with the company when my girlfirend took a promotion with her company that required moving to Raleigh, NC. This position was critical to developing my programming abilities, as it allowed me to commit considerably more time to study than would have otherwise been possible in a more traditional position."
       }
     }
   },
   "Interests": {
-    "header": "INTERESTES HEADER",
     "body": {
       "Things I Find Funny": {
         "header": "Things I Find Funny",

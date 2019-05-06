@@ -52,19 +52,25 @@ export class ProjectCard extends Component {
       this.state.visible
       ? <Card className="project-card">
           <CardBody>
-            <CardTitle className="project-title">{this.state.card.title}</CardTitle>
-            <CardSubtitle className="project-date">{this.state.card.date}</CardSubtitle>
             <CardText>
-              <ul className="project-tag-container">
-                {this.state.card.tags.map((item)=>{ return <li className="project-tags">{item}</li>})}
-              </ul>
-              {this.state.card.links.map((item) =>{
-                return <button className="project-link-button">
+              <div className="project-card-left-column">
+                <div className="project-links-container">
+                  {this.state.card.links.map((item) =>{
+                      return <button className="project-link-button">
                         <a href={`${item.url}`}>{item.id}</a>
-                       </button>
-                })
-              }
-              <p className="project-description">{this.state.card.text}</p>
+                      </button>
+                    })
+                  }
+                </div>
+                <ul className="project-tag-container">
+                  {this.state.card.tags.map((item)=>{ return <li className="project-tags">{item}</li>})}
+                </ul>
+              </div>
+              <div className="project-card-right-column">
+                <CardTitle className="project-title">{this.state.card.title}</CardTitle>
+                <CardSubtitle className="project-date">{this.state.card.date}</CardSubtitle>
+                <p className="project-description">{this.state.card.text}</p>
+              </div>
             </CardText>
           </CardBody>
         </Card>
