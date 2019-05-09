@@ -56,9 +56,9 @@ export class GridRow extends Component{
             "minWidth": `${buttonWidth}%`,
             "maxWidth": `${buttonWidth}%`,
             "width": `${buttonWidth}%`,
-            "margin": `2.5vh auto 1vh`,
-            "minHeight": `${((8*(3/projectKeys.length))/(3.85-projectKeys.length))}vh`, //calculated using a base of 8vh, multiply by 3/(#items) in row, then divide by 3.75-(#items in row)
-            "maxHeight": `${((8*(3/projectKeys.length))/(3.85-projectKeys.length))}vh`,
+            "margin": `2vh auto .75vh`,
+            "minHeight": `${((10*(3/projectKeys.length))/(3.85-projectKeys.length))}vh`, //calculated using a base of 8vh, multiply by 3/(#items) in row, then divide by 3.75-(#items in row)
+            "maxHeight": `${((10*(3/projectKeys.length))/(3.85-projectKeys.length))}vh`,
             "visibility": this.props.activeKey !== null && this.props.activeKey !== undefined ? "hidden" : "visible"
           }
   }

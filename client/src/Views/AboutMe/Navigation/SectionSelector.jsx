@@ -27,8 +27,8 @@ export class SectionSelector extends Component {
   getButtonSize(){
     let buttonHeight;
     if(this.state.screenSize !== undefined && this.state.screenSize === "large"){
-      buttonHeight = `${(45/this.state.keys.length)-4}vh`;
-      console.log(`buttonHeight - ${buttonHeight}` )
+      buttonHeight = `${(45/this.state.keys.length)-2}vh`;
+      console.log(`large buttonHeight - ${buttonHeight}` )
     } else {
       buttonHeight = `${(35/this.state.keys.length)-1}vh`;
       console.log(`else buttonHeight - ${buttonHeight}` )
