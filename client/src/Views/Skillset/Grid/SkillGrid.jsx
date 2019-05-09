@@ -89,7 +89,7 @@ export class SkillGrid extends Component {
         className={"skill-grid"}
         xl={{ size: 8, offset: 2 }}
         lg={{ size: 10, offset: 1 }}
-        md={{ size: 10, offset: 1 }}
+        md={{ size: 12, offset: 0 }}
         sm={{ size: 10, offset: 1 }}
         xs={{ size: 10, offset: 1 }}
       >

@@ -90,7 +90,7 @@ export class AboutMe extends Component {
         <Col
           xl={{ size: 5, offset: 0 }}
           lg={{ size: 5, offset: 0 }}
-          md={{ size: 5, offset: 0 }}
+          md={{ size: 4, offset: 0 }}
           sm={{ size: 5, offset: 0 }}
           xs={{ size: 5, offset: 0 }}
           className={"about-me-right-col"}

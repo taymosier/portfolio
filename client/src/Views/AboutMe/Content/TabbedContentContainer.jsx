@@ -49,7 +49,7 @@ export class TabbedContentContainer extends Component {
       <Col
         xl={{ size: 6, offset: 0 }}
         lg={{ size: 6, offset: 0 }}
-        md={{ size: 6, offset: 0 }}
+        md={{ size: 8, offset: 0 }}
         sm={{ size: 6, offset: 0 }}
         xs={{ size: 6, offset: 0 }}
         className={"about-me-left-col"}

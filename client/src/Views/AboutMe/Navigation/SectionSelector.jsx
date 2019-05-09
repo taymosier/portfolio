@@ -30,7 +30,7 @@ export class SectionSelector extends Component {
       buttonHeight = `${(45/this.state.keys.length)-2}vh`;
       console.log(`large buttonHeight - ${buttonHeight}` )
     } else {
-      buttonHeight = `${(35/this.state.keys.length)-1}vh`;
+      buttonHeight = `${(40/this.state.keys.length)-1}vh`;
       console.log(`else buttonHeight - ${buttonHeight}` )
     }
     return buttonHeight
