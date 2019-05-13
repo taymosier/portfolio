@@ -23,7 +23,7 @@ export class ChangeViewBlock extends Component {
           xl={{ size: 8, offset: 2 }}
           lg={{ size: 8, offset: 2 }}
           md={{ size: 8, offset: 2 }}
-          sm={{ size: 8, offset: 2 }}
+          sm={{ size: 10, offset: 1 }}
           xs={{ size: 10, offset: 1 }}
         >
           <Button
@@ -36,7 +36,7 @@ export class ChangeViewBlock extends Component {
           xl={{ size: 8, offset: 2 }}
           lg={{ size: 8, offset: 2 }}
           md={{ size: 8, offset: 2 }}
-          sm={{ size: 8, offset: 2 }}
+          sm={{ size: 10, offset: 1 }}
           xs={{ size: 10, offset: 1 }}
         ></Col>
       </Row>

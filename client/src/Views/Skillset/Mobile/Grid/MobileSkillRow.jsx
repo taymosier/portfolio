@@ -55,10 +55,10 @@ export class MobileSkillRow extends Component {
 
   calculateStyleValues(skills){  //Calculates the attribute values for the style object that will be passed to
     return {
-            "minWidth": `90%`,
-            "maxWidth": `90%`,
-            "width": `90%`,
-            "margin": `1vh 5vw`,
+            "minWidth": `95vw`,
+            "maxWidth": `95vw`,
+            "width": `95vw`,
+            "margin": `1vh 2.5vw`,
             "visibility": this.props.activeSkill ? "hidden" : "visible"
           }
   }

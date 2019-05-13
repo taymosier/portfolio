@@ -72,12 +72,6 @@
     border-left: 1.5px solid black;
   }
 
-  .about-me-view {
-    background: transparent;
-    border: 17.5px outset ghostwhite;
-    max-width: 75%;
-    margin: 0 0 0 12.5%;
-  }
 
   .App {
     margin: 0;
@@ -693,40 +687,9 @@
     overflow-y: scroll;
   }
 
-  .section-option, .section-option button {
-    font-size: 22px;
-    font-weight: 300;
-    letter-spacing: .9px;
-    font-variant: petite-caps;
-    background-color: transparent;
-    border-radius: 0;
-    min-width: 89%;
-    margin: 0 auto;
-  }
-
-  .section-option button { /* small */
-    background: linear-gradient(35deg,#516c96 5%, #425c84 90%);
-    border: 5px outset #6582a3;
-    box-shadow: 2px 2px 3px 0.25px black;
-    font-size: 3.75vw;
-    letter-spacing: 5px;
-    margin: 2vh 1vw;
-    min-width: 95%;
-    padding: 0;
-    transition: .3s linear;
-  }
-
   .section-option button:hover {
     background: linear-gradient(35deg,#516c96 5%, #425c84 90%);
     border: 7.5px inset ghostwhite;
-  }
-
-
-  .section-options-container { /* small */
-    margin: 0;
-    min-height: 70vh;
-    padding: 4vh 0 0 0;
-    min-width: 100%;
   }
 
   .section-tabs{

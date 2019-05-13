@@ -26,15 +26,7 @@
     animation-timing-function: ease-in-out;
   }
 
-  .about-me-filter { /* mobile */
-    opacity: .3;
-    min-width: 100%;
-    min-height: 83vh;
-    position: absolute;
-    z-index: -400;
-    background: linear-gradient(135deg, darkslategray 5%, black 30% );
-    margin: 0;
-  }
+
 
   .about-me-left-col {
     background: transparent;
@@ -46,46 +38,19 @@
     border: 15px inset #6582a3;
   }
 
-  .about-me-modal .modal-content {
-    min-height: 80vh;
-    max-height: 95vh;
-    margin: 5vh 0 0 0;
-  }
-
-  .about-me-modal .modal-content .modal-body{
-    font-size: 4.75vw;
-    padding: 2.5vh 7.5vw;
-    text-align: left;
-    overflow-y: scroll;
-  }
 
   .modal-dialog .about-me-modal {
     padding: 0 0 10px 0;
     z-index: 2000;
   }
 
-  .about-me-modal-close-button {
-    padding: 0 0;
-    margin: 5px auto 0 85%;
-    font-size: 12.5vw;
-    line-height: 12.75vw;
-    color: red;
-  }
+
 
   .about-me-modal .modal-header {
     position: absolute;
   }
 
-  .about-me-modal .modal-header > .modal-title {
-    text-align: center;
-    min-width: fit-content;
-    max-width: fit-content;
-    width: fit-content;
-    font-size: 8vw;
-    line-height: 8.25vw;
-    position: absolute;
-    margin: 3.5vw 55vw 0 3.5vw;
-  }
+
 
   .about-me-right-col {
     padding: 10px;
@@ -106,18 +71,7 @@
     min-width: 100%;
   }
 
-  .about-me-section-nav ul > li {  /* mobile */
-    font-size: 4vw;
-    font-weight: 400;
-    font-family: "Work Sans";
-    letter-spacing: 1px;
-    margin: 0 2px;
-    min-height: 100%;
-    /* min-width, max-width, and height set in AboutMeModalNav component in the getNavItemStyle function*/
-    padding: 2.5px 0;
-    text-align: center;
-    text-shadow: 1px 0px 3px grey;
-  }
+
 
   .about-me-section-nav ul > li:first-child {
   }
@@ -157,41 +111,6 @@
 
   .App > .row {
     margin: 0;
-  }
-
-  .App header { /* mobile */
-    font-size: 9vw;
-    letter-spacing: 7.5px;
-    line-height: 9vw;
-    font-family: "Work Sans";
-    font-weight: 200;
-    color: ghostwhite;
-    text-shadow:  -2px 1px 5px black;
-    min-width: 80vw;
-    max-width: 80vw;
-    margin: 0 10vw;
-  }
-
-  .App .header-container { /* mobile */
-    cursor: pointer;
-    min-height: 8.5vh;
-    height: 8.5vh;
-    padding: 2.5vh 0 0 0;
-    position: absolute;
-    margin: 0 0 1% 0;
-    top: 0;
-  }
-
-  .App header.portfolio-header, .App header.about-header {
-    border-top: 1px solid white;
-    font-size: 6vw;
-    letter-spacing: 4px;
-    padding: .5vh 0 0 0;
-    position: absolute;
-    min-width: 90%;
-    margin: 9vh 5% 0 5%;
-    max-width: 90%;
-    width: 90%;
   }
 
   .App header.about-header{
@@ -293,26 +212,9 @@
     background: transparent;
   }
 
-  #contactForm { /* mobile */
-    max-width: 90vw;
-    margin: 5vh auto;
-    border: 12.5px white;
-    border-style: ridge;
-  }
 
   #contactForm .modal-content {
     background: transparent;
-  }
-
-  #contactForm .modal-content .contact-form-close-button { /* mobile */
-    font-size: 8.5vw;
-    margin: 0px 0 0 87.5%;
-    position: absolute;
-    text-align: right;
-    z-index: 500;
-    color: white;
-    text-shadow: 0px 0px 10px red;
-    opacity: .8;
   }
 
   #contactForm .modal-content .contact-form-close-button:hover {
@@ -324,33 +226,8 @@
     z-index: 400;
   }
 
-  #contactForm .modal-content .contact-form-header .modal-title{ /* mobile */
-    text-align: right;
-    font-size: 4.25vw;
-    line-height: 2.25vw;
-    margin: 0 auto;
-    color: white;
-    font-weight: 400;
-    letter-spacing: 1.5px;
-    text-shadow: 0px 1px 2.5px black;
-  }
-
   #contactForm .modal-content .modal-body {
     z-index: 300;
-  }
-
-  #contactForm .modal-content .modal-body form .contact-form-col .form-group .form-control{ /* mobile */
-    background: transparent;
-    border: 5px inset white;
-    color: white;
-    font-size: 3.25vw;
-    letter-spacing: .9px;
-    text-align: center;
-    text-shadow: 0px 1px 2.5px black;
-  }
-
-  #contactForm .modal-content .modal-body form .contact-form-col .form-group .form-control:focus {
-    background: darkgray;
   }
 
   #contactForm .modal-content .modal-body form .contact-form-col .form-group { /* mobile */
@@ -386,18 +263,6 @@
 
   }
 
-  #contactFormSubmitButton { /* mobile */
-    border: 5px outset #7a8aa8;
-    background: transparent;
-    font-size: 5.5vw;
-    font-weight: 100;
-    letter-spacing: 5px;
-    margin: 1.25vh 0 1.75vh 0;
-    min-height: 50px;
-    min-width: 60vw;
-    text-shadow: 0px 1px 2.5px black;
-  }
-
   .contact-form-filter {
     background: linear-gradient(30deg, #7a8aa8 0%, #6b8ba8 50%, #6582a3 100%);
     position: absolute;
@@ -405,48 +270,6 @@
     min-height: 100%;
     opacity: .9;
     z-index: 200;
-  }
-
-  .contact-modal-button { /* mobile */
-    background: linear-gradient(35deg,#516c96 5%, #425c84 90%);
-    border-radius: 1.5%;
-    border: 5px outset;
-    border-image: linear-gradient(10deg, #6f7e99 0%, #6185a0 50%, #6582a3 100%);
-    border-image-slice: 1;
-    box-shadow: 0px 0px 10px -1px lightsteelblue;
-    color: aliceblue;
-    font-size: 6.5vw;
-    font-weight: 200;
-    letter-spacing: 4px;
-    line-height: 5vw;
-    margin: 1vh 0;
-    min-height: 10vh;
-    min-width: 80%;
-    text-shadow: 0px 0px 4px khaki;
-  }
-
-  .contact-modal-button:hover {
-    background: #6b8ba8;
-    border: 20px inset white;
-    box-shadow: none;
-
-  }
-
-  .contact-view{  /* mobile */
-    background: transparent;
-    min-height: 77.5vh;
-    max-height: 70vh;
-    margin: 12.5vh 0 0 0 !important;
-    overflow-y: scroll;
-  }
-
-  .contact-view .contact-filter { /* mobile */
-    position: absolute;
-    min-height: 77.5vh;
-    min-width: 82.68%;
-    opacity: .4;
-    margin: 0 0 0 8.415%;
-    background: linear-gradient(135deg, darkslategray 5%, black 30% );
   }
 
   .contact-view .container {
@@ -464,100 +287,10 @@
     background: transparent;
   }
 
-  .contact-view .container .content .left { /* mobile */
-    padding: .25vh 2.5% 2vh 2.5%;
-    margin-top: 2.5vh;
-    max-height: fit-content;
-    border-left: 2.5px white;
-    border-left-style: ridge;
-    border-right: 2.5px white;
-    border-right-style: ridge;
-  }
 
-  .contact-view .container .content .left p  { /* mobile */
-    margin: 0;
-    color: white;
-    font-weight: 200;
-    font-size: 3.75vw;
-    letter-spacing: 1.25px;
-    padding: 1% 0 2% 0;
-    border-bottom-width: 10px;
-    border-bottom-style: double;
-    border-color: #909ba8;
-    border-image-slice: 1;
-    text-shadow: -2px 1px 4px black;
-    letter-spacing: 2px;
-    word-wrap: break-word;
-  }
-
-  .contact-view .container .content .right { /* mobile */
-    padding: 1.5vh 0 0 0 ;
-    max-height: fit-content;
-  }
-
-  .contact-view .container .header { /* mobile */
-    background: transparent;
-    margin: 0vh auto;
-    max-width: fit-content;
-    text-align: center;
-    min-height: 8vh;
-    min-width: 100%;
-  }
-
-  .contact-view .container .header p { /* mobile */
-    border-bottom: 2.5px white;
-    border-bottom-style: ridge;
-    color: white;
-    font-family: "Work Sans";
-    font-size: 8.5vw;
-    font-weight: 200;
-    letter-spacing: 2.5px;
-    line-height: 5vw;
-    margin: 2.5vh auto 0 auto;
-    min-width: fit-content;
-    max-width: fit-content;
-    padding: .5% 2.5%;
-    text-shadow: -3px 1px 5px black;
-  }
-
-  .contact-view .container .blob { /* mobile */
-    padding: 0;
-    text-align: center;
-    font-weight: 200;
-    font-size: 4.15vw;
-    line-height: 4.25vw;
-    color: white;
-    text-shadow: -3px 1px 5px black;
-    letter-spacing: 1.25px;
-  }
 
   .default-view-container {
     margin-top: 15vh;
-  }
-
-  .grid-button{
-    background: transparent;
-    border: 7.5px outset ghostwhite;
-    height: 8vh;
-    font-size: 1.6vw;
-    font-weight: 200;
-    font-family: "Work Sans", sans-serif;
-    line-height: 1.65vw;
-    padding: 0 25px;
-    letter-spacing: 1.5px;
-    text-shadow: 3px 1px 3px black;
-    vertical-align: top;
-    width: 18.5%;
-    z-index: 100;
-    /*
-      min-width: -------------
-      max-width:
-      width:       Set in component
-      margin:         render
-      min-height:
-      max-height:
-      visibility:_____________
-    */
   }
 
   .grid-button:hover {
@@ -581,41 +314,6 @@
     display: contents ;
   }
 
-  .main-row-col {
-    float: left;
-    padding: 0;
-    color: black;
-    margin-bottom: 2.5vh;
-    box-shadow: 2px 2px 7px 1px #98a9bc;
-    border-radius: .75%;
-  }
-
-  .main-row-col-filter{ /* mobile */
-    border: 1px solid white;
-    border-radius: .75%;
-    margin-bottom: 2.5vh;
-    height: 100%;
-    opacity: .6;
-    min-height: 17.5vh;
-    height: 10.75vh;
-    z-index: -1000;
-    background: linear-gradient(-120deg, #7a8aa8 0%, #6b8ba8 50%, #4f657f 100%);
-    transition: .5s ease-in-out;
-  }
-
-  .main-row-col button { /* mobile */
-    background: transparent;
-    border-radius: 0;
-    border: 7.5px outset;
-    border-image: linear-gradient(10deg, #6f7e99 0%, #6185a0 50%, #6582a3 100%);
-    border-image-slice: 1;
-    min-height: 17.5vh;
-    height: 10.75vh;
-    min-width: 100%;
-    padding: 0;
-    width: 100%;
-  }
-
   .main-row-col button:hover {
     background: transparent;
     border: 7.5px outset;
@@ -626,20 +324,6 @@
   .main-row-col:hover + .main-row-col-filter {
     opacity: .9;
   }
-
-  .main-row-col button p {
-    font-family: "Work Sans", serif;
-    font-size: 10vw;
-    font-weight: 200;
-    padding: 15px;
-    line-height: 10vw;
-    letter-spacing: 3.5px;
-    margin: 0;
-    text-shadow: -2.5px -1px 5px black;
-    word-wrap: break-word;
-  }
-
-
 
   .profile-image{
     min-width: 80%;
@@ -666,52 +350,14 @@
     border: 10px inset #6582a3;
   }
 
-  .projects-grid { /* mobile */
-    border-top: 5px outset white;
-    border-left: none;
-    border-right: none;
-    padding: 0;
-    height: 87.5vh;
-    min-height: 87.5vh;
-    max-height: 87.5vh;
-    margin-top: 18vh;
-    overflow-y: scroll;
-  }
+
 
   .projects-grid > ::-webkit-scrollbar { /* mobile */
     display: none;
   }
 
-  .project-link-button {
-    font-size: 8vw;
-    margin: 1vh 5%;
-    min-width: 90%;
-    min-height: 10vh;
-  }
-
   .projects-row {
     margin: 1vh 0;
-  }
-
-  .projects-row button{ /* mobile */
-    background: linear-gradient(35deg,#516c96 5%, #425c84 90%);
-    border-radius: 2.5%;
-    border: 5px outset;
-    border-image: linear-gradient(10deg, #6f7e99 0%, #6185a0 50%, #6582a3 100%);
-    border-image-slice: 1;
-    box-shadow: 0px 0px 10px -1px lightsteelblue;
-    color: aliceblue;
-    text-shadow: 0px 0px 4px khaki;
-    font-family: "Work Sans";
-    font-size: 6.5vw;
-    font-weight: 200;
-    letter-spacing: 2px;
-    line-height: 7.25vw;
-  }
-
-  #projectModal{
-    margin: 5vh 0;
-    min-height: 70vh;
   }
 
   .project-modal-close-button { /* mobile */
@@ -724,57 +370,6 @@
     position: absolute;
     text-align: right;
     z-index: 1000;
-  }
-
-  #projectModal > .modal-content .modal-header {  /* mobile */
-    padding: 0;
-    min-width: 100%;
-    max-width: 100%;
-    min-height: 15vh;
-    max-height: 15vh;
-    margin: .25vh auto .75vh auto;
-    position: absolute;
-    width: 100%;
-    border-bottom: 1px solid black;
-  }
-
-  #projectModal > .modal-content .modal-header .modal-title {  /* mobile */
-    text-align: left;
-    font-size: 7vw;
-    line-height: 7.5vw;
-    max-height: fit-content;
-    min-height: fit-content;
-    min-width: 100%;
-    padding: 2.5% 20% 2.5% 2.5%;
-  }
-
-  #projectModal > .modal-content .modal-body { /* mobile */
-    min-height: 74.5vh;
-    font-size: 5vw;
-    margin: 15vh 0 0 0 ;
-    padding: 0vh 5vw;
-  }
-
-  .project-date { /* mobile */
-    color: black;
-    font-size: 5.5vw;
-    font-weight: 200;
-    letter-spacing: 1px;
-    text-align: left;
-    margin: 0 0 0 -2vw;
-    padding: 1.25vh 0 0 0 ;
-}
-
-  .project-tags{ /* mobile */
-    min-height: fit-content;
-    min-width: 100%;
-    padding: 2.5% 0 5%;
-  }
-
-  .project-text {
-    border-bottom: 1px solid black;
-    margin: 2.5vh -5vw 5vh -5vw;
-    padding: 1vh 0 7.5vh;
   }
 
   #root {
@@ -824,51 +419,6 @@
     min-width: 100%;
   }
 
-  .section-option, .section-option button { /* mobile */
-    font-size: 22px;
-    font-weight: 300;
-    letter-spacing: .9px;
-    font-variant: none;
-    background-color: transparent;
-    border-radius: 0;
-  }
-
-  .section-option button { /* mobile */
-    background: linear-gradient(35deg,#516c96 5%, #425c84 90%);
-    border: 5px outset;
-    border-image: linear-gradient(10deg, #6f7e99 0%, #6185a0 50%, #6582a3 100%);
-    border-image-slice: 1;
-    border-radius: 2.5%;
-    box-shadow: 0px 0px 7.5px -1px lightsteelblue;
-    color: aliceblue;
-    padding: 0;
-    min-height: 10vh;
-    max-height: 10vh;
-    height: 10vh;
-    font-family: "Work Sans";
-    font-size: 8vw;
-    font-weight: 200;
-    max-width: 90%;
-    letter-spacing: 3.5px;
-    transition: .3s linear;
-    margin: 2.5vh 0 0 5%;
-    text-shadow: 0px 0px 4px khaki;
-  }
-
-  .section-option button:hover {
-    background-color: transparent;
-    border: 7.5px inset ghostwhite;
-  }
-
-
-  .section-options-container { /* mobile */
-    margin: 0;
-    min-height: 83vh;
-    min-width: 100vw;
-    padding: 5vh 0 0 0;
-    display: block;
-  }
-
   .section-tabs{
     border: none;
     text-align: right;
@@ -913,41 +463,7 @@
     border-bottom-style: ridge;
   }
 
-  .skill-grid { /* mobile */
-    border-top: 7.5px outset white;
-    border-right: none;
-    border-left: none;
-    border-bottom: none;
-    padding: 0 0 5vh 0;
-    overflow-y: scroll;
-    /* min-height is set in MobileSkillGrid component */
-    max-height: 90vh;
-    z-index: 500;
-  }
 
-  .skill-grid-row {
-    margin: 0;
-    padding: 0 1%;
-    overflow-y: scroll;
-  }
-
-  .skill-grid-row .grid-button{ /* mobile */
-    background: linear-gradient(35deg,#516c96 5%, #425c84 90%);
-    border: 5px outset;
-    border-image: linear-gradient(10deg, #6f7e99 0%, #6185a0 50%, #6582a3 100%);
-    border-image-slice: 1;
-    border-radius: 2.5%;
-    box-shadow: 0px 0px 10px -1px lightsteelblue;
-    color: aliceblue;
-    font-size: 7vw;
-    letter-spacing: 1px;
-    line-height: 7.25vw;
-    min-height: 8.5vh;
-    max-height: fit-content;
-    padding: 1.25px 5px;
-    text-shadow: 0px 0px 4px khaki;
-    z-index: 500;
-  }
 
   .skill-grid-button:hover {
     background: transparent;
@@ -985,41 +501,17 @@
     z-index: 10000;
   }
 
-  #skillModal {
-    margin: 10vh 0 0 0;
-  }
 
-  #skillModal > .modal-content {
-    min-height: 85vh;
-  }
-
-  #skillModal > .modal-content > .skill-modal-header { /* mobile */
-    position: absolute;
-    min-width: fit-content;
-    min-height: fit-content;
-  }
 
   #skillModal > .modal-content > .skill-modal-header .modal-title { /* mobile */
+    border: none;
     font-size: 8vw;
     line-height: 8.25vw;
-    position: absolute;
     padding: .5vh 5vw 0 1.5vw ;
-    min-width: 80vw;
+    position: absolute;
     margin: 0 auto;
-    text-align: left
-  }
-
-  .skill-text { /* mobile */
-    border-top: 1px solid black;
-    font-size: 5vw;
-    padding: 7.5vh 2.5vw;
-    margin: 10vh 0 0 0;
-  }
-
-  .skillset-view-container { /* mobile */
-    margin: 7.5vh 0 0 0 !important;
-    padding: 0;
-    overflow-y: scroll;
+    min-width: 80vw;
+    text-align: left;
   }
 
 
