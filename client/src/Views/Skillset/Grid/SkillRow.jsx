@@ -13,6 +13,7 @@ export class SkillRow extends Component {
   componentDidMount(){
     if(this.props.skills !== undefined){
       this.setState({
+        screenSize: this.props.screenSize,
         activeSkills: this.props.activeSkill,
         skills: this.props.skills, //subset of SkillGrid.state.skills, contains only the skills being generated in a given row
         className: this.props.className,
@@ -22,8 +23,12 @@ export class SkillRow extends Component {
   }
 
   componentDidUpdate(){
+    if(this.props.screenSize !== undefined && this.state.screenSize !== this.props.screenSize){
+      this.setState({
+        screenSize: this.props.screenSize
+      })
+    }
     if(this.state.activeSkill !== this.props.activeSkill && this.props.activeSkill !== undefined){
-      console.log(this.props.skills)
       this.setState({
         activeSkill: this.props.activeSkill,
         skills: this.props.skills,
@@ -49,6 +54,7 @@ export class SkillRow extends Component {
       className = this.determineClass(skill, this.props.activeSkill)
       buttons.push(
         <SkillButton
+          key={skill}
           style={style}
           activeSkill={this.props.activeSkill} //set from props rather than state because this function is called within setState() and returns a state attribute value
           className={className}
