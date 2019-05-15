@@ -22,12 +22,17 @@ export class SkillView extends Component {
   componentDidMount(){
     this.setState({
       activeSkill: '',
-      modal: false
+      modal: false,
+      screenSize: this.props.screenSize
     })
   }
 
   componentDidUpdate(){
-
+    if(this.props.screenSize !== undefined && this.state.screenSize !== this.props.screenSize){
+      this.setState({
+        screenSize: this.props.screenSize
+      })
+    }
   }
 
   setActiveSkill(skill){
@@ -56,6 +61,7 @@ export class SkillView extends Component {
     return(
       <Row className={"skillset-view-container"}>
         <SkillGrid
+          screenSize={this.state.screenSize}
           skills={this.state.skillSet}
           keys={this.state.skillKeys}
           activeSkill={this.state.activeSkill}

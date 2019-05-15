@@ -49,10 +49,10 @@ export class MobileGridRow extends Component{
 
   calculateMobileStyleValues(projectKeys){  //Calculates the attribute values for the style object that will be passed to
     return {
-            "minWidth": `90%`,
-            "maxWidth": `90%`,
-            "width": `90%`,
-            "margin": `.5vh 5%`,
+            "minWidth": `95%`,
+            "maxWidth": `95%`,
+            "width": `95%`,
+            "margin": `.5vh 2.5%`,
             "minHeight": `10vh`,
             "maxHeight": `fit-content`,
             "visibility": this.props.activeKey !== null && this.props.activeKey !== undefined ? "hidden" : "visible"

@@ -48,9 +48,11 @@ export class MobileProjectModal extends Component {
         size="lg"
         onClick={this.state.closeModal}
       />
-        <ModalHeader className="project-modal-header">{this.state.title}</ModalHeader>
+        <ModalHeader className="project-modal-header">
+          {this.state.title}
+          <p className="project-date">{this.state.date}</p>
+        </ModalHeader>
           <ModalBody >
-            <p className="project-date">{this.state.date}</p>
             <p className="project-text">{this.state.text}</p>
             { this.state.links !== undefined
               ? this.state.links.map((item) =>{

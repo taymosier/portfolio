@@ -22,8 +22,8 @@ export class ChangeViewBlock extends Component {
         <Col className={"main-row-col"}
           xl={{ size: 8, offset: 2 }}
           lg={{ size: 8, offset: 2 }}
-          md={{ size: 8, offset: 2 }}
-          sm={{ size: 8, offset: 2 }}
+          md={{ size: 10, offset: 1 }}
+          sm={{ size: 10, offset: 1 }}
           xs={{ size: 10, offset: 1 }}
         >
           <Button
@@ -35,8 +35,8 @@ export class ChangeViewBlock extends Component {
         <Col className={"main-row-col-filter"}
           xl={{ size: 8, offset: 2 }}
           lg={{ size: 8, offset: 2 }}
-          md={{ size: 8, offset: 2 }}
-          sm={{ size: 8, offset: 2 }}
+          md={{ size: 10, offset: 1 }}
+          sm={{ size: 10, offset: 1 }}
           xs={{ size: 10, offset: 1 }}
         ></Col>
       </Row>
