@@ -1,0 +1,519 @@
+/*  1. Copy and paste index.css contents
+    2. Place asterisk besides the class styles that are changed
+    3. ???
+    4. Profit
+*/
+
+@media (max-width: 420px) {
+
+  @keyframes pulseHeader {
+    from{
+      letter-spacing: 5px;
+      text-shadow: 0px 0px 0px darkslategray;
+    }
+    to {
+      letter-spacing: 6.5px;
+      text-shadow: -2.5px 4px 10px black;
+    }
+  }
+
+  .header-container .pulse {
+    animation-name: pulseHeader;
+    animation-duration: 2.5s;
+    animation-delay: 0s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+
+
+
+  .about-me-left-col {
+    background: transparent;
+    padding: 0;
+    min-height: 60vh;
+    text-align: right;
+    margin: 2.5vh 2%;
+    z-index: 500;
+    border: 15px inset #6582a3;
+  }
+
+
+  .modal-dialog .about-me-modal {
+    padding: 0 0 10px 0;
+    z-index: 2000;
+  }
+
+
+
+  .about-me-modal .modal-header {
+    position: absolute;
+  }
+
+
+
+  .about-me-right-col {
+    padding: 10px;
+    margin: 0 0 0 2.25vw;
+    z-index: 500;
+    border-left: 1.5px solid black;
+  }
+
+  .about-me-section-nav{ /* mobile */
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: .5vh 3.5vw;
+  }
+
+  .about-me-section-nav ul {
+    min-height: 3vh;
+    min-width: 100%;
+  }
+
+
+
+  .about-me-section-nav ul > li:first-child {
+  }
+
+  .about-me-section-nav ul > li > button { /* mobile */
+    background: linear-gradient(25deg,#5b7bad 5%, #486693 90%);
+    border-radius: 4.5%;
+    font-size: 4.75vw;
+    font-weight: 200;
+    letter-spacing: 2px;
+    line-height: 5vw;
+    margin: 1% 0;
+    min-width: 100%;
+    min-height: 7vh;
+    max-height: 10vh;
+    padding: .5vh 0;
+  }
+
+  .about-me-view { /* mobile */
+    background: transparent;
+    border-top: 5px outset ghostwhite;
+    border-left: none;
+    border-right: none;
+    max-height: 85vh;
+    max-width: 100%;
+    margin: 17.5vh 0 0 0 !important;
+    overflow-y: scroll;
+  }
+
+  .App { /* mobile */
+    margin: 0;
+    padding: 0;
+    min-width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+  }
+
+  .App > .row {
+    margin: 0;
+  }
+
+  .App header.about-header{
+    margin: -9.25vh 5% 0 5%;
+  }
+
+  .App header.skills-header {
+    border-top: 1px solid white;
+    font-size: 6vw;
+    margin: 1vh 5vw;
+    max-width: 90vw;
+    min-width: 90vw;
+    padding: .25vh 0;
+  }
+
+  .audioContainer {
+    opacity: 0;
+    position: absolute;
+    z-index: -3000;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "Work Sans";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: linear-gradient(135deg,#6486ba 25%, #87CEEB 70%, #425c84);
+    min-height: 100vh;
+    max-height: 100vh;
+    min-width: 100vw;
+    text-align: center;
+    overflow: hidden;
+  }
+
+
+
+  .body-filter { /* mobile */
+    margin: 0;
+    min-height: 100vh;
+    position: absolute;
+    min-width: 100vw;
+    z-index: -2000;
+    opacity: 0;
+    background: #2ea045;
+    overflow: hidden;
+  }
+
+  .card {
+    margin: 2.5% 0;
+    z-index: 500;
+    position: absolute;
+    width: 70%;
+    height: 80%;
+    background: transparent;
+    border: 10px inset #6582a3;
+  }
+
+
+  .card .card-text {
+    font-size: 1.45vw;
+    text-align: left;
+    letter-spacing: .0125vw;
+    color: white;
+    font-weight: 200;
+    font-family: "Work Sans";
+    padding: 2vh 2vw;
+  }
+
+  .card .card-title {
+    font-size: 2.75vw;
+    line-height: 2.75vw;
+    letter-spacing: .2vw;
+    font-family: "Work Sans";
+    font-weight: 200;
+    color: white;
+    font-feature-settings: "kern" off;
+    font-kerning: none;
+  }
+
+  .card-close-button {
+    position: absolute;
+    top: 5%;
+    margin: 0 0 0 27.5%;
+    width: 18.5%;
+    height: 60px;
+    font-size: 1.5vw;
+    letter-spacing: .15vw;
+    font-weight: 300;
+    font-family: "Segoe UI", sans-serif;
+    border: 5px outset #6582a3;
+    background: transparent;
+    padding: 0;
+    z-index: 100;
+  }
+
+  .card-close-button:hover {
+    border: 7.5px inset #6582a3;
+    background: transparent;
+  }
+
+
+  #contactForm .modal-content {
+    background: transparent;
+  }
+
+  #contactForm .modal-content .contact-form-close-button:hover {
+    color: red;
+    text-shadow: 0px 0px 0px red;
+  }
+
+  #contactForm .modal-content .contact-form-header {
+    z-index: 400;
+  }
+
+  #contactForm .modal-content .modal-body {
+    z-index: 300;
+  }
+
+  #contactForm .modal-content .modal-body form .contact-form-col .form-group { /* mobile */
+    margin: 0 0 2vh 0;
+  }
+
+  #contactForm .modal-content .modal-body form .contact-form-col .form-group input {
+    line-height: 1.2vw;
+    min-height: 6vh;
+  }
+
+  #contactForm .modal-content .modal-body form .contact-form-col .form-group input::placeholder{
+    z-index: 500;
+    color: white;
+    text-shadow: 0px 1px 2.5px black;
+
+  }
+
+  #contactForm .modal-content .modal-body form .contact-form-col .form-group textarea{
+    padding: 10px 0;
+    min-height: 25vh;
+    color: white;
+  }
+
+  #contactForm .modal-content .modal-body form .contact-form-col .form-group textarea:focus {
+    text-align: left;
+    padding: 2px;
+  }
+
+  #contactForm .modal-content .modal-body form .contact-form-col .form-group textarea::placeholder {
+    color: white;
+    text-shadow: 0px 1px 2.5px black;
+
+  }
+
+  .contact-form-filter {
+    background: linear-gradient(30deg, #7a8aa8 0%, #6b8ba8 50%, #6582a3 100%);
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: .9;
+    z-index: 200;
+  }
+
+  .contact-view .container {
+    border: 7.5px white;
+    border-style: ridge;
+    padding: 0;
+    z-index: 100;
+    box-shadow: 0px 2.5px 7.5px 2px  #6b8ba8;
+  }
+
+  .contact-view .container .content{
+    min-height: 50vh;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+  }
+
+
+
+  .default-view-container {
+    margin-top: 15vh;
+  }
+
+  .grid-button:hover {
+    background: transparent;
+    text-shadow: 0px 0px 2.5px ghostwhite;
+    border: 5px inset ghostwhite;
+  }
+
+  .grid-filter{ /* mobile */
+    min-width: 100%;
+    min-height: 300vh;
+    position: absolute;
+    background: linear-gradient(135deg, darkslategray 5%, black 30% );
+    opacity: .3;
+    z-index: -100;
+    margin: 0 ;
+  }
+
+  .main-row {
+    margin: 0;
+    display: contents ;
+  }
+
+  .main-row-col button:hover {
+    background: transparent;
+    border: 7.5px outset;
+    border-image: linear-gradient(10deg, #6f7e99 0%, #6185a0 50%, #6582a3 100%);
+    border-image-slice: 1;
+  }
+
+  .main-row-col:hover + .main-row-col-filter {
+    opacity: .9;
+  }
+
+  .profile-image{
+    min-width: 80%;
+    max-width: 80%;
+    border: 25px inset #6582a3;
+    margin: 0 auto;
+    z-index: 1000;
+  }
+
+  .profile-image-container {
+    margin: 0;
+    min-height: 35vh ;
+    min-width: 100%;
+    padding: 25px;
+  }
+
+  .project-card {
+    margin: 2.5% 0;
+    z-index: 500;
+    position: absolute;
+    width: 70%;
+    height: 80%;
+    background: transparent;
+    border: 10px inset #6582a3;
+  }
+
+
+
+  .projects-grid > ::-webkit-scrollbar { /* mobile */
+    display: none;
+  }
+
+  .projects-row {
+    margin: 1vh 0;
+  }
+
+  .project-modal-close-button { /* mobile */
+    color: red;
+    font-size: 12.5vw;
+    line-height: 10vw;
+    max-width: fit-content;
+    margin: 0 0 0 85%;
+    padding: 2vh 0 !important;
+    position: absolute;
+    text-align: right;
+    z-index: 1000;
+  }
+
+  #root {
+    min-height: -webkit-fill-available;
+    padding: 0;
+    margin: 0;
+  }
+
+  .section-content {
+    padding: 0 20px;
+  }
+
+  .section-content h4 {
+    font-family: "Work Sans";
+    padding: 15px 5px 2.5px 15px;
+    font-size: 32px;
+    font-weight: 300;
+    letter-spacing: 2.25px;
+    max-width: fit-content;
+    color: ghostwhite;
+    font-feature-settings: "pcap";
+    margin: 10px 5% 0px auto;
+    min-height: fit-content;
+    max-height: 10vh;
+    text-shadow: 3px 2px 7.5px black;
+    border-bottom: 3.5px ridge #6582a3;
+  }
+
+  .section-content p {
+    color: ghostwhite;
+    font-weight: 400;
+    font-size: 1.1vw;
+    letter-spacing: 1.8px;
+    font-feature-settings: "kern" off;
+    font-kerning: none;
+    margin: 3.5vh .5vw 1.5vh .5vw;
+    line-height: 1.65vw;
+    min-height: 34vh;
+    padding: 2.55vh 1.5vw 2.55vh 2vw;
+    text-align: left;
+    text-indent: 30px;
+    text-shadow: -3.5px 1.5px 4px black;
+    border: 10px ridge ghostwhite;
+  }
+
+  .section-option { /* mobile */
+    min-width: 100%;
+  }
+
+  .section-tabs{
+    border: none;
+    text-align: right;
+    display: inline-block;
+  }
+
+  .section-tabs > .nav-item {
+    margin: 0 0 0px 15px;
+    background: transparent;
+    border: 5px inset #6582a3;
+    color: white;
+    display: inline-block;
+    float: none;
+    font-size: 18px;
+    font-feature-settings: "pcap", "c2pc";
+    font-variant: all-petite-caps;
+    font-weight: 300;
+    letter-spacing: 1.1px;
+    margin-bottom: 0;
+    text-shadow: 3.5px 1.5px 4px black;
+    zoom: 1;
+    transition: .2s ease-in-out;
+  }
+
+  .section-tabs > .nav-item:hover {
+    border: 5px outset #6582a3;
+  }
+
+  .section-tabs > .nav-item:hover > a {
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 1px;
+    cursor: pointer;
+  }
+
+  .section-tabs-container {
+    display: inline-block;
+    min-width: 90%;
+    padding: 10px 0 0 0;
+    margin: 0px 30px 0 1.25vw;
+    border-bottom: 15px #6582a3;
+    border-bottom-style: ridge;
+  }
+
+
+
+  .skill-grid-button:hover {
+    background: transparent;
+    text-shadow: 0px 0px 2.5px ghostwhite;
+    border-color: ghostwhite;
+    transition: .45s linear;
+  }
+
+  .skill-grid-button.btn-secondary:not(:disabled):not(.disabled).active {
+    background: transparent;
+    border: 10px outset #6582a3;
+    letter-spacing: 1px;
+    position: absolute;
+    margin: 0 0 0 77.5%;
+    top: 20px;
+    text-shadow: 0px 0px 2.5px ghostwhite;
+    transition-delay: .5s;
+    transition: 1s ease-in-out;
+  }
+
+  .skill-grid-button.hidden {
+    opacity: 0;
+  }
+
+  .skills-modal-close-button {
+    color: red;
+    cursor: grab;
+    font-size: 15vw;
+    line-height: 10.25vw;
+    min-width: fit-content;
+    max-width: fit-content;
+    margin: 1.5vh 0 0 85%;
+    padding: 0;
+    position: absolute;
+    z-index: 10000;
+  }
+
+
+
+  #skillModal > .modal-content > .skill-modal-header .modal-title { /* mobile */
+    border: none;
+    font-size: 8vw;
+    line-height: 8.25vw;
+    padding: .5vh 5vw 0 1.5vw ;
+    position: absolute;
+    margin: 0 auto;
+    min-width: 80vw;
+    text-align: left;
+  }
+
+
+
+}
