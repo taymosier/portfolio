@@ -94,7 +94,7 @@
   "GCC Inventory Management App": {
     "content": {
       "header": "Greenville Convention Center Inventory Management App",
-      "text": "Single page web application used to create and manipulate inventory management forms. Features include MongoDB database implementation, NginX reverse proxy server, Excel spreadsheet generation, and one-click email submission. Uses Node and Express to call Python scripts to simplify spreadsheet, email, and database manipulation. Hosted on Digial Ocean virtual linux machine."
+      "text": "**Note: Styled only for mobile, so viewing this project on your phone is recommended** Single page web application used to create and manipulate inventory management forms. Features include MongoDB database implementation, NginX reverse proxy server, Excel spreadsheet generation, and one-click email submission. Uses Node and Express to call Python scripts to simplify spreadsheet, email, and database manipulation. Hosted on Digial Ocean virtual linux machine."
     },
     "date": "September-December 2018",
     "tags": ["react.js", "node.js", "express.js", "mongodb", "nginx", "python", "css", "bootstrap", "html", "javascript", "google"],
@@ -105,7 +105,7 @@
       },
       {
         "id": "Live App",
-        "url": "https://taylormosier.com"
+        "url": "https://www.taylormosier.com"
       }
     ]
   },
