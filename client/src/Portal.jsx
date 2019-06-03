@@ -19,12 +19,6 @@ export class Portal extends Component {
     }
   }
 
-  componentDidMount(){
-    this.setState({
-      screenSize: this.props.screenSize
-    })
-  }
-
   componentDidUpdate(){
     if(this.state.activeView !== this.props.activeView){
       this.setState({
