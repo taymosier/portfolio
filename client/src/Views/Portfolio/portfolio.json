@@ -162,5 +162,23 @@
         "url": "https://github.com/taymosier/portfolio_v2"
       }
     ]
+  },
+  "Calculator": {
+    "content": {
+      "header": "calculator",
+      "text": "A responsive calculator app built as a requirement for a Front End UI Developer application process."
+    },
+    "date": "April 2019",
+    "tags": ["react.js", "bootstrap", "javascript", "html", "css", "UI"],
+    "links": [
+      {
+        "id": "Github Repo",
+        "url": "https://github.com/taymosier/calculator"
+      },
+      {
+        "id": "Live App",
+        "url": "https://taymosier.github.io/calculator"
+      }
+    ]
   }
 }
